@@ -221,10 +221,10 @@ export const GameContainer: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen relative flex flex-col justify-between py-6 px-4 md:px-8 text-white select-none">
+    <div className={`min-h-screen relative flex flex-col justify-between ${viewMode === 'menu' ? 'py-6' : 'pt-3 pb-6'} px-3 md:px-6 text-white select-none`}>
       <FootballPitchBackground />
 
-      <main className="flex-1 flex flex-col items-center justify-center max-w-4xl mx-auto w-full">
+      <main className={`flex-1 flex flex-col items-center ${viewMode === 'menu' ? 'justify-center' : 'justify-start'} max-w-4xl mx-auto w-full`}>
         {/* Ekran 1: Başlama Menüsü */}
         {viewMode === 'menu' ? (
           <StartMenu
@@ -241,7 +241,7 @@ export const GameContainer: React.FC = () => {
           /* Ekran 2: Oyun Alanı */
           currentPlayer && (
             <div className="w-full flex flex-col items-center">
-              {/* Skor Tablosu ve Ayarlar */}
+              {/* Skor Tablosu ve Ayarlar (Sağ Üstte Menü Butonu) */}
               <ScoreBoard
                 score={score}
                 streak={streak}
