@@ -128,16 +128,16 @@ export const PlayerAutocomplete: React.FC<PlayerAutocompleteProps> = ({
         className="relative"
       >
         <div
-          className={`flex items-center gap-2 p-1.5 rounded-2xl border transition-all duration-300 bg-emerald-950/70 backdrop-blur-md ${
+          className={`flex items-center gap-2 p-1.5 rounded-2xl border-2 transition-all duration-300 bg-slate-950/80 backdrop-blur-md ${
             isShaking
-              ? 'border-rose-500 shadow-lg shadow-rose-950/50'
+              ? 'border-rose-500 shadow-xl shadow-rose-950/70 ring-2 ring-rose-500/40'
               : isOpen
-              ? 'border-emerald-400 shadow-xl shadow-emerald-500/20 ring-2 ring-emerald-400/20'
-              : 'border-emerald-500/30 hover:border-emerald-500/50'
+              ? 'border-orange-400 shadow-2xl shadow-orange-500/30 ring-2 ring-orange-400/40'
+              : 'border-amber-500/80 hover:border-orange-400 shadow-lg shadow-orange-950/40 hover:shadow-orange-500/25'
           }`}
         >
           {/* Sol Arama İkonu */}
-          <div className="pl-3 text-emerald-400 flex items-center">
+          <div className="pl-3 text-amber-400 flex items-center">
             <Search className="w-5 h-5" />
           </div>
 
@@ -157,7 +157,7 @@ export const PlayerAutocomplete: React.FC<PlayerAutocompleteProps> = ({
             }}
             onKeyDown={handleKeyDown}
             placeholder="Futbolcu adını yazmaya başla... (örn. Messi, Alex, Hagi, Zidane)"
-            className="flex-1 bg-transparent text-white placeholder-emerald-300/40 text-sm md:text-base font-semibold px-2 py-2 outline-none disabled:opacity-50"
+            className="flex-1 bg-transparent text-white placeholder-gray-400 text-sm md:text-base font-semibold px-2 py-2 outline-none disabled:opacity-50"
           />
 
           {/* Temizle Butonu */}
@@ -168,7 +168,7 @@ export const PlayerAutocomplete: React.FC<PlayerAutocompleteProps> = ({
                 setIsOpen(false);
                 inputRef.current?.focus();
               }}
-              className="p-1 rounded-lg text-emerald-400/60 hover:text-emerald-200 hover:bg-emerald-900/40 cursor-pointer"
+              className="p-1 rounded-lg text-amber-400/70 hover:text-amber-200 hover:bg-orange-950/40 cursor-pointer"
             >
               <X className="w-4 h-4" />
             </button>
@@ -178,7 +178,7 @@ export const PlayerAutocomplete: React.FC<PlayerAutocompleteProps> = ({
           <button
             onClick={handleSubmit}
             disabled={disabled || !query.trim()}
-            className="px-5 py-2.5 rounded-xl font-black text-sm tracking-wide bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-400 hover:to-green-500 text-white shadow-lg shadow-emerald-600/30 disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-2 transition-all cursor-pointer"
+            className="px-5 py-2.5 rounded-xl font-black text-sm tracking-wide bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-400 hover:to-orange-400 text-white shadow-lg shadow-orange-600/40 disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-2 transition-all cursor-pointer"
           >
             <span>ŞUT ÇEK</span>
             <Send className="w-4 h-4" />
@@ -193,9 +193,9 @@ export const PlayerAutocomplete: React.FC<PlayerAutocompleteProps> = ({
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -8, scale: 0.98 }}
               transition={{ duration: 0.18 }}
-              className="absolute left-0 right-0 top-full mt-2 bg-gradient-to-b from-slate-900/98 to-emerald-950/98 border border-emerald-500/40 rounded-2xl shadow-2xl shadow-black/80 backdrop-blur-xl overflow-hidden z-50 max-h-72 overflow-y-auto"
+              className="absolute left-0 right-0 top-full mt-2 bg-gradient-to-b from-slate-900/98 to-slate-950/98 border border-orange-500/40 rounded-2xl shadow-2xl shadow-black/90 backdrop-blur-xl overflow-hidden z-50 max-h-72 overflow-y-auto"
             >
-              <div className="px-3 py-2 text-[11px] font-extrabold text-emerald-400/80 border-b border-white/5 uppercase tracking-wider flex justify-between">
+              <div className="px-3 py-2 text-[11px] font-extrabold text-amber-400/90 border-b border-white/5 uppercase tracking-wider flex justify-between">
                 <span>Eşleşen Futbolcular ({filteredPlayers.length})</span>
                 <span className="text-gray-400 font-normal">Seçmek için Enter veya Tıkla</span>
               </div>
@@ -211,8 +211,8 @@ export const PlayerAutocomplete: React.FC<PlayerAutocompleteProps> = ({
                     onClick={() => handleSelectPlayer(player)}
                     className={`px-4 py-2.5 flex items-center justify-between gap-3 cursor-pointer transition-colors ${
                       isSelected
-                        ? 'bg-emerald-600/30 text-white border-l-4 border-emerald-400'
-                        : 'text-gray-200 hover:bg-emerald-950/40'
+                        ? 'bg-orange-500/20 text-white border-l-4 border-orange-400'
+                        : 'text-gray-200 hover:bg-slate-800/50'
                     }`}
                   >
                     <div className="flex items-center gap-3">
