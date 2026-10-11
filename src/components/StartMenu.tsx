@@ -28,7 +28,7 @@ const difficultyOptions: {
   {
     id: 'tum',
     title: 'Tüm Futbolcular',
-    badge: 'Karışık (20)',
+    badge: '100 Efsane',
     desc: 'Aktif ve efsane tüm futbolculardan rastgele',
     color: 'from-emerald-500/20 to-teal-600/20 text-emerald-300',
     borderColor: 'border-emerald-500/40 hover:border-emerald-400',

@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kim Bu Futbolcu? | Futbolcu Tahmin Oyunu",
   description: "İpuçlarını takip et, efsanevi futbolcuları tahmin et!",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

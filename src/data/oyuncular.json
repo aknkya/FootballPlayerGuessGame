@@ -3,7 +3,13 @@
     "id": "messi-lionel",
     "wikidataId": "Q615",
     "name": "Lionel Messi",
-    "aliases": ["Messi", "Leo Messi", "Lionel Andres Messi", "La Pulga", "Leo"],
+    "aliases": [
+      "Messi",
+      "Leo Messi",
+      "Lionel Andres Messi",
+      "La Pulga",
+      "Leo"
+    ],
     "nationality": "Arjantin",
     "league": "MLS",
     "club": "Inter Miami",
@@ -14,18 +20,23 @@
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "İlk profesyonel sözleşmesi bir kulüp yetkilisiyle peçete üzerine imzalandı.",
-      "Bir takvim yılında (2012) attığı 91 golle dünya rekoru kırdı.",
-      "2008 Pekin Olimpiyatları'nda ülkesiyle altın madalya kazandı.",
-      "Tarihte Ballon d'Or ödülünü 8 kez kazanan tek futbolcudur.",
-      "2022 Dünya Kupası'nı kaptan olarak kaldıran ve kariyerinin büyük bölümünü Barcelona'da 10 numarayla geçiren efsane."
+      "İlk profesyonel sözleşmesi bir restoranda peçete üzerine imzalandı.",
+      "2012 takvim yılında attığı 91 resmi golle kırılması imkansız bir dünya rekoruna imza attı.",
+      "2008 Pekin Olimpiyatları'nda ülkesine altın madalya kazandırdı.",
+      "Tarihte tam 8 kez Ballon d'Or kazanarak rekorun tek sahibi oldu.",
+      "'La Pulga' (Pire) lakaplı, 2022 Dünya Kupası'nı kaldıran ve Barcelona'da 10 numarayla efsaneleşen süper yıldız."
     ]
   },
   {
     "id": "ronaldo-cristiano",
     "wikidataId": "Q11571",
     "name": "Cristiano Ronaldo",
-    "aliases": ["Ronaldo", "CR7", "Cristiano Ronaldo dos Santos Aveiro", "Cristiano"],
+    "aliases": [
+      "Ronaldo",
+      "CR7",
+      "Cristiano Ronaldo dos Santos Aveiro",
+      "Cristiano"
+    ],
     "nationality": "Portekiz",
     "league": "Suudi Profesyonel Ligi",
     "club": "Al-Nassr",
@@ -36,18 +47,23 @@
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "2003 yılında Sporting Lizbon ile Manchester United arasındaki hazırlık maçındaki performansıyla Alex Ferguson'ın dikkatini çekti.",
-      "2009 yılında Manchester United'dan 94 milyon Euro bedelle ayrılarak o dönemin transfer rekorunu kırdı.",
-      "Şampiyonlar Ligi tarihinin en çok gol atan ve bu kupayı 5 kez kazanan oyuncusudur.",
-      "Juventus formasıyla Juventus Stadium'da attığı ikonik röveşata golü rakip taraftarlarca ayakta alkışlandı.",
-      "Portekiz ile Euro 2016'yı kazanan, 7 numarası ve 'Siu' gol sevinciyle tanınan dünya yıldızı."
+      "2003 yılında Manchester United ile oynanan hazırlık maçındaki çalımlarıyla Alex Ferguson'ı büyüleyip anında transfer edildi.",
+      "2009'da Manchester United'dan 94 milyon Euro'ya transfer olarak o dönemin transfer rekorunu kırdı.",
+      "Şampiyonlar Ligi tarihinin en golcü futbolcusu olup kupayı tam 5 kez kazandı.",
+      "Juventus'a Torino'da attığı akıl almaz röveşata golü rakip Juventus taraftarlarınca dakikalarca ayakta alkışlandı.",
+      "'CR7' markası, frikik öncesi bacaklarını açarak duruşu ve 'Siu' gol sevinciyle tanınan Portekizli dünya yıldızı."
     ]
   },
   {
     "id": "zidane-zinedine",
     "wikidataId": "Q1835",
     "name": "Zinedine Zidane",
-    "aliases": ["Zidane", "Zizou", "Zinedine Yazid Zidane", "Zinedine"],
+    "aliases": [
+      "Zidane",
+      "Zizou",
+      "Zinedine Yazid Zidane",
+      "Zinedine"
+    ],
     "nationality": "Fransa",
     "league": "La Liga",
     "club": "Real Madrid",
@@ -58,62 +74,263 @@
     "status": "emekli",
     "retirementYear": 2006,
     "clues": [
-      "Fransa'da Cannes ve Bordeaux formaları giydikten sonra Serie A devi Juventus'a transfer oldu.",
-      "2002 Şampiyonlar Ligi finalinde Bayer Leverkusen'e sol ayağıyla attığı efsanevi vole golüyle kupayı getirdi.",
-      "1998 Dünya Kupası finalinde Brezilya'ya iki kafa golü atarak ülkesini şampiyonluğa taşıdı.",
-      "Teknik direktörlük kariyerinde Real Madrid ile üst üste 3 kez Şampiyonlar Ligi şampiyonluğu yaşadı.",
-      "Kariyerinin son maçı olan 2006 Dünya Kupası finalinde rakip oyuncunun göğsüne kafa atıp kırmızı kartla oyundan atıldı."
+      "Bordeaux ile UEFA Kupası finali oynadıktan sonra Serie A devi Juventus'a transfer oldu.",
+      "2002 Şampiyonlar Ligi finalinde Leverkusen'e sol ayağıyla 90'a astığı ikonik vole golüyle kupayı getirdi.",
+      "1998 Dünya Kupası finalinde Brezilya'ya iki kafa golü atarak ülkesine ilk dünya kupasını kazandırdı.",
+      "Teknik direktör olarak Real Madrid ile üst üste 3 kez Şampiyonlar Ligi şampiyonluğu yaşadı.",
+      "'Zizou' lakaplı, 2006 Dünya Kupası finalinde rakip stoperin göğsüne kafa atıp kırmızı kartla oyundan atılan efsane."
     ]
   },
   {
-    "id": "maldini-paolo",
-    "wikidataId": "Q483027",
-    "name": "Paolo Maldini",
-    "aliases": ["Maldini", "Paolo Cesare Maldini", "Il Capitano"],
-    "nationality": "İtalya",
+    "id": "ronaldinho",
+    "wikidataId": "Q39444",
+    "name": "Ronaldinho",
+    "aliases": [
+      "Ronaldinho Gaucho",
+      "Ronaldo de Assis Moreira",
+      "Dinho"
+    ],
+    "nationality": "Brezilya",
+    "league": "Brezilya Serie A",
+    "club": "Fluminense",
+    "position": "Forvet",
+    "birthYear": 1980,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2015,
+    "clues": [
+      "2002 Dünya Kupası çeyrek finalinde İngiltere kalecisi Seaman'ı 40 metreden aşırtma frikikle avladı.",
+      "Santiago Bernabeu'da Real Madrid'e attığı iki büyüleyici solo gol sonrası ezeli rakip taraftarlarınca ayakta alkışlandı.",
+      "2005 yılında Ballon d'Or ödülünü kazandı ve Barcelona'yı Şampiyonlar Ligi şampiyonu yaptı.",
+      "Top cambazlığı, 'elastico' çalımı ve frikiklerde barajın altından attığı zekice gollerle futbolu bir dansa dönüştürdü.",
+      "'Sihirbaz' lakaplı, sahada her zaman gülen yüzü ve meşhur 'shaka' el hareketiyle bilinen Brezilyalı 10 numara."
+    ]
+  },
+  {
+    "id": "ronaldo-nazario",
+    "wikidataId": "Q5292",
+    "name": "Ronaldo Nazário",
+    "aliases": [
+      "Ronaldo",
+      "Ronaldo Luis Nazario de Lima",
+      "El Fenomeno",
+      "R9",
+      "Sisko Ronaldo"
+    ],
+    "nationality": "Brezilya",
+    "league": "Brezilya Serie A",
+    "club": "Corinthians",
+    "position": "Forvet",
+    "birthYear": 1976,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2011,
+    "clues": [
+      "1996-97 sezonunda Barcelona'da çıktığı 49 maçta 47 gol atarak 20 yaşında Ballon d'Or kazanan en genç oyuncu oldu.",
+      "Kariyerinde hem Barcelona hem Real Madrid'de, hem de Inter ve Milan'da forma giydi.",
+      "Old Trafford'da Manchester United ağlarına yaptığı efsanevi hat-trick sonrası tüm stat tarafından ayakta alkışlandı.",
+      "2002 Dünya Kupası'nda Brezilya'yı şampiyon yaparken 8 gol atıp altın ayakkabıyı kazandı.",
+      "'El Fenomeno' (Fenomen) lakaplı, 2002'deki üçgen perçem saç kesimi ve kalecileri çalımlayıp boş kaleye attığı gollerle ünlü forvet."
+    ]
+  },
+  {
+    "id": "maradona-diego",
+    "wikidataId": "Q17515",
+    "name": "Diego Maradona",
+    "aliases": [
+      "Maradona",
+      "Diego Armando Maradona",
+      "El Pibe de Oro",
+      "D10S"
+    ],
+    "nationality": "Arjantin",
+    "league": "Arjantin Premier Ligi",
+    "club": "Boca Juniors",
+    "position": "Orta Saha",
+    "birthYear": 1960,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 1997,
+    "clues": [
+      "1984'te transfer olduğu İtalya'nın mütevazı takımı Napoli'yi iki kez Serie A ve bir kez UEFA Kupası şampiyonu yaptı.",
+      "1986 Dünya Kupası'nda İngiltere'ye kendi yarı sahasından 6 kişiyi çalımlayarak attığı gol 'Yüzyılın Golü' seçildi.",
+      "Aynı maçta İngiltere ağlarına elle attığı gol sorulduğunda 'Biraz benim kafam, biraz Tanrı'nın eli' yanıtını verdi.",
+      "Napoli kentinde adına heykeller, duvar resimleri ve hatta adına kurulmuş bir kilise bulunmaktadır.",
+      "'El Pibe de Oro' (Altın Çocuk) lakaplı, sol ayağı ve kıvırcık saçlarıyla dünya futbol tarihinin en büyük figürlerinden olan 10 numara."
+    ]
+  },
+  {
+    "id": "pele",
+    "wikidataId": "Q38423",
+    "name": "Pelé",
+    "aliases": [
+      "Pele",
+      "Edson Arantes do Nascimento",
+      "O Rei"
+    ],
+    "nationality": "Brezilya",
+    "league": "NASL",
+    "club": "New York Cosmos",
+    "position": "Forvet",
+    "birthYear": 1940,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 1977,
+    "clues": [
+      "1958'de henüz 17 yaşındayken Dünya Kupası finalinde gol atarak dünya çapında üne kavuştu.",
+      "Kariyerinin neredeyse tamamını Brezilya'nın Santos kulübünde geçirdi ve 1000'in üzerinde gol kaydetti.",
+      "Brezilya hükümeti başka ülkeye transferini engellemek için onu kanunla 'Resmi Milli Hazine' ilan etti.",
+      "Kariyerini noktalamadan önce Amerika'da futbolu sevdirmek için New York Cosmos takımında forma giydi.",
+      "'O Rei' (Kral) lakaplı, futbol tarihinde 3 kez Dünya Kupası kaldıran tek futbolcu olan efsane."
+    ]
+  },
+  {
+    "id": "cruyff-johan",
+    "wikidataId": "Q857",
+    "name": "Johan Cruyff",
+    "aliases": [
+      "Cruyff",
+      "Hendrik Johannes Cruijff",
+      "Johan Cruijff"
+    ],
+    "nationality": "Hollanda",
+    "league": "Eredivisie",
+    "club": "Feyenoord",
+    "position": "Forvet",
+    "birthYear": 1947,
+    "shirtNumber": 14,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 1984,
+    "clues": [
+      "Ajax ile üst üste 3 kez Şampiyon Kulüpler Kupası'nı kazanarak 1970'lerin başında Avrupa'ya hükmetti.",
+      "1974 Dünya Kupası'nda İsveç karşısında yaptığı dönerek sahte vuruş çalımı dünya futboluna kendi adıyla geçti.",
+      "Teknik direktör olarak kurduğu Barcelona 'Rüya Takımı' (Dream Team) ile modern tiki-taka felsefesinin temelini attı.",
+      "Geleneksel 1-11 numara kuralını yıkarak kulüplerinde inatla 14 numaralı formayı giydi.",
+      "'Total Futbol'un sahadaki mimarı kabul edilen, 3 Ballon d'Or ödüllü Hollandalı efsanevi 14 numara."
+    ]
+  },
+  {
+    "id": "ibrahimovic-zlatan",
+    "wikidataId": "Q468962",
+    "name": "Zlatan Ibrahimović",
+    "aliases": [
+      "Zlatan",
+      "Ibrahimovic",
+      "Ibra",
+      "Zlatan Ibrahimovic"
+    ],
+    "nationality": "İsveç",
     "league": "Serie A",
     "club": "Milan",
-    "position": "Defans",
-    "birthYear": 1968,
-    "shirtNumber": 3,
-    "difficulty": "orta",
-    "status": "emekli",
-    "retirementYear": 2009,
-    "clues": [
-      "1985 yılında henüz 16 yaşındayken Serie A'da Udinese karşısında ilk profesyonel maçına çıktı.",
-      "2005 Şampiyonlar Ligi finalinin henüz 50. saniyesinde Liverpool'a gol atarak finaller tarihinin en erken golünü kaydetti.",
-      "Tüm profesyonel kariyerini tek bir kulüpte geçirdi ve 902 resmi maça çıktı.",
-      "Kariyeri boyunca 5 kez Şampiyonlar Ligi, 7 kez de Serie A şampiyonluğu kazandı.",
-      "Milan efsanesi olan ve kulüp tarafından giydiği 3 numaralı forması emekliye ayrılan İtalyan savunmacı."
-    ]
-  },
-  {
-    "id": "buffon-gianluigi",
-    "wikidataId": "Q68060",
-    "name": "Gianluigi Buffon",
-    "aliases": ["Buffon", "Gigi Buffon", "Gigi"],
-    "nationality": "İtalya",
-    "league": "Serie B",
-    "club": "Parma",
-    "position": "Kaleci",
-    "birthYear": 1978,
-    "shirtNumber": 1,
+    "position": "Forvet",
+    "birthYear": 1981,
+    "shirtNumber": 11,
     "difficulty": "kolay",
     "status": "emekli",
     "retirementYear": 2023,
     "clues": [
-      "1995 yılında henüz 17 yaşındayken ilk maçına dönemin güçlü ekibi Milan karşısında çıktı ve kalesini gole kapattı.",
-      "2001 yılında Parma'dan Juventus'a transfer olurken dönemin kaleci bonservis rekorunu kırdı.",
-      "2015-2016 sezonunda Serie A'da kalesini üst üste 974 dakika gole kapatarak lig rekoruna imza attı.",
-      "Serie A'da küme düşme cezası alan kulübünü bırakmayıp Serie B'de de takımında kalarak sadakatiyle simgeleşti.",
-      "2006 Dünya Kupası'nı kazanan ve Juventus kalesini uzun yıllar koruyan efsanevi İtalyan 1 numara."
+      "Tekvando siyah kuşak sahibi olup bu esnekliğini sahada akrobatik uçan tekme gollerine yansıttı.",
+      "Ajax, Juventus, Inter, Barcelona, Milan, PSG ve Manchester United ile şampiyonluklar yaşadı.",
+      "İngiltere'ye 35 metreden attığı akıl almaz röveşata golü FIFA Puskás Ödülü'nü kazandı.",
+      "'Ben buraya kral olarak geldim, efsane olarak ayrılıyorum' ve 'Ben tanrıyım' gibi iddialı sözleriyle tanındı.",
+      "Kendinden 3. şahıs olarak bahseden, at kuyruklu saçı ve 'Ibracadabra' lakabıyla anılan 1.95 boyundaki dev forvet."
+    ]
+  },
+  {
+    "id": "beckham-david",
+    "wikidataId": "Q10520",
+    "name": "David Beckham",
+    "aliases": [
+      "Beckham",
+      "David Robert Joseph Beckham",
+      "Becks"
+    ],
+    "nationality": "İngiltere",
+    "league": "Ligue 1",
+    "club": "Paris Saint-Germain",
+    "position": "Orta Saha",
+    "birthYear": 1975,
+    "shirtNumber": 7,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2013,
+    "clues": [
+      "1996'da Wimbledon karşısında kendi yarı sahasından attığı aşırtma golle kariyerine damga vurdu.",
+      "1999'da Manchester United ile tarihi üçlemeyi (Treble) kazanan 'Class of 92' altyapı neslinin yıldızıydı.",
+      "Soyunma odasında menajeri Ferguson'ın fırlattığı krampon kaşına isabet edince kaşı yarıldı ve magazin manşetlerine çıktı.",
+      "Topa verdiği inanılmaz kavisle serbest vuruşları sanat eserine dönüştürdü ve adına sinema filmi çekildi.",
+      "Değiştirdiği saç stilleriyle bir moda ikonuna dönüşen, Real Madrid ve Manchester United'ın efsane İngiliz 7 numarası."
+    ]
+  },
+  {
+    "id": "henry-thierry",
+    "wikidataId": "Q45901",
+    "name": "Thierry Henry",
+    "aliases": [
+      "Henry",
+      "Thierry Henry",
+      "Thierry Daniel Henry",
+      "Titi"
+    ],
+    "nationality": "Fransa",
+    "league": "MLS",
+    "club": "New York Red Bulls",
+    "position": "Forvet",
+    "birthYear": 1977,
+    "shirtNumber": 14,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2014,
+    "clues": [
+      "Monaco ve Juventus'ta kanat olarak oynadıktan sonra Arsene Wenger tarafından santrfora dönüştürüldü.",
+      "2003-04 sezonunda Premier Lig'i namağlup şampiyon tamamlayan efsane 'Yenilmezler' (Invincibles) kadrosunun lideriydi.",
+      "2009 Dünya Kupası play-off maçında İrlanda'ya karşı topu eliyle düzelterek yaptığı asist dünya çapında skandal yarattı.",
+      "Arsenal tarihinin en çok gol atan oyuncusudur ve Emirates Stadyumu'nun önünde heykeli dikilmiştir.",
+      "Sol kanattan ceza sahasına sokulup uzak köşeye yaptığı plase vuruşlarıyla özdeşleşen, 14 numaralı Fransız forvet."
+    ]
+  },
+  {
+    "id": "drogba-didier",
+    "wikidataId": "Q48892",
+    "name": "Didier Drogba",
+    "aliases": [
+      "Drogba",
+      "Didier Drogba",
+      "Didier Yves Drogba Tebily",
+      "Parcalayici"
+    ],
+    "nationality": "Fildişi Sahili",
+    "league": "USL Championship",
+    "club": "Phoenix Rising",
+    "position": "Forvet",
+    "birthYear": 1978,
+    "shirtNumber": 11,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2018,
+    "clues": [
+      "Marsilya formasıyla UEFA Kupası'nda final oynadıktan sonra Mourinho tarafından Chelsea'ye transfer edildi.",
+      "2006 Dünya Kupası vizesi aldıkları maçın ardından canlı yayında diz çöküp ülkesindeki iç savaşı durduran barış çağrısını yaptı.",
+      "2012 Şampiyonlar Ligi finalinde Bayern Münih'e 88'de kafayla beraberlik golünü atıp son penaltıyla kupayı getirdi.",
+      "Galatasaray formasıyla Real Madrid'e topukla attığı gol ve Juventus karşısındaki mücadelesiyle Süper Lig'e damga vurdu.",
+      "Chelsea tarihinin en büyük forvetlerinden olan, 11 numaralı forması ve gücüyle tanınan Fildişili efsane."
     ]
   },
   {
     "id": "de-souza-alex",
     "wikidataId": "Q507815",
     "name": "Alex de Souza",
-    "aliases": ["Alex", "Alex de Souza", "Alexsandro de Souza", "Doktor"],
+    "aliases": [
+      "Alex",
+      "Alex de Souza",
+      "Alexsandro de Souza",
+      "Doktor"
+    ],
     "nationality": "Brezilya",
     "league": "Brezilya Serie A",
     "club": "Coritiba",
@@ -125,17 +342,24 @@
     "retirementYear": 2014,
     "clues": [
       "1999 yılında Palmeiras ile Copa Libertadores şampiyonluğu yaşadı.",
-      "2004 Copa America turnuvasında Brezilya Milli Takımı'nın kaptanı olarak kupayı havaya kaldırdı.",
-      "Süper Lig'de iki kez gol kralı olan ve 100'ler kulübüne giren ilk yabancı futbolculardan biridir.",
-      "Kulübünün taraftarları tarafından Kadıköy Yoğurtçu Parkı'na heykeli dikildi.",
-      "Fenerbahçe'de 10 numarayı giyen, sol ayağı ve duran toplardaki ustalığıyla efsaneleşen Brezilyalı maestro."
+      "2004 Copa America'da Brezilya Milli Takımı'nın kaptanı olarak kupayı kaldırdı.",
+      "Süper Lig'de iki kez gol kralı oldu ve 100'ler kulübüne giren ilk yabancı futbolculardan biri olarak tarihe geçti.",
+      "Kadıköy Yoğurtçu Parkı'na sarı-lacivertli taraftarlar tarafından heykeli dikildi.",
+      "'Doktor' lakaplı, Fenerbahçe'de 10 numarayı giyen ve sol ayağının büyüsüyle efsaneleşen Brezilyalı maestro."
     ]
   },
   {
     "id": "hagi-gheorghe",
     "wikidataId": "Q189892",
     "name": "Gheorghe Hagi",
-    "aliases": ["Hagi", "Gica Hagi", "Gheorghe Hagi", "Karpatlarin Maradonasi", "Buyucu"],
+    "aliases": [
+      "Hagi",
+      "Gica Hagi",
+      "Gheorghe Hagi",
+      "Karpatlarin Maradonasi",
+      "Buyucu",
+      "Profesör"
+    ],
     "nationality": "Romanya",
     "league": "Süper Lig",
     "club": "Galatasaray",
@@ -146,18 +370,101 @@
     "status": "emekli",
     "retirementYear": 2001,
     "clues": [
-      "1986 UEFA Süper Kupa finalinde Steaua Bükreş adına Dinamo Kiev'e frikikten galibiyet golünü attı.",
-      "Kariyerinde hem Real Madrid hem de Barcelona forması giyen nadir yıldızlardandır.",
-      "1994 Dünya Kupası'nda Kolombiya'ya neredeyse taç çizgisi yakınından aşırtma vuruşla attığı gol turnuva tarihine geçti.",
-      "2000 yılında Arsenal ile oynanan UEFA Kupası finalinde kırmızı kart görmesine rağmen takımı kupayı kaldırdı.",
-      "'Karpatların Maradonası' lakaplı, Galatasaray ile 2000 UEFA Kupası ve Süper Kupa zaferi yaşayan Rumen 10 numara."
+      "Kariyerinde hem Real Madrid hem de Barcelona forması giyen çok az futbolcudan biridir.",
+      "1994 Dünya Kupası'nda Kolombiya'ya taç çizgisi yakınından aşırtma vuruşla attığı gol turnuva klasikleri arasına girdi.",
+      "2000 UEFA Kupası finalinde Arsenal karşısında kırmızı kart gördü ancak takımı maçı penaltılarla kazandı.",
+      "2000 Monaco'daki Süper Kupa maçında Real Madrid'i devirerek Avrupa'nın 1 numarası oldu.",
+      "'Karpatların Maradonası' lakaplı, Galatasaray ile 4 yıl üst üste lig şampiyonu olan efsane Rumen 10 numara."
+    ]
+  },
+  {
+    "id": "buffon-gianluigi",
+    "wikidataId": "Q68060",
+    "name": "Gianluigi Buffon",
+    "aliases": [
+      "Buffon",
+      "Gigi Buffon",
+      "Gigi"
+    ],
+    "nationality": "İtalya",
+    "league": "Serie B",
+    "club": "Parma",
+    "position": "Kaleci",
+    "birthYear": 1978,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2023,
+    "clues": [
+      "1995'te 17 yaşındayken Parma kalesinde Milan'a karşı ilk maçına çıktı ve devlere geçit vermedi.",
+      "2001 yılında Parma'dan Juventus'a transfer olurken o dönemin kaleci bonservis rekorunu kırdı.",
+      "Kulübü şike cezasıyla Serie B'ye düşürüldüğünde takımdan ayrılmayarak taraftarın kahramanı oldu.",
+      "Serie A'da üst üste 974 dakika boyunca kalesinde gol görmeyerek lig rekorunu elinde tuttu.",
+      "2006 Dünya Kupası'nı kazanan ve 45 yaşına kadar profesyonel oynayan efsanevi İtalyan 1 numara."
+    ]
+  },
+  {
+    "id": "casillas-iker",
+    "wikidataId": "Q39710",
+    "name": "Iker Casillas",
+    "aliases": [
+      "Casillas",
+      "San Iker",
+      "Iker Casillas Fernandez"
+    ],
+    "nationality": "İspanya",
+    "league": "Liga Portugal",
+    "club": "Porto",
+    "position": "Kaleci",
+    "birthYear": 1981,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2020,
+    "clues": [
+      "1999'da henüz 18 yaşındayken lise dersinden çıkıp Real Madrid ile Şampiyonlar Ligi maçına gitti.",
+      "2002 Şampiyonlar Ligi finalinde son dakikalarda Leverkusen'e karşı yaptığı mucizevi kurtarışlarla kupayı getirdi.",
+      "2010 Dünya Kupası finalinde Arjen Robben ile karşı karşıya kaldığı pozisyonda topu ayağıyla çıkararak şampiyonluğu kurtardı.",
+      "İspanya Milli Takımı kaptanı olarak 2008 Euro, 2010 Dünya Kupası ve 2012 Euro kupalarını üst üste havaya kaldırdı.",
+      "'San' (Aziz) lakaplı, 2010 Dünya Kupası ve iki Avrupa şampiyonluğu yaşayan Real Madrid'in unutulmaz İspanyol kaleci efsanesi."
+    ]
+  },
+  {
+    "id": "neuer-manuel",
+    "wikidataId": "Q107365",
+    "name": "Manuel Neuer",
+    "aliases": [
+      "Neuer",
+      "Manuel Peter Neuer",
+      "Manu"
+    ],
+    "nationality": "Almanya",
+    "league": "Bundesliga",
+    "club": "Bayern Münih",
+    "position": "Kaleci",
+    "birthYear": 1986,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Schalke 04 altyapısında yetişti ve takımıyla Şampiyonlar Ligi yarı finaline kadar yükseldi.",
+      "Ceza sahası dışına çıkarak yaptığı ayak müdahaleleriyle modern futbolda 'Süpürücü Kaleci' devrimini başlattı.",
+      "2014 Dünya Kupası son 16 turunda Cezayir maçında neredeyse bir stoper gibi orta sahaya kadar çıkarak maçı kurtardı.",
+      "Bayern Münih ile iki kez tarihi üçleme (Treble) kazandı ve Ballon d'Or'da son 3'e giren nadir kalecilerden oldu.",
+      "2014 Dünya Kupası'nı kazanan, dev cüssesi ve soğukkanlı ayak tekniğiyle bilinen Alman 1 numara."
     ]
   },
   {
     "id": "muslera-fernando",
     "wikidataId": "Q203749",
     "name": "Fernando Muslera",
-    "aliases": ["Muslera", "Fernando Muslera", "Nestor Fernando Muslera Micol", "Nando"],
+    "aliases": [
+      "Muslera",
+      "Fernando Muslera",
+      "Nestor Fernando Muslera Micol",
+      "Nando"
+    ],
     "nationality": "Uruguay",
     "league": "Süper Lig",
     "club": "Galatasaray",
@@ -168,18 +475,22 @@
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "Avrupa kariyerine 2007 yılında İtalyan ekibi Lazio'ya transfer olarak adım attı.",
-      "2010 Dünya Kupası çeyrek finalinde Gana karşısındaki seri penaltı atışlarında iki penaltı kurtararak ülkesini yarı finale taşıdı.",
-      "2011-2012 sezonunun son haftasında Manisaspor'a karşı penaltıdan kariyerinin ilk resmi golünü kaydetti.",
-      "Süper Lig tarihinde en çok şampiyonluk yaşayan ve en çok maça çıkan yabancı futbolcudur.",
-      "2011 yılından beri Galatasaray kalesini koruyan ve kaptanlık pazubendini takan Uruguaylı 1 numara."
+      "Avrupa kariyerine 2007 yılında İtalyan kulübü Lazio'ya transfer olarak adım attı.",
+      "2010 Dünya Kupası çeyrek finalinde Gana karşısındaki tarihi seri penaltı atışlarında iki penaltı kurtardı.",
+      "2011-12 sezonunun son maçında Manisaspor'a karşı penaltı vuruşunu gole çevirerek kariyerinin tek golünü kaydetti.",
+      "Süper Lig tarihinde en çok şampiyonluk kazanan ve en fazla forma giyen yabancı futbolcudur.",
+      "2011 yılından beri Galatasaray kalesini koruyan, 'Nando' lakaplı Uruguaylı kaptan."
     ]
   },
   {
     "id": "icardi-mauro",
     "wikidataId": "Q136986",
     "name": "Mauro Icardi",
-    "aliases": ["Icardi", "Mauro Icardi", "Mauro Emanuel Icardi Rivero"],
+    "aliases": [
+      "Icardi",
+      "Mauro Icardi",
+      "Mauro Emanuel Icardi Rivero"
+    ],
     "nationality": "Arjantin",
     "league": "Süper Lig",
     "club": "Galatasaray",
@@ -190,18 +501,23 @@
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "Gençlik yıllarında Barcelona altyapısı La Masia'da eğitim aldıktan sonra Sampdoria'ya transfer oldu.",
-      "İtalya Serie A'da iki kez gol krallığı yaşadı.",
-      "Inter'de genç yaşta kaptanlık yaptı ve Paris Saint-Germain ile Ligue 1 şampiyonlukları kazandı.",
-      "Gollerinden sonra ellerini iki kulağının arkasına götürerek yaptığı ikonik sevinciyle tanınır.",
-      "'Aşkın Olayım' şarkısıyla özdeşleşen ve Galatasaray taraftarının sevgilisi olan Arjantinli forvet."
+      "Barcelona'nın ünlü altyapısı La Masia'da eğitim aldıktan sonra Sampdoria'ya transfer oldu.",
+      "İtalya Serie A'da Inter formasıyla iki kez gol kralı (Capocannoniere) oldu ve genç yaşta kaptanlık yaptı.",
+      "Paris Saint-Germain ile Fransa Ligue 1 şampiyonlukları yaşadıktan sonra İstanbul'un yolunu tuttu.",
+      "Gollerden sonra iki elini kulaklarının arkasına götürerek tribünleri dinleme sevinciyle simgeleşti.",
+      "'Aşkın Olayım' şarkısıyla özdeşleşen ve sarı-kırmızılı taraftarların sevgilisi olan Arjantinli forvet."
     ]
   },
   {
     "id": "haaland-erling",
     "wikidataId": "Q28967995",
     "name": "Erling Haaland",
-    "aliases": ["Haaland", "Erling Haaland", "Erling Braut Haaland", "Terminator"],
+    "aliases": [
+      "Haaland",
+      "Erling Haaland",
+      "Erling Braut Haaland",
+      "Terminator"
+    ],
     "nationality": "Norveç",
     "league": "Premier Lig",
     "club": "Manchester City",
@@ -212,18 +528,24 @@
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "2019 FIFA 20 Yaş Altı Dünya Kupası'nda Honduras karşısında tek bir maçta 9 gol atarak rekor kırdı.",
-      "Red Bull Salzburg formasıyla Şampiyonlar Ligi'ndeki ilk maçında Genk'e karşı ilk yarıda hat-trick yaptı.",
+      "2019 FIFA U-20 Dünya Kupası'nda Honduras'a tek bir maçta tam 9 gol atarak tarihe geçti.",
+      "Salzburg formasıyla çıktığı ilk Şampiyonlar Ligi maçında Genk karşısında ilk yarıda hat-trick yaptı.",
       "Premier Lig'deki ilk sezonunda 36 gol atarak lig tarihinin bir sezonda en çok gol atan oyuncusu oldu.",
-      "Gol sevinçlerinde bağdaş kurup meditasyon (yoga/zen) pozu vermesiyle meşhur oldu.",
-      "Manchester City ile 'üçleme' (Treble) yapan, sarı saçları ve inanılmaz fiziksel gücüyle tanınan Norveçli gol makinesi."
+      "Gol sevinçlerinde bağdaş kurup meditasyon (zen/yoga) pozu vermesiyle ünlü oldu.",
+      "'Terminatör' lakaplı, Manchester City ile üçleme kazanan, uzun boylu ve sarı saçlı Norveçli gol makinesi."
     ]
   },
   {
     "id": "mbappe-kylian",
     "wikidataId": "Q21621995",
     "name": "Kylian Mbappé",
-    "aliases": ["Mbappe", "Kylian Mbappe", "Kylian Mbappe Lottin", "Mbappe Lottin", "Kiki"],
+    "aliases": [
+      "Mbappe",
+      "Kylian Mbappe",
+      "Kylian Mbappe Lottin",
+      "Mbappe Lottin",
+      "Kiki"
+    ],
     "nationality": "Fransa",
     "league": "La Liga",
     "club": "Real Madrid",
@@ -234,18 +556,23 @@
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "2016-2017 sezonunda Monaco ile Ligue 1 şampiyonluğu yaşayıp Şampiyonlar Ligi yarı finaline yükselerek dünyayı sarstı.",
-      "Pelé'den sonra bir Dünya Kupası finalinde gol atan en genç futbolcu unvanını aldı (2018).",
-      "2022 Dünya Kupası finalinde Arjantin'e karşı hat-trick yapmasına rağmen maçı penaltılarda kaybetti.",
-      "Paris Saint-Germain tarihinin tüm zamanlardaki en golcü futbolcusu oldu.",
-      "Kollarını göğsünde kavuşturarak yaptığı gol sevinciyle bilinen, 2024 yazında Real Madrid'e transfer olan Fransız süper yıldız."
+      "2016-17 sezonunda genç Monaco kadrosuyla PSG'yi geride bırakıp Ligue 1 şampiyonu olarak dünyayı şoke etti.",
+      "19 yaşındayken 2018 Dünya Kupası finalinde gol atarak Pele'den sonra bunu başaran en genç isim oldu.",
+      "2022 Dünya Kupası finalinde Arjantin'e karşı hat-trick yapmasına rağmen penaltılarda kupayı kaybetti.",
+      "Paris Saint-Germain tarihinin tüm zamanlardaki en golcü futbolcusu olarak kulüpten ayrıldı.",
+      "Kollarını göğsünde çaprazlayarak yaptığı gol sevinciyle bilinen, 2024 yazında Real Madrid'e imza atan Fransız yıldız."
     ]
   },
   {
     "id": "modric-luka",
     "wikidataId": "Q483837",
     "name": "Luka Modrić",
-    "aliases": ["Modric", "Luka Modric", "Modriç", "Luka Modriç"],
+    "aliases": [
+      "Modric",
+      "Luka Modric",
+      "Modriç",
+      "Luka Modriç"
+    ],
     "nationality": "Hırvatistan",
     "league": "La Liga",
     "club": "Real Madrid",
@@ -256,187 +583,2026 @@
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "Kariyerinin başlarında Bosna Hersek Ligi takımı Zrinjski Mostar'a kiralandı ve ligin en sert ortamında pişti.",
-      "Dinamo Zagreb'den Tottenham Hotspur'a transfer olarak Premier Lig'de 4 sezon oyun kurucu olarak parladı.",
-      "Real Madrid'e transfer olduğu ilk sezonun sonunda İspanyol basını tarafından 'yılın en kötü transferi' seçilmişti.",
-      "2018 yılında Messi ve Ronaldo hegemonyasını kırarak Ballon d'Or ödülünü kazandı.",
+      "Çocukluğunda savaş ortamında büyüdü ve kariyerinin başında Bosna Hersek Ligi'nin sert ortamında pişti.",
+      "Tottenham Hotspur'dan Real Madrid'e transfer olduğu ilk sezonun sonunda İspanyol medyası tarafından 'yılın en kötü transferi' seçilmişti.",
+      "2018 yılında Messi ve Ronaldo hegemonyasını yıkarak Ballon d'Or ödülünü kazandı.",
+      "Ayağının dışıyla (trivela) attığı milimetrik paslarla futbol resitalleri sundu.",
       "Hırvatistan'ı 2018 Dünya Kupası finaline taşıyan ve Real Madrid ile 6 kez Şampiyonlar Ligi kazanan maestro."
     ]
   },
   {
-    "id": "henry-thierry",
-    "wikidataId": "Q45901",
-    "name": "Thierry Henry",
-    "aliases": ["Henry", "Thierry Henry", "Thierry Daniel Henry", "Titi"],
-    "nationality": "Fransa",
-    "league": "MLS",
-    "club": "New York Red Bulls",
+    "id": "de-bruyne-kevin",
+    "wikidataId": "Q357984",
+    "name": "Kevin De Bruyne",
+    "aliases": [
+      "De Bruyne",
+      "Kevin De Bruyne",
+      "KDB"
+    ],
+    "nationality": "Belçika",
+    "league": "Premier Lig",
+    "club": "Manchester City",
+    "position": "Orta Saha",
+    "birthYear": 1991,
+    "shirtNumber": 17,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Gençken Chelsea'de Jose Mourinho tarafından yetersiz bulunup Wolfsburg'a satıldı ve orada Bundesliga'nın en iyisi seçildi.",
+      "Premier Lig'de bir sezonda 20 asist barajına ulaşarak Thierry Henry'nin asist rekorunu egale etti.",
+      "Guardiola'nın Manchester City'sinde sahanın beyni olarak kulübe ilk Şampiyonlar Ligi zaferini ve üçlemeyi getirdi.",
+      "Defans arkasına adrese teslim attığı kavisli paslarla 'futbolun en iyi pasörü' kabul edildi.",
+      "'KDB' kısaltmasıyla bilinen, kızıl saçları ve 17 numaralı formasıyla Premier Lig'e hükmeden Belçikalı oyun kurucu."
+    ]
+  },
+  {
+    "id": "lewandowski-robert",
+    "wikidataId": "Q151265",
+    "name": "Robert Lewandowski",
+    "aliases": [
+      "Lewandowski",
+      "Robert Lewandowski",
+      "Lewy"
+    ],
+    "nationality": "Polonya",
+    "league": "La Liga",
+    "club": "Barcelona",
     "position": "Forvet",
-    "birthYear": 1977,
-    "shirtNumber": 14,
+    "birthYear": 1988,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Lech Poznan'dan Dortmund'a transfer oldu ve Klopp'un yönetiminde Real Madrid'e tek maçta 4 gol attı.",
+      "2015'te Bayern Münih formasıyla Wolfsburg karşısında oyuna sonradan girip tam 9 dakikada 5 gol atarak Guinness rekoru kırdı.",
+      "Gerd Müller'in bir Bundesliga sezonunda attığı 40 gollük efsanevi rekoru 41 golle kırıp tarihe geçti.",
+      "2020 yılında Bayern Münih ile Şampiyonlar Ligi dahil tüm kupaları kazanıp FIFA En İyi Oyuncu seçildi.",
+      "'Lewy' lakaplı, ceza sahasındaki öldürücü bitiriciliğiyle tanınan ve Barcelona'da 9 numarayı giyen Polonyalı golcü."
+    ]
+  },
+  {
+    "id": "salah-mohamed",
+    "wikidataId": "Q209095",
+    "name": "Mohamed Salah",
+    "aliases": [
+      "Salah",
+      "Mohamed Salah",
+      "Mo Salah",
+      "Misir Krali"
+    ],
+    "nationality": "Mısır",
+    "league": "Premier Lig",
+    "club": "Liverpool",
+    "position": "Forvet",
+    "birthYear": 1992,
+    "shirtNumber": 11,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Basel'de parladıktan sonra Chelsea'de şans bulamadı, Fiorentina ve Roma'da Serie A'yı ayağa kaldırdı.",
+      "Liverpool'daki ilk sezonunda 32 gol atarak 38 maçlık bir Premier Lig sezonunda en çok gol atan oyuncu rekorunu kırdı.",
+      "2018 Şampiyonlar Ligi finalinde Sergio Ramos ile girdiği ikili mücadelede omzundan sakatlanıp gözyaşlarıyla çıktı.",
+      "Ertesi yıl 2019 Şampiyonlar Ligi finalinde Tottenham'a 2. dakikada penaltıdan gol atarak kupayı kaldırdı.",
+      "'Mısır Kralı' lakaplı, kıvırcık saçları, sol ayağı ve secdeye yatarak yaptığı gol sevinciyle tanınan 11 numara."
+    ]
+  },
+  {
+    "id": "benzema-karim",
+    "wikidataId": "Q70122",
+    "name": "Karim Benzema",
+    "aliases": [
+      "Benzema",
+      "Karim Benzema",
+      "KB9",
+      "Nueve"
+    ],
+    "nationality": "Fransa",
+    "league": "Suudi Profesyonel Ligi",
+    "club": "Al-Ittihad",
+    "position": "Forvet",
+    "birthYear": 1987,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Lyon altyapısında yetişti ve 2009 yazında Kaka ve Ronaldo ile birlikte Real Madrid'e imza attı.",
+      "Uzun yıllar Cristiano Ronaldo'nun arkasında fedakar bir oyun oynadıktan sonra takımın 1 numaralı lideri oldu.",
+      "2021-22 Şampiyonlar Ligi sezonunda PSG, Chelsea ve Manchester City'ye attığı inanılmaz gollerle tek başına kupayı getirdi.",
+      "Kariyerindeki sakatlık sonrası sağ eline sardığı beyaz bandajla maça çıkması onun ikonik bir simgesi haline geldi.",
+      "'KB9' lakaplı, 2022 Ballon d'Or ödülünü kazanan ve Real Madrid ile 5 Şampiyonlar Ligi zaferi yaşayan Cezayir asıllı Fransız golcü."
+    ]
+  },
+  {
+    "id": "neymar-jr",
+    "wikidataId": "Q142794",
+    "name": "Neymar Jr",
+    "aliases": [
+      "Neymar",
+      "Neymar da Silva Santos Junior",
+      "Ney",
+      "Neymar Junior"
+    ],
+    "nationality": "Brezilya",
+    "league": "Suudi Profesyonel Ligi",
+    "club": "Al-Hilal",
+    "position": "Forvet",
+    "birthYear": 1992,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Santos'ta oynarken Flamengo'ya attığı inanılmaz çalımlarla süslü golüyle 2011 FIFA Puskás Ödülü'nü kazandı.",
+      "Barcelona'da Messi ve Suarez ile birlikte tarihin en ölümcül hücum üçlüsü olan 'MSN'i kurdu.",
+      "2017 yazında 222 milyon Euro bedelle Barcelona'dan PSG'ye transfer olarak futbol tarihinin en pahalı oyuncusu oldu.",
+      "Gökkuşağı (rainbow flick) çalımı, renkli saç stilleri ve saha içindeki gösterişli çalımlarıyla sambacı ekolü yaşattı.",
+      "Brezilya Milli Takımı tarihinin Pele'yi geçerek en çok gol atan oyuncusu olan 10 numaralı süper yıldız."
+    ]
+  },
+  {
+    "id": "suarez-luis",
+    "wikidataId": "Q26517",
+    "name": "Luis Suárez",
+    "aliases": [
+      "Suarez",
+      "Luis Alberto Suarez Diaz",
+      "El Pistolero"
+    ],
+    "nationality": "Uruguay",
+    "league": "MLS",
+    "club": "Inter Miami",
+    "position": "Forvet",
+    "birthYear": 1987,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "2010 Dünya Kupası çeyrek finalinde Gana'nın son dakika golünü kale çizgisinde elle çıkarıp kırmızı kart gördü ve penaltı kaçınca kahraman oldu.",
+      "Liverpool formasıyla Premier Lig'de hiç penaltı atmadan bir sezonda 31 gol atarak Altın Ayakkabı kazandı.",
+      "2014 Dünya Kupası'nda İtalyan savunmacı Chiellini'yi omzundan ısırarak futbol tarihinin en büyük cezalarından birini aldı.",
+      "Barcelona'ya transfer olduktan sonra 'MSN' üçlüsünün santrforu olarak Şampiyonlar Ligi'ni kazandı.",
+      "'El Pistolero' (Silahşor) lakaplı, gol sevinçlerinde parmaklarıyla tabanca hareketi yapan hırçın Uruguaylı 9 numara."
+    ]
+  },
+  {
+    "id": "ramos-sergio",
+    "wikidataId": "Q483309",
+    "name": "Sergio Ramos",
+    "aliases": [
+      "Ramos",
+      "Sergio Ramos Garcia",
+      "El Capitan"
+    ],
+    "nationality": "İspanya",
+    "league": "La Liga",
+    "club": "Sevilla",
+    "position": "Defans",
+    "birthYear": 1986,
+    "shirtNumber": 4,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Sevilla altyapısında sağ bek olarak yetiştikten sonra 19 yaşında Real Madrid'e transfer oldu.",
+      "2014 Şampiyonlar Ligi finalinde Atletico Madrid karşısında 92:48'de attığı kafa golüyle kupayı uzatmalara taşıyıp efsane oldu.",
+      "La Liga ve Şampiyonlar Ligi tarihinin en çok kırmızı kart gören futbolcusu rekorunu elinde bulundurur.",
+      "Kariyerinde 130'un üzerinde gol atarak bir stoper olmasına rağmen tarihin en golcü savunmacılarından biri oldu.",
+      "Real Madrid'in 4 numaralı efsane kaptanı olan, '92:48' anıyla özdeşleşen ve Panenka penaltılarıyla ünlü İspanyol stoper."
+    ]
+  },
+  {
+    "id": "maldini-paolo",
+    "wikidataId": "Q483027",
+    "name": "Paolo Maldini",
+    "aliases": [
+      "Maldini",
+      "Paolo Cesare Maldini",
+      "Il Capitano"
+    ],
+    "nationality": "İtalya",
+    "league": "Serie A",
+    "club": "Milan",
+    "position": "Defans",
+    "birthYear": 1968,
+    "shirtNumber": 3,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2009,
+    "clues": [
+      "1985 yılında henüz 16 yaşındayken Serie A'da Udinese karşısında ilk profesyonel maçına çıktı.",
+      "2005 Şampiyonlar Ligi finalinin 50. saniyesinde Liverpool'a gol atarak finaller tarihinin en erken golünü kaydetti.",
+      "25 yıllık profesyonel kariyerini tek bir kulüpte (tek takım adamı) geçirerek 902 resmi maça çıktı.",
+      "Kariyeri boyunca tam 5 kez Şampiyonlar Ligi ve 7 kez Serie A şampiyonluğu kazandı.",
+      "'Il Capitano' lakaplı, Milan kulübünün giydiği 3 numaralı formayı emekliye ayırdığı centilmen İtalyan savunma efsanesi."
+    ]
+  },
+  {
+    "id": "carlos-roberto",
+    "wikidataId": "Q160538",
+    "name": "Roberto Carlos",
+    "aliases": [
+      "Roberto Carlos",
+      "Roberto Carlos da Silva Rocha"
+    ],
+    "nationality": "Brezilya",
+    "league": "Rusya Premier Ligi",
+    "club": "Anzhi Mahaçkale",
+    "position": "Defans",
+    "birthYear": 1973,
+    "shirtNumber": 3,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2012,
+    "clues": [
+      "1997 Fransa maçında Fabien Barthez'e 35 metreden attığı fiziğe aykırı kavisli frikik golü bilim insanları tarafından incelendi.",
+      "Tenerife maçında aut çizgisinin hemen üzerinden sol ayağının dışıyla imkansız bir açıdan fileleri havalandırdı.",
+      "Şutlarının hızı zaman zaman saatte 140 kilometreyi aşarak rakiplerin korkulu rüyası oldu.",
+      "Real Madrid'den sonra 2007 yılında Fenerbahçe'ye transfer olarak Türkiye'de büyük bir coşkuyla karşılandı.",
+      "Muazzam baldır kasları, füzeyi andıran şutları ve 3 numarasıyla futbol tarihinin en iyi sol beki kabul edilen Brezilyalı."
+    ]
+  },
+  {
+    "id": "pirlo-andrea",
+    "wikidataId": "Q43924",
+    "name": "Andrea Pirlo",
+    "aliases": [
+      "Pirlo",
+      "No Pirlo No Party",
+      "Il Maestro",
+      "Mimar"
+    ],
+    "nationality": "İtalya",
+    "league": "MLS",
+    "club": "New York City FC",
+    "position": "Orta Saha",
+    "birthYear": 1979,
+    "shirtNumber": 21,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2017,
+    "clues": [
+      "Kariyerinin başında 10 numara oynarken Carlo Ancelotti tarafından savunmanın önüne derin oyun kurucu (regista) olarak çekildi.",
+      "Milan ile iki kez Şampiyonlar Ligi kazandıktan sonra yaşlandığı gerekçesiyle bedelsiz gönderildiği Juventus'u 4 yıl üst üste şampiyon yaptı.",
+      "Euro 2012'de İngiltere kalecisi Joe Hart'a attığı soğukkanlı 'Panenka' aşırtma penaltısıyla maçın kaderini değiştirdi.",
+      "'Futbol kafayla oynanır, ayaklar sadece birer araçtır' ve 'Ben yoksam parti başlamaz' felsefesiyle ikonlaştı.",
+      "'Mimar' ve 'Profesör' lakaplı, şarap tutkunu, sakallı, 21 numaralı İtalyan pas dehası."
+    ]
+  },
+  {
+    "id": "iniesta-andres",
+    "wikidataId": "Q44184",
+    "name": "Andrés Iniesta",
+    "aliases": [
+      "Iniesta",
+      "Andres Iniesta Lujan",
+      "Don Andres"
+    ],
+    "nationality": "İspanya",
+    "league": "BAE Ligi",
+    "club": "Emirates Club",
+    "position": "Orta Saha",
+    "birthYear": 1984,
+    "shirtNumber": 8,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2024,
+    "clues": [
+      "2009 Şampiyonlar Ligi yarı finalinde Chelsea deplasmanında 90+3'te ceza sahası dışından attığı mucizevi golle takımını finale taşıdı.",
+      "2010 Dünya Kupası finalinin 116. dakikasında Hollanda'ya galibiyet golünü atıp İspanya'yı tarihindeki ilk şampiyonluğa ulaştırdı.",
+      "Golden sonra formasını çıkarıp hayatını kaybeden arkadaşı Dani Jarque'ye adadığı tişörtü göstermesi tüm İspanya'yı ağlattı.",
+      "Barcelona'nın ünlü La Masia akademisinde yetişip Xavi ile birlikte tiki-taka futbolunu zirveye taşıdı.",
+      "'Don Andres' lakaplı, sahadaki zarafeti, kellik tarzı ve 8 numaralı formasıyla tanınan İspanyol orta saha sihirbazı."
+    ]
+  },
+  {
+    "id": "xavi-hernandez",
+    "wikidataId": "Q17500",
+    "name": "Xavi Hernández",
+    "aliases": [
+      "Xavi",
+      "Xavier Hernandez Creus",
+      "Xavi Hernandez"
+    ],
+    "nationality": "İspanya",
+    "league": "Katar Yıldızlar Ligi",
+    "club": "Al-Sadd",
+    "position": "Orta Saha",
+    "birthYear": 1980,
+    "shirtNumber": 6,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2019,
+    "clues": [
+      "Barcelona formasıyla çıktığı maçlarda %95'in üzerinde pas isabetiyle oynayarak futbolun pas istatistiğini yeniden tanımladı.",
+      "Top ayağındayken kendi ekseni etrafında 360 derece dönerek yaptığı 'La Pelopina' hareketiyle baskıdan sıyrılmada ustalaştı.",
+      "2008 ve 2012 Avrupa Şampiyonaları ile 2010 Dünya Kupası'nı kazanan İspanya Milli Takımı'nın sahadaki beyniydi.",
+      "Barcelona ile 4 kez Şampiyonlar Ligi ve 8 kez La Liga şampiyonluğu yaşadıktan sonra kulübün teknik direktörlüğünü de yaptı.",
+      "'Metronom' lakaplı, 6 numaralı formayı giyen ve modern futbolun en kusursuz pas dağıtıcısı kabul edilen İspanyol oyun kurucu."
+    ]
+  },
+  {
+    "id": "kaka",
+    "wikidataId": "Q43744",
+    "name": "Kaká",
+    "aliases": [
+      "Kaka",
+      "Ricardo Izecson dos Santos Leite",
+      "Ricardo Kaka"
+    ],
+    "nationality": "Brezilya",
+    "league": "MLS",
+    "club": "Orlando City",
+    "position": "Orta Saha",
+    "birthYear": 1982,
+    "shirtNumber": 22,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2017,
+    "clues": [
+      "18 yaşındayken havuz kazasında omurgasını kırıp felç kalma tehlikesi atlattı ancak mucizevi şekilde futbola döndü.",
+      "2007 Şampiyonlar Ligi yarı finalinde Old Trafford'da Manchester United savunmacıları Heinze ile Evra'yı birbirine çarptırarak attığı gol unutulmaz oldu.",
+      "2007'de Milan ile Şampiyonlar Ligi'ni kazanıp Messi ve Ronaldo'nun 10 yıllık hegemonyasından önce Ballon d'Or'u alan 'son insan' oldu.",
+      "Gollerden sonra ellerini ve gözlerini gökyüzüne kaldırarak tanrıya şükretmesi en bilinen hareketiydi.",
+      "Zarif dikine süratli driplingleri, efendi kişiliği ve Milan'daki 22 numaralı formasıyla tanınan Brezilyalı yıldız."
+    ]
+  },
+  {
+    "id": "puyol-carles",
+    "wikidataId": "Q17158",
+    "name": "Carles Puyol",
+    "aliases": [
+      "Puyol",
+      "Carles Puyol Saforcada",
+      "Aslan Yurek"
+    ],
+    "nationality": "İspanya",
+    "league": "La Liga",
+    "club": "Barcelona",
+    "position": "Defans",
+    "birthYear": 1978,
+    "shirtNumber": 5,
     "difficulty": "kolay",
     "status": "emekli",
     "retirementYear": 2014,
     "clues": [
-      "Kariyerinin başında Monaco'da kanat oyuncusu olarak parladıktan sonra Juventus'ta kısa ve verimsiz bir dönem geçirdi.",
-      "2003-2004 sezonunda Premier Lig'i namağlup şampiyon tamamlayan 'Yenilmezler' (Invincibles) kadrosunun lideriydi.",
-      "2009 Dünya Kupası play-off maçında İrlanda Cumhuriyeti'ne karşı topu eliyle düzelterek yaptığı asist dünya çapında büyük tartışma yarattı.",
-      "Arsenal tarihinin en çok gol atan oyuncusudur ve Emirates Stadyumu'nun önünde heykeli bulunmaktadır.",
-      "Sol çaprazdan uzak köşeye plase vuruşlarıyla özdeşleşen, 14 numaralı formasıyla efsaneleşen Fransız forvet."
+      "Bir El Clasico maçında tribünden kafasına atılan çakmağı alıp kenara fırlattı ve takım arkadaşlarına sadece oyuna odaklanmalarını emretti.",
+      "2010 Dünya Kupası yarı finalinde Almanya'ya kornerden gelen topa ceza sahası dışından koşup kafayla vurduğu golle İspanya'yı finale çıkardı.",
+      "2011 Şampiyonlar Ligi kupasını kanseri yenen takım arkadaşı Eric Abidal'in kaldırması için pazubendini ve kupayı ona devretti.",
+      "Tüm profesyonel kariyeri boyunca sadece Barcelona forması giydi ve 10 yıl boyunca takımın kaptanlığını yaptı.",
+      "'Aslan Yürek' ve 'Tarzan' lakaplı, uzun kıvırcık saçları, pes etmez savaşçı ruhu ve 5 numarasıyla tanınan İspanyol stoper."
     ]
   },
   {
-    "id": "drogba-didier",
-    "wikidataId": "Q48892",
-    "name": "Didier Drogba",
-    "aliases": ["Drogba", "Didier Drogba", "Didier Yves Drogba Tebily", "Parcalayici"],
-    "nationality": "Fildişi Sahili",
-    "league": "USL Championship",
-    "club": "Phoenix Rising",
-    "position": "Forvet",
+    "id": "gerrard-steven",
+    "wikidataId": "Q41533",
+    "name": "Steven Gerrard",
+    "aliases": [
+      "Gerrard",
+      "Steven George Gerrard",
+      "Stevie G"
+    ],
+    "nationality": "İngiltere",
+    "league": "MLS",
+    "club": "LA Galaxy",
+    "position": "Orta Saha",
+    "birthYear": 1980,
+    "shirtNumber": 8,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2016,
+    "clues": [
+      "2004 Şampiyonlar Ligi'nde Olympiakos'a son dakikalarda ceza sahası dışından attığı füzeyle takımını gruptan çıkardı.",
+      "2005 İstanbul'daki Şampiyonlar Ligi finalinde Milan karşısında 3-0'dan dönen tarihi mucizevi maçın ilk golünü atıp takımı ateşleyen kaptandı.",
+      "2014 yılında şampiyonluğa koşarken Chelsea maçında orta sahada ayağının kayıp düşmesi sonucu Demba Ba'nın attığı gol şampiyonluğa mal oldu.",
+      "Real Madrid ve Chelsea'nin astronomik tekliflerini reddederek çocukluk aşkı olan kulübünde 17 yıl oynadı.",
+      "'Stevie G' lakaplı, 8 numaralı forması ve 30 metreden attığı mermi gibi şutlarıyla Liverpool tarihinin simge kaptanı."
+    ]
+  },
+  {
+    "id": "lampard-frank",
+    "wikidataId": "Q41535",
+    "name": "Frank Lampard",
+    "aliases": [
+      "Lampard",
+      "Frank James Lampard",
+      "Super Frankie"
+    ],
+    "nationality": "İngiltere",
+    "league": "MLS",
+    "club": "New York City FC",
+    "position": "Orta Saha",
     "birthYear": 1978,
+    "shirtNumber": 8,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2016,
+    "clues": [
+      "West Ham altyapısında başlarken taraftarlar onun torpille oynadığını iddia etmişti; o ise tarihin en iyilerinden biri oldu.",
+      "Bir orta saha oyuncusu olmasına rağmen Chelsea tarihinin tüm zamanlardaki en golcü futbolcusu (211 gol) rekorunu kırdı.",
+      "2010 Dünya Kupası'nda Almanya'ya karşı vuruşu üst direğe çarpıp kale çizgisini 1 metre geçmesine rağmen hakem golü vermedi.",
+      "Premier Lig'de üst üste 10 sezon boyunca 10 ve üzeri gol atan tek orta saha oyuncusu oldu.",
+      "'Süper Frankie' lakaplı, ceza sahasına geç koşuları ve 8 numaralı formasıyla Chelsea efsanesi olan İngiliz orta saha."
+    ]
+  },
+  {
+    "id": "rooney-wayne",
+    "wikidataId": "Q266613",
+    "name": "Wayne Rooney",
+    "aliases": [
+      "Rooney",
+      "Wayne Mark Rooney",
+      "Wazza",
+      "Beyaz Pele"
+    ],
+    "nationality": "İngiltere",
+    "league": "Championship",
+    "club": "Derby County",
+    "position": "Forvet",
+    "birthYear": 1985,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2021,
+    "clues": [
+      "2002'de henüz 16 yaşındayken Everton formasıyla Arsenal'in 30 maçlık yenilmezlik serisini 90. dakikada attığı füzeyle bitirdi.",
+      "Manchester United formasıyla çıktığı ilk maçta Fenerbahçe'ye karşı Şampiyonlar Ligi'nde hat-trick yaptı.",
+      "2011'de Manchester City derbisinde Nani'nin ortasına sırtı kaleye dönükken vurduğu röveşata golü Premier Lig tarihinin en iyisi seçildi.",
+      "Bobby Charlton'ın rekorunu kırarak Manchester United tarihinin en çok gol atan oyuncusu (253 gol) oldu.",
+      "'Wazza' ve 'Beyaz Pele' lakaplı, boksör sevinci ve hırçın mücadeleci yapısıyla bilinen İngiliz 10 numara."
+    ]
+  },
+  {
+    "id": "aguero-sergio",
+    "wikidataId": "Q119562",
+    "name": "Sergio Agüero",
+    "aliases": [
+      "Aguero",
+      "Sergio Leonel Aguero",
+      "Kun Aguero",
+      "Kun"
+    ],
+    "nationality": "Arjantin",
+    "league": "La Liga",
+    "club": "Barcelona",
+    "position": "Forvet",
+    "birthYear": 1988,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2021,
+    "clues": [
+      "15 yaşındayken Arjantin Premier Ligi'nde Independiente ile maça çıkarak Maradona'nın en genç oynama rekorunu kırdı.",
+      "13 Mayıs 2012'de QPR maçının 93:20 dakikasında attığı golle Manchester City'ye 44 yıl sonra son saniyede şampiyonluğu getirdi.",
+      "Premier Lig'de yabancı bir futbolcu tarafından atılan en çok gol rekorunu (184 gol) elinde bulundurur.",
+      "2015'te Newcastle karşısında tek maçta sadece 20 dakikada 5 gol atarak lig rekoruna ortak oldu.",
+      "'Kun' lakaplı, 93:20 golüyle formasını çıkarıp sallamasıyla tarihe geçen ve Manchester City önünde heykeli dikilen Arjantinli forvet."
+    ]
+  },
+  {
+    "id": "bale-gareth",
+    "wikidataId": "Q184594",
+    "name": "Gareth Bale",
+    "aliases": [
+      "Bale",
+      "Gareth Frank Bale"
+    ],
+    "nationality": "Galler",
+    "league": "MLS",
+    "club": "Los Angeles FC",
+    "position": "Forvet",
+    "birthYear": 1989,
     "shirtNumber": 11,
     "difficulty": "kolay",
     "status": "emekli",
-    "retirementYear": 2018,
+    "retirementYear": 2023,
     "clues": [
-      "Marsilya formasıyla 2003-2004 UEFA Kupası'nda finale çıkarak Jose Mourinho'nun radarına girdi.",
-      "2006 Dünya Kupası'na katılma hakkı kazandıkları maçtan sonra soyunma odasında diz çöküp ülkesindeki iç savaşın durması için çağrıda bulundu.",
-      "2012 Şampiyonlar Ligi finalinde Bayern Münih'e 88. dakikada beraberlik golünü attı ve son penaltıyı gole çevirerek kupayı getirdi.",
-      "Galatasaray formasıyla Real Madrid'e topukla attığı gol ve Juventus maçındaki performansıyla taraftarın gönlünde taht kurdu.",
-      "Chelsea tarihinin en büyük efsanelerinden biri olan, 11 numaralı forması ve gücüyle tanınan Fildişi Sahilli dev forvet."
+      "Tottenham'da sol bek oynarken San Siro'da Inter'e yaptığı hat-trick ile Maicon'u sahadan silip dünyaca ünlü hücumcuya dönüştü.",
+      "2014 Kral Kupası finalinde Barcelona savunmacısı Bartra'yı saha dışından koşarak çalımlayıp attığı efsanevi sprint golüyle kupayı getirdi.",
+      "2018 Şampiyonlar Ligi finalinde Liverpool'a ceza sahası dışından attığı akıl almaz röveşatayla maça damga vurdu.",
+      "'Galler. Golf. Madrid. Bu sırada.' pankartıyla Real Madrid taraftarlarını çılgına çevirdi.",
+      "Topuz saçları, insanüstü hızlanması ve 11 numaralı formasıyla Real Madrid'de 5 Şampiyonlar Ligi kazanan Galli süper yıldız."
+    ]
+  },
+  {
+    "id": "hazard-eden",
+    "wikidataId": "Q165115",
+    "name": "Eden Hazard",
+    "aliases": [
+      "Hazard",
+      "Eden Michael Hazard"
+    ],
+    "nationality": "Belçika",
+    "league": "La Liga",
+    "club": "Real Madrid",
+    "position": "Forvet",
+    "birthYear": 1991,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2023,
+    "clues": [
+      "Fransa'da Lille'i genç yaşta Ligue 1 şampiyonu yaptıktan sonra Twitter'dan 'Avrupa şampiyonuna imza atıyorum' diyerek Chelsea'yi seçti.",
+      "Chelsea'de Arsenal'e kendi yarı sahasından Coquelin'i yere sererek attığı solo gol Premier Lig klasikleri arasına girdi.",
+      "2018 Dünya Kupası'nda Belçika'yı dünya üçüncüsü yaparken turnuvanın en çok başarılı çalım atan oyuncusu oldu.",
+      "Alçak ağırlık merkezi ve kalça dönüşleriyle rakiplerini tek hamlede saf dışı bırakan çalım stiliyle tanındı.",
+      "Chelsea'de 10 numarayı giyen, hamburger sevgisiyle bilinen ve 100 milyon Euro'ya Real Madrid'e transfer olan Belçikalı büyücü."
+    ]
+  },
+  {
+    "id": "robben-arjen",
+    "wikidataId": "Q43913",
+    "name": "Arjen Robben",
+    "aliases": [
+      "Robben",
+      "Arjen Robben"
+    ],
+    "nationality": "Hollanda",
+    "league": "Eredivisie",
+    "club": "Groningen",
+    "position": "Forvet",
+    "birthYear": 1984,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2021,
+    "clues": [
+      "2010 Şampiyonlar Ligi çeyrek finalinde Old Trafford'da Ribery'nin kornerine ceza sahası dışından gelişine vurduğu voleyle turu getirdi.",
+      "2013 Şampiyonlar Ligi finalinde Borussia Dortmund'a 89. dakikada attığı plase golle Bayern Münih'i Avrupa şampiyonu yaptı.",
+      "2014 Dünya Kupası'nda İspanya karşısında Sergio Ramos'u hız rekoru (37 km/s) kırarak geride bırakıp Iker Casillas'ı yere yatırarak gol attı.",
+      "Dünyadaki tüm savunmacıların ve kalecilerin ne yapacağını bildiği ama yine de engelleyemediği bir harekete sahipti.",
+      "Sağ kanattan topu sol ayağına çekip uzak köşeye vurma klasiğiyle özdeşleşen, kel ve hızlı Hollandalı açık oyuncusu."
+    ]
+  },
+  {
+    "id": "ribery-franck",
+    "wikidataId": "Q1928",
+    "name": "Franck Ribéry",
+    "aliases": [
+      "Ribery",
+      "Franck Henry Pierre Ribery",
+      "Bilal",
+      "Yarali Yuz",
+      "Scarface"
+    ],
+    "nationality": "Fransa",
+    "league": "Serie A",
+    "club": "Salernitana",
+    "position": "Forvet",
+    "birthYear": 1983,
+    "shirtNumber": 7,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2022,
+    "clues": [
+      "2005 yılında Galatasaray'a transfer oldu ve 5-1 kazanılan Türkiye Kupası finalinde Fenerbahçe'ye karşı gol atıp yıldızlaştı.",
+      "Maaşının ödenmemesi gerekçesiyle olaylı bir şekilde Galatasaray'dan kaçarak Marsilya'ya gitti.",
+      "Bayern Münih'te Arjen Robben ile birlikte 'Robbery' adını verdikleri Avrupa'nın en korkulan kanat ikilisini kurdu.",
+      "2013 yılında Bayern ile tüm kupaları kazanmasına rağmen Ballon d'Or'un Ronaldo'ya verilmesi futbol dünyasında büyük tartışma yarattı.",
+      "Çocukluğunda geçirdiği kaza sebebiyle yüzünün sağ tarafındaki derin yara izi ('Yaralı Yüz / Scarface') ile tanınan Fransız 7 numara."
+    ]
+  },
+  {
+    "id": "etoo-samuel",
+    "wikidataId": "Q12556",
+    "name": "Samuel Eto'o",
+    "aliases": [
+      "Etoo",
+      "Samuel Etoo Fils",
+      "Kara Panter"
+    ],
+    "nationality": "Kamerun",
+    "league": "Katar Yıldızlar Ligi",
+    "club": "Qatar SC",
+    "position": "Forvet",
+    "birthYear": 1981,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2019,
+    "clues": [
+      "Real Madrid altyapısında başladı ancak Mallorca'da parlayıp Barcelona'ya giderek ezeli rakibinin kabusu oldu.",
+      "2009'da Barcelona ile, 2010'da ise Mourinho yönetimindeki Inter ile üst üste iki farklı takımla üçleme (Treble) kazanan tarihteki tek oyuncudur.",
+      "Mourinho'nun Inter'inde sol bek gibi savunmaya yardım ederek Camp Nou'da Barcelona'yı eledikleri maç futbol taktik derslerine girdi.",
+      "Kariyerinin son döneminde Türkiye'de Antalyaspor ve Konyaspor formaları giydi.",
+      "'Kara Panter' lakaplı, 4 kez Afrika'da Yılın Futbolcusu seçilen 9 numaralı Kamerunlu gol efsanesi."
+    ]
+  },
+  {
+    "id": "kahn-oliver",
+    "wikidataId": "Q131261",
+    "name": "Oliver Kahn",
+    "aliases": [
+      "Kahn",
+      "Oliver Rolf Kahn",
+      "Titan",
+      "Vol-Kahn"
+    ],
+    "nationality": "Almanya",
+    "league": "Bundesliga",
+    "club": "Bayern Münih",
+    "position": "Kaleci",
+    "birthYear": 1969,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2008,
+    "clues": [
+      "Karlsruhe altyapısında yetişti ve 1994'te Bayern Münih kalesini devralarak 14 yıl boyunca oradan inmedi.",
+      "2001 Şampiyonlar Ligi finalinde Valencia karşısındaki seri penaltı atışlarında 3 penaltı kurtararak kupayı getirdi.",
+      "2002 Dünya Kupası'nda turnuvanın en iyi oyuncusu seçilerek Altın Top ödülünü kazanan tarihteki ilk ve tek kaleci oldu.",
+      "Kendi savunma oyuncularının yakasına yapışması ve forvetlere korku salan vahşi bakışlarıyla futbol tarihine geçti.",
+      "'Titan' lakaplı, sarı saçları ve agresif tavırlarıyla hatırlanan efsanevi Alman 1 numara."
     ]
   },
   {
     "id": "van-dijk-virgil",
     "wikidataId": "Q133903",
     "name": "Virgil van Dijk",
-    "aliases": ["Van Dijk", "Virgil van Dijk", "Virgil", "Van Dayk"],
+    "aliases": [
+      "Van Dijk",
+      "Virgil van Dijk",
+      "Virgil",
+      "Van Dayk"
+    ],
     "nationality": "Hollanda",
     "league": "Premier Lig",
     "club": "Liverpool",
     "position": "Defans",
     "birthYear": 1991,
     "shirtNumber": 4,
-    "difficulty": "orta",
+    "difficulty": "kolay",
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "Hollanda'da Willem II altyapısındayken profesyonel sözleşme teklif edilmeyince Groningen'e geçti.",
-      "Celtic formasıyla İskoçya'da parladıktan sonra Southampton üzerinden Premier Lig'in zirvesine yürüdü.",
-      "2018 başında 75 milyon Sterlin bedelle Liverpool'a transfer olarak o dönem bir savunma oyuncusuna ödenen en yüksek bonservis rekorunu kırdı.",
-      "2018-2019 sezonunda tam 65 maç boyunca hiçbir rakip futbolcu tarafından çalımlanamayarak inanılmaz bir istatistiğe imza attı.",
-      "Liverpool ile Şampiyonlar Ligi ve Premier Lig şampiyonlukları yaşayan, 4 numaralı Hollandalı stoper."
+      "Celtic ve Southampton formalarıyla İngiltere'de kendini kanıtladıktan sonra 75 milyon Sterlin'e transfer oldu.",
+      "2018-19 sezonunda tam 65 resmi maç boyunca Premier Lig ve Şampiyonlar Ligi'nde hiçbir rakip oyuncu tarafından çalımlanamadı.",
+      "2019 yılında Şampiyonlar Ligi'ni kazandı ve UEFA Yılın Futbolcusu seçilip Ballon d'Or'da Messi'nin hemen ardında 2. oldu.",
+      "Sahanın her yerini süzen sakin liderliği ve uzun kusursuz paslarıyla savunmayı sanata dönüştürdü.",
+      "Liverpool'un 4 numaralı Hollandalı savunma devi ve kaptanı."
     ]
   },
   {
     "id": "son-heung-min",
     "wikidataId": "Q439722",
     "name": "Son Heung-min",
-    "aliases": ["Son", "Son Heung-min", "Heung-min Son", "Sonny"],
+    "aliases": [
+      "Son",
+      "Son Heung-min",
+      "Heung-min Son",
+      "Sonny"
+    ],
     "nationality": "Güney Kore",
     "league": "Premier Lig",
     "club": "Tottenham Hotspur",
     "position": "Forvet",
     "birthYear": 1992,
     "shirtNumber": 7,
-    "difficulty": "orta",
+    "difficulty": "kolay",
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "16 yaşında ülkesinden ayrılarak Almanya'da Hamburg altyapısına katıldı ve Bundesliga'da adını duyurdu.",
-      "2018 Asya Oyunları'nda milli takımıyla altın madalya kazanarak ülkesindeki zorunlu uzun askerlik görevinden muafiyet kazandı.",
-      "2019 yılında Burnley'e karşı kendi ceza sahası önünden topu alıp neredeyse tüm sahayı çalımlarla geçerek attığı golle FIFA Puskás Ödülü'nü kazandı.",
-      "2021-2022 sezonunda hiç penaltı golü atmadan Premier Lig gol kralı (Altın Ayakkabı) olan ilk Asyalı futbolcu oldu.",
-      "Tottenham Hotspur'da 7 numarayı giyen, iki ayağını da mükemmel kullanan ve gol sevinçlerinde elleriyle 'fotoğraf makinesi vizörü' pozu veren yıldız."
+      "16 yaşında Almanya'ya gidip Hamburg ve Bayer Leverkusen formalarıyla Bundesliga'da adını duyurdu.",
+      "2018 Asya Oyunları'nda altın madalya kazanarak ülkesindeki zorunlu uzun askerlik görevinden kıl payı muaf oldu.",
+      "2019'da Burnley'e karşı kendi ceza sahasından başlayıp tüm sahayı 12 saniyede çalımlarla geçerek attığı golle Puskás Ödülü kazandı.",
+      "2021-22 sezonunda hiç penaltı atmadan Premier Lig gol kralı (Altın Ayakkabı) olan ilk Asyalı futbolcu oldu.",
+      "'Sonny' lakaplı, elleriyle 'fotoğraf vizörü' pozu vererek gol sevinci yaşayan Tottenham'ın 7 numaralı yıldızı."
     ]
   },
   {
     "id": "vardy-jamie",
     "wikidataId": "Q6147586",
     "name": "Jamie Vardy",
-    "aliases": ["Vardy", "Jamie Vardy", "Jamie Richard Vardy"],
+    "aliases": [
+      "Vardy",
+      "Jamie Vardy",
+      "Jamie Richard Vardy"
+    ],
     "nationality": "İngiltere",
     "league": "Premier Lig",
     "club": "Leicester City",
     "position": "Forvet",
     "birthYear": 1987,
     "shirtNumber": 9,
-    "difficulty": "orta",
+    "difficulty": "kolay",
     "status": "aktif",
     "retirementYear": null,
     "clues": [
-      "25 yaşına kadar İngiltere'nin yarı profesyonel amatör liglerinde oynarken aynı zamanda bir fabrikada medikal teknisyeni olarak çalıştı.",
-      "2012 yılında amatör küme ekibi Fleetwood Town'dan 1 milyon Sterlin'e transfer edilerek amatör lig transfer rekorunu kırdı.",
-      "2015-2016 sezonunda Premier Lig'de üst üste 11 maçta gol atarak Ruud van Nistelrooy'un lig rekorunu tarihe gömdü.",
-      "5000'e 1 oran verilen sezonda takımıyla Premier Lig şampiyonluğu yaşayarak futbol tarihinin en büyük peri masalını yazdı.",
-      "Leicester City'nin 9 numaralı golcüsü olan, korner bayrağını tekmeleyerek yaptığı gol sevinçleriyle ünlü İngiliz forvet."
+      "25 yaşına kadar amatör liglerde oynarken aynı zamanda bir fabrikada protez teknisyeni olarak çalışıyordu.",
+      "2015-16 sezonunda Premier Lig'de üst üste 11 maçta gol atarak Ruud van Nistelrooy'un lig rekorunu kırdı.",
+      "1'e 5000 oran verilen sezonda Leicester City ile Premier Lig şampiyonluğu yaşayarak futbol tarihinin en büyük peri masalını yazdı.",
+      "Maçlardan önce Red Bull ve espresso içtiğini açıklayan sıradışı beslenme tarzıyla gündem oldu.",
+      "Korner direğini tekmeleyerek yaptığı gol sevinçleri ve hırçın tarzıyla ünlü Leicester City'nin 9 numaralı İngiliz forveti."
     ]
   },
   {
     "id": "quaresma-ricardo",
     "wikidataId": "Q188241",
     "name": "Ricardo Quaresma",
-    "aliases": ["Quaresma", "Ricardo Quaresma", "Ricardo Andrade Quaresma Bernardo", "Q7", "Trivela Ustasi"],
+    "aliases": [
+      "Quaresma",
+      "Ricardo Quaresma",
+      "Q7",
+      "Trivela Ustasi"
+    ],
     "nationality": "Portekiz",
     "league": "Liga Portugal",
     "club": "Vitória Guimarães",
     "position": "Forvet",
     "birthYear": 1983,
     "shirtNumber": 7,
-    "difficulty": "orta",
+    "difficulty": "kolay",
     "status": "emekli",
     "retirementYear": 2022,
     "clues": [
-      "Sporting Lizbon altyapısında Cristiano Ronaldo ile birlikte yükseldi ve gençlik yıllarında geleceği ondan daha parlak olarak gösterildi.",
-      "Barcelona, Inter ve Chelsea gibi dev kulüplerde oynasa da en istikrarlı dönemlerini Porto'da geçirdi.",
-      "Euro 2016 finalinde sakatlanan kaptanının yerine oyuna girerek Portekiz'in Avrupa şampiyonluğunda pay sahibi oldu.",
-      "Ayağının dışıyla yaptığı inanılmaz ortalar ve şutlar futbol lügatına 'Trivela' markası olarak kazındı.",
-      "Beşiktaş'ta taraftarın sevgilisi olan, rabona ve trivela hareketlerinin dünyadaki en ikonik temsilcisi Portekizli yıldız."
+      "Sporting altyapısında Cristiano Ronaldo ile birlikte oynarken o dönem ondan bile daha yetenekli olarak gösteriliyordu.",
+      "Barcelona, Inter ve Chelsea gibi dev kulüplerde oynasa da en ikonik dönemlerini Porto ve Süper Lig'de yaşadı.",
+      "Euro 2016 finalinde sakatlanan Ronaldo'nun yerine oyuna girip Portekiz'in şampiyonluğunda büyük pay sahibi oldu.",
+      "Ayak dışıyla yaptığı inanılmaz ortalar ve şutlar futbol dünyasında onun adıyla anılan bir marka haline geldi.",
+      "'Q7' lakaplı, trivela ve rabona hareketlerinin dünyadaki en büyük temsilcisi olan Beşiktaş'ın unutulmaz Portekizli yıldızı."
     ]
   },
   {
-    "id": "okocha-jay-jay",
-    "wikidataId": "Q605817",
-    "name": "Jay-Jay Okocha",
-    "aliases": ["Okocha", "Jay-Jay Okocha", "Jay Jay Okocha", "Augustine Azuka Okocha", "Muhammed Yavuz"],
-    "nationality": "Nijerya",
-    "league": "Championship",
-    "club": "Hull City",
+    "id": "sneijder-wesley",
+    "wikidataId": "Q184542",
+    "name": "Wesley Sneijder",
+    "aliases": [
+      "Sneijder",
+      "Wesley Benjamin Sneijder",
+      "Sniper"
+    ],
+    "nationality": "Hollanda",
+    "league": "Katar Yıldızlar Ligi",
+    "club": "Al-Gharafa",
     "position": "Orta Saha",
-    "birthYear": 1973,
+    "birthYear": 1984,
     "shirtNumber": 10,
-    "difficulty": "zor",
+    "difficulty": "kolay",
     "status": "emekli",
-    "retirementYear": 2008,
+    "retirementYear": 2019,
     "clues": [
-      "1993 yılında Eintracht Frankfurt forması giyerken Karlsruher kalesini koruyan efsane Oliver Kahn'ı çalımdan çalıma sokarak attığı gol Bundesliga tarihinin en güzel golü seçildi.",
-      "1996 Atlanta Olimpiyatları'nda Brezilya ve Arjantin'i devirerek altın madalya kazanan efsanevi Afrika karmasının beyniydi.",
-      "Paris Saint-Germain'e transfer olduğunda genç Ronaldinho'ya akıl hocalığı yaptı ve top cambazlığı hareketlerini ona öğretti.",
-      "Türkiye'de oynadığı dönemde Türk vatandaşlığına geçerek 'Muhammed Yavuz' adını aldı.",
-      "Fenerbahçe ve Bolton Wanderers'ta 10 numarayı giyen, 'O kadar iyi ki adını iki kez koymuşlar' şarkısıyla anılan Nijeryalı çalım ustası."
+      "2010 yılında Jose Mourinho'nun Inter'i ile üçleme (Treble) kazandı ve aynı yıl Hollanda ile Dünya Kupası finali oynadı.",
+      "2010 Ballon d'Or ödülünü alamaması ödül tarihinin en büyük haksızlıklarından biri olarak kabul edildi.",
+      "Galatasaray formasıyla Juventus'a karlı havada 85. dakikada attığı golle takımını Şampiyonlar Ligi son 16'sına taşıdı.",
+      "Fenerbahçe derbisinde Volkan Demirel'e ceza sahası dışından attığı iki füze golüyle derbi tarihine geçti.",
+      "'Sniper' lakaplı, iki ayağıyla da mükemmel şut atan, 'Fener Ağlama' tezahüratıyla özdeşleşen Galatasaray'ın 10 numaralı Hollandalısı."
     ]
   },
   {
-    "id": "juninho-pernambucano",
-    "wikidataId": "Q203451",
-    "name": "Juninho Pernambucano",
-    "aliases": ["Juninho", "Juninho Pernambucano", "Antonio Augusto Ribeiro Reis Junior"],
+    "id": "van-persie-robin",
+    "wikidataId": "Q2339",
+    "name": "Robin van Persie",
+    "aliases": [
+      "Van Persie",
+      "Robin van Persie",
+      "RVP",
+      "Ucan Hollandali"
+    ],
+    "nationality": "Hollanda",
+    "league": "Eredivisie",
+    "club": "Feyenoord",
+    "position": "Forvet",
+    "birthYear": 1983,
+    "shirtNumber": 11,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2019,
+    "clues": [
+      "Feyenoord ile UEFA Kupası kazandıktan sonra Arsenal'de 8 sezon boyunca Henry'nin halefi olarak oynadı.",
+      "Manchester United'a transfer olduğu ilk sezonda Aston Villa'ya attığı gelişine efsanevi vole golüyle lig şampiyonluğunu ilan etti.",
+      "2014 Dünya Kupası'nda İspanya karşısında ceza sahasına uçarak kafayla attığı gol 'Uçan Hollandalı' tabirini görselleştirdi.",
+      "Hollanda Milli Takımı tarihinin en çok gol atan futbolcusu (50 gol) unvanını elinde bulundurur.",
+      "2015 yılında Fenerbahçe'ye büyük sansasyonla transfer olan, 'RVP' lakaplı ölümcül sol ayaklı Hollandalı santrfor."
+    ]
+  },
+  {
+    "id": "pepe-kepler",
+    "wikidataId": "Q485697",
+    "name": "Pepe",
+    "aliases": [
+      "Pepe",
+      "Kepler Laveran de Lima Ferreira"
+    ],
+    "nationality": "Portekiz",
+    "league": "Liga Portugal",
+    "club": "Porto",
+    "position": "Defans",
+    "birthYear": 1983,
+    "shirtNumber": 3,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2024,
+    "clues": [
+      "2009'da Getafe maçında Casquero'ya yerde tekme atması sonucu 10 maç ceza alarak futbol dünyasında büyük infial yarattı.",
+      "Real Madrid'de Sergio Ramos ile birlikte kurduğu sert ve geçilmez stoper tandemiyle 3 Şampiyonlar Ligi kazandı.",
+      "Euro 2016 finalinde maçın adamı seçilerek Portekiz'in Avrupa şampiyonluğunda savunma duvarı oldu.",
+      "41 yaşında Euro 2024'te ilk 11 oynayarak Avrupa Şampiyonası tarihinin en yaşlı oyuncusu rekorunu kırdı.",
+      "Real Madrid ve Beşiktaş formalarıyla taraftarın sevgilisi olan, kazıtılmış kafası ve sert müdahaleleriyle ünlü Portekizli stoper."
+    ]
+  },
+  {
+    "id": "gomez-mario",
+    "wikidataId": "Q44253",
+    "name": "Mario Gomez",
+    "aliases": [
+      "Mario Gomez",
+      "Gomez",
+      "Mario Gomez Garcia",
+      "Cha Cha"
+    ],
+    "nationality": "Almanya",
+    "league": "Bundesliga",
+    "club": "Stuttgart",
+    "position": "Forvet",
+    "birthYear": 1985,
+    "shirtNumber": 33,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2020,
+    "clues": [
+      "Stuttgart'ı 2007'de sürpriz şekilde Bundesliga şampiyonu yaptıktan sonra Bayern Münih'e o dönemin rekor bedeliyle transfer oldu.",
+      "Bayern Münih ile 2013'te tarihi üçlemeyi (Treble) kazanarak Şampiyonlar Ligi kupasını kaldırdı.",
+      "2015-16 sezonunda kiralık geldiği Beşiktaş'ta 26 gol atarak Süper Lig gol kralı oldu ve takımı şampiyon yaptı.",
+      "Beşiktaş'ın yeni stadyumu Vodafone Park'ta atılan tarihteki ilk resmi golü Bursaspor karşısında kaydetti.",
+      "Gollerinden sonra çalan meşhur 'Cha Cha' şarkısıyla özdeşleşen, hava toplarındaki ustalığıyla ünlü Alman santrfor."
+    ]
+  },
+  {
+    "id": "anelka-nicolas",
+    "wikidataId": "Q1929",
+    "name": "Nicolas Anelka",
+    "aliases": [
+      "Anelka",
+      "Nicolas Sebastien Anelka",
+      "Le Sulk",
+      "Abdul-Salam Bilal"
+    ],
+    "nationality": "Fransa",
+    "league": "Hindistan Süper Ligi",
+    "club": "Mumbai City",
+    "position": "Forvet",
+    "birthYear": 1979,
+    "shirtNumber": 39,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2015,
+    "clues": [
+      "Henüz 20 yaşındayken Arsenal'den Real Madrid'e astronomik bir bedelle transfer oldu ve Şampiyonlar Ligi şampiyonu oldu.",
+      "Kariyerinde PSG, Arsenal, Real Madrid, Liverpool, Manchester City, Chelsea ve Juventus gibi birçok dev takımda oynadı.",
+      "2005 yılında Fenerbahçe'ye transfer oldu ve lig şampiyonluğunda büyük katkı sağlayıp İnönü'de Beşiktaş'a unutulmaz bir aşırtma gol attı.",
+      "2010 Dünya Kupası'nda teknik direktör Domenech ile devre arasında ettiği küfürlü kavga sonrası Fransa kampından kovuldu.",
+      "'Le Sulk' lakaplı, genellikle 39 numarayı giyen ve elleriyle kartal/kelebek kanadı sevinci yapan gezgin Fransız forvet."
+    ]
+  },
+  {
+    "id": "guti-hernandez",
+    "wikidataId": "Q185542",
+    "name": "Guti Hernández",
+    "aliases": [
+      "Guti",
+      "Jose Maria Gutierrez Hernandez",
+      "Guti Hernandez"
+    ],
+    "nationality": "İspanya",
+    "league": "Süper Lig",
+    "club": "Beşiktaş",
+    "position": "Orta Saha",
+    "birthYear": 1976,
+    "shirtNumber": 14,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2011,
+    "clues": [
+      "Real Madrid altyapısında yetişti ve 15 yıl boyunca efsane 'Galacticos' kadrosunun gizli beyni olarak oynadı.",
+      "Deportivo Riazor deplasmanında kaleciyle karşı karşıyayken kaleye vurmak yerine arkasındaki Benzema'ya yaptığı kör topuk asisti futbol tarihine geçti.",
+      "2006'da Sevilla maçında Zidane'a yaptığı bir diğer sihirli topuk asisti hala tüm dünyada izlenmektedir.",
+      "2010 yılında Bernd Schuster yönetimindeki Beşiktaş'a transfer olarak Türkiye'de büyük yankı uyandırdı.",
+      "Sarı uzun saçları, zarif tek dokunuş pasları ve 14 numaralı formasıyla tanınan İspanyol orta saha dehası."
+    ]
+  },
+  {
+    "id": "falcao-radamel",
+    "wikidataId": "Q172380",
+    "name": "Radamel Falcao",
+    "aliases": [
+      "Falcao",
+      "Radamel Falcao Garcia Zarate",
+      "El Tigre"
+    ],
+    "nationality": "Kolombiya",
+    "league": "Kolombiya Ligi",
+    "club": "Millonarios",
+    "position": "Forvet",
+    "birthYear": 1986,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "2011'de Porto ile, 2012'de ise Atletico Madrid ile üst üste iki yıl UEFA Avrupa Ligi'ni kazanıp iki finalde de gol kralı oldu.",
+      "2012 UEFA Süper Kupa finalinde Şampiyonlar Ligi şampiyonu Chelsea'ye karşı ilk yarıda hat-trick yaparak maçı 4-1'le yıktı.",
+      "Dönemin Barcelona teknik direktörü Guardiola onun için 'Ceza sahası içinde dünyada ondan daha iyisi yok' dedi.",
+      "2019 yılında Galatasaray'a transfer olduğunda İstanbul Atatürk Havalimanı'nda 25 binden fazla taraftar tarafından karşılandı.",
+      "'El Tigre' (Kaplan) lakaplı, kafa vuruşlarındaki olağanüstü zamanlamasıyla ünlü Kolombiyalı 9 numara."
+    ]
+  },
+  {
+    "id": "ozil-mesut",
+    "wikidataId": "Q47158",
+    "name": "Mesut Özil",
+    "aliases": [
+      "Ozil",
+      "Mesut Ozil"
+    ],
+    "nationality": "Almanya",
+    "league": "Süper Lig",
+    "club": "İstanbul Başakşehir",
+    "position": "Orta Saha",
+    "birthYear": 1988,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2023,
+    "clues": [
+      "2010 Dünya Kupası'nda Almanya ile turnuvanın en iyi genç oyuncularından biri olup Real Madrid'e transfer oldu.",
+      "Mourinho döneminde Real Madrid'de Cristiano Ronaldo'ya attırdığı onlarca golle Avrupa'nın en çok asist yapan oyuncusu oldu.",
+      "Arsenal'de Ludogorets'e karşı kaleciyi ve iki savunmacıyı sırayla yere yatırıp attığı Şampiyonlar Ligi golü sanat eseri seçildi.",
+      "2014 Dünya Kupası şampiyonluğu yaşadıktan sonra Almanya Futbol Federasyonu ile yaşadığı ırkçılık polemiği sonrası milli takımı bıraktı.",
+      "'Asist Kralı' lakaplı, gol sevinçlerinde 'M' işareti yapan, çocukluk aşkı Fenerbahçe'de de forma giyen Türk asıllı 10 numara."
+    ]
+  },
+  {
+    "id": "demba-ba",
+    "wikidataId": "Q213454",
+    "name": "Demba Ba",
+    "aliases": [
+      "Demba Ba"
+    ],
+    "nationality": "Senegal",
+    "league": "İsviçre Süper Ligi",
+    "club": "Lugano",
+    "position": "Forvet",
+    "birthYear": 1985,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2021,
+    "clues": [
+      "Hoffenheim ve Newcastle United'da attığı gollerle Premier Lig'in en korkulan santrforlarından birine dönüştü.",
+      "2014'te Anfield'da Steven Gerrard'ın ayağının kayıp düşmesiyle topu kapıp Liverpool ağlarına bıraktığı gol Premier Lig tarihine geçti.",
+      "2014-15 sezonunda Beşiktaş formasıyla çıktığı ilk maç olan Feyenoord deplasmanında ve rövanşta hat-trick yaptı.",
+      "Arsenal maçının santrasından neredeyse 50 metreden Szczesny'nin kalesine vurduğu top üst direkte patladı.",
+      "Başakşehir ile Süper Lig şampiyonluğu yaşayan, Manchester United'ı yıkan golü atan Senegal asıllı forvet."
+    ]
+  },
+  {
+    "id": "talisca-anderson",
+    "wikidataId": "Q8088019",
+    "name": "Anderson Talisca",
+    "aliases": [
+      "Talisca",
+      "Anderson Souza Conceicao"
+    ],
+    "nationality": "Brezilya",
+    "league": "Suudi Profesyonel Ligi",
+    "club": "Al-Nassr",
+    "position": "Orta Saha",
+    "birthYear": 1994,
+    "shirtNumber": 94,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Benfica'dan kiralık geldiği Beşiktaş'ta, Şampiyonlar Ligi'nde eski takımı Benfica'ya 90+3'te serbest vuruştan beraberlik golünü attı.",
+      "İnanılmaz uzun bacakları ve esnek vücut yapısı sebebiyle 'Yılan' lakabıyla çağrıldı.",
+      "Ceza sahası dışından sol ayağıyla köşelere gönderdiği füze gibi frikik ve uzaktan şutlarla kalecilerin kabusu oldu.",
+      "Beşiktaş'ın 2016-17 sezonundaki lig şampiyonluğunda ve Şampiyonlar Ligi'nde namağlup gruptan çıkmasında başrol oynadı.",
+      "Sarıya boyattığı saçları ve sol ayağının müthiş gücüyle tanınan, Al-Nassr'da Cristiano Ronaldo ile birlikte oynayan Brezilyalı hücumcu."
+    ]
+  },
+  {
+    "id": "kuyt-dirk",
+    "wikidataId": "Q167790",
+    "name": "Dirk Kuyt",
+    "aliases": [
+      "Kuyt",
+      "Dirk Kuijt"
+    ],
+    "nationality": "Hollanda",
+    "league": "Eredivisie",
+    "club": "Feyenoord",
+    "position": "Forvet",
+    "birthYear": 1980,
+    "shirtNumber": 11,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2017,
+    "clues": [
+      "Liverpool'da Manchester United derbisinde yaptığı tarihi hat-trick ile kulüp efsaneleri arasına girdi.",
+      "2010 Dünya Kupası finalinde Hollanda'nın ilk 11'inde yer aldı; forvetten sağ beke kadar her mevkide görev yaptı.",
+      "2012 yılında Fenerbahçe'ye transfer oldu ve bitmek bilmeyen enerjisi, hırsı ve takım oyunculuğuyla taraftarın sevgilisi oldu.",
+      "Kariyerinin son maçında Feyenoord ile hat-trick yaparak kulübüne 18 yıl sonra lig şampiyonluğu kazandırıp futbolu bıraktı.",
+      "Sarı lüle saçları ve hiç yorulmayan ciğerleriyle tanınan, 'Çalışkan İşçi' lakaplı Hollandalı forvet."
+    ]
+  },
+  {
+    "id": "melo-felipe",
+    "wikidataId": "Q167824",
+    "name": "Felipe Melo",
+    "aliases": [
+      "Melo",
+      "Felipe Melo de Carvalho",
+      "Pitbull"
+    ],
     "nationality": "Brezilya",
     "league": "Brezilya Serie A",
-    "club": "Vasco da Gama",
+    "club": "Fluminense",
     "position": "Orta Saha",
-    "birthYear": 1975,
-    "shirtNumber": 8,
-    "difficulty": "zor",
-    "status": "emekli",
-    "retirementYear": 2013,
+    "birthYear": 1983,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
     "clues": [
-      "Brezilya'da Recife doğumlu olduğu için eyaletinin adını lakap olarak aldı ve Vasco da Gama ile 1998 Copa Libertadores şampiyonluğu yaşadı.",
-      "2001-2008 yılları arasında formasını giydiği Fransız kulübü Lyon'un üst üste 7 yıl Ligue 1 şampiyonu olduğu altın çağın tartışmasız lideriydi.",
-      "Oliver Kahn ve Iker Casillas gibi dönemin en iyi kalecilerine 35-40 metreden akıl almaz goller attı.",
-      "Geliştirdiği 'ölü yaprak' (knuckleball) tekniğiyle topa falso vermeden havada öngörülemez şekilde dalış yaptırma tekniğinin öncüsü oldu.",
-      "Kariyerinde kaydettiği 77 resmi frikik golüyle futbol tarihinin gelmiş geçmiş en büyük frikik ustası kabul edilen Brezilyalı 8 numara."
+      "Fiorentina'daki müthiş performansı sonrası 25 milyon Euro'ya Juventus'a transfer oldu.",
+      "2010 Dünya Kupası çeyrek finalinde Hollandalı Robben'in bacağına basarak kırmızı kart gördü ve elenmenin sorumlusu ilan edildi.",
+      "Galatasaray'da 2012 Elazığspor maçında Muslera kırmızı kart görünce kaleye geçti ve 90. dakikada penaltı kurtardı.",
+      "Gollerden ve kazanılan ikili mücadelelerden sonra dizlerinin üstüne çöküp ellerini yere vurarak 'Pitbull' taklidi yapardı.",
+      "'Komutan' ve 'Pitbull' lakaplı, sertliği ve hırsıyla Galatasaray tarihine geçen dövmeli Brezilyalı ön libero."
+    ]
+  },
+  {
+    "id": "taffarel-claudio",
+    "wikidataId": "Q203713",
+    "name": "Cláudio Taffarel",
+    "aliases": [
+      "Taffarel",
+      "Claudio Andre Mergen Taffarel"
+    ],
+    "nationality": "Brezilya",
+    "league": "Serie A",
+    "club": "Parma",
+    "position": "Kaleci",
+    "birthYear": 1966,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2003,
+    "clues": [
+      "1994 Dünya Kupası finalinde İtalya karşısındaki seri penaltılarda Baresi ve Massaro'nun atışlarında devleşip Brezilya'yı şampiyon yaptı.",
+      "1998 Dünya Kupası yarı finalinde Hollanda karşısında seri penaltılarda iki penaltı çıkararak Brezilya'yı yine finale taşıdı.",
+      "2000 UEFA Kupası finalinin uzatma dakikalarında Thierry Henry'nin 90'a giden kafa vuruşunu inanılmaz bir refleksle çıkardı.",
+      "Galatasaray'ın 2000 yılında UEFA Kupası ve Süper Kupa'yı kazanan tarihi kadrosunun 1 numaralı kalesiydi.",
+      "Centilmenliği, sempatik gülüşü ve 'Kutsal Eldiven' lakabıyla tanınan efsanevi Brezilyalı kaleci."
+    ]
+  },
+  {
+    "id": "yilmaz-burak",
+    "wikidataId": "Q312488",
+    "name": "Burak Yılmaz",
+    "aliases": [
+      "Burak Yilmaz",
+      "Kral"
+    ],
+    "nationality": "Türkiye",
+    "league": "Eredivisie",
+    "club": "Fortuna Sittard",
+    "position": "Forvet",
+    "birthYear": 1985,
+    "shirtNumber": 17,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2023,
+    "clues": [
+      "Beşiktaş, Fenerbahçe, Trabzonspor ve Galatasaray'ın (Dört Büyükler) dördünde birden forma giyen çok az futbolcudan biridir.",
+      "Galatasaray formasıyla 2012-13 Şampiyonlar Ligi'nde Cristiano Ronaldo ile birlikte 8 golle zirveyi paylaştı.",
+      "35 yaşındayken transfer olduğu Fransız kulübü Lille'i PSG'nin önünde Ligue 1 şampiyonu yaparak Fransa'da kahraman ilan edildi.",
+      "Süper Lig'de iki farklı takımda (Trabzonspor ve Galatasaray) gol kralı oldu.",
+      "'Kral' lakaplı, 17 numaralı forması ve defans arkasına yaptığı patlayıcı koşularla bilinen milli santrfor."
+    ]
+  },
+  {
+    "id": "turan-arda",
+    "wikidataId": "Q206413",
+    "name": "Arda Turan",
+    "aliases": [
+      "Arda Turan",
+      "Koca Kafa"
+    ],
+    "nationality": "Türkiye",
+    "league": "Süper Lig",
+    "club": "Galatasaray",
+    "position": "Orta Saha",
+    "birthYear": 1987,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2022,
+    "clues": [
+      "Euro 2008'de İsviçre'ye sağanak yağmur altında attığı son dakika golüyle Türkiye'nin yarı final mucizesini başlattı.",
+      "Diego Simeone'nin Atletico Madrid'i ile 2014 yılında Real Madrid ve Barcelona'yı geçerek La Liga şampiyonu oldu.",
+      "Bir Kral Kupası maçında hakemin kararına sinirlenip ayağından çıkan kramponunu yan hakeme doğru fırlattı.",
+      "2015 yazında 34 milyon Euro bedelle Barcelona'ya transfer olarak tarihin en pahalı Türk futbolcusu oldu.",
+      "Bayrampaşa'da yetişen, 'Koca Kafa' lakaplı, Galatasaray'da kaptanlık yapmış 10 numaralı Türk yıldız."
+    ]
+  },
+  {
+    "id": "belozoglu-emre",
+    "wikidataId": "Q207436",
+    "name": "Emre Belözoğlu",
+    "aliases": [
+      "Emre Belozoglu",
+      "Emre"
+    ],
+    "nationality": "Türkiye",
+    "league": "Süper Lig",
+    "club": "Fenerbahçe",
+    "position": "Orta Saha",
+    "birthYear": 1980,
+    "shirtNumber": 5,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2020,
+    "clues": [
+      "16 yaşında Fatih Terim tarafından Galatasaray A takımına alındı ve 2000 UEFA Kupası'nı kazanan kadroda parladı.",
+      "2001'de Inter'e transfer oldu ve İtalya Serie A'da 'Yılın Futbolcusu' ödüllerinde üst sıralarda yer aldı.",
+      "2002 Dünya Kupası'nda dünya üçüncüsü olan Türk Milli Takımı'nın orta sahadaki dinamosuydu.",
+      "Newcastle United ve Atletico Madrid maceralarından sonra Fenerbahçe'de uzun yıllar kaptanlık pazubendini taktı.",
+      "Sol ayağının müthiş pas kalitesi ve sahadaki aşırı hırçın, kavgacı yapısıyla tanınan 5 numaralı Türk orta saha."
+    ]
+  },
+  {
+    "id": "demirel-volkan",
+    "wikidataId": "Q215467",
+    "name": "Volkan Demirel",
+    "aliases": [
+      "Volkan Demirel",
+      "Kadikoy Panteri",
+      "Ayibogan"
+    ],
+    "nationality": "Türkiye",
+    "league": "Süper Lig",
+    "club": "Fenerbahçe",
+    "position": "Kaleci",
+    "birthYear": 1981,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2019,
+    "clues": [
+      "Kartalspor'dan transfer olduğu Fenerbahçe'de tam 17 yıl boyunca forma giydi ve efsane kaptan oldu.",
+      "2008 Şampiyonlar Ligi son 16 turunda Sevilla deplasmanında iki hatalı gol yemesine rağmen seri penaltılarda 3 penaltı kurtararak çeyrek finali getirdi.",
+      "Euro 2008'de Çek Cumhuriyeti maçının son dakikalarında Jan Koller'i iterek kırmızı kart gördü ve Tuncay Şanlı kaleye geçti.",
+      "Derbilerde Galatasaray taraftarıyla yaşadığı unutulmaz gerginlikler ve Sabri Sarıoğlu ile tartışmalarıyla lig tarihine geçti.",
+      "'Kadıköy Panteri' lakaplı, 1.91 boyunda, kaslı fiziği ve liderliğiyle bilinen Fenerbahçe'nin 1 numaralı kalecisi."
+    ]
+  },
+  {
+    "id": "recber-rustu",
+    "wikidataId": "Q206410",
+    "name": "Rüştü Reçber",
+    "aliases": [
+      "Rustu Recber",
+      "Rustu"
+    ],
+    "nationality": "Türkiye",
+    "league": "Süper Lig",
+    "club": "Beşiktaş",
+    "position": "Kaleci",
+    "birthYear": 1973,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2012,
+    "clues": [
+      "Antalyaspor'dan sonra Fenerbahçe'de parladı ve 2003 yılında Frank Rijkaard tarafından Barcelona'ya transfer edildi.",
+      "2002 Dünya Kupası'nda yaptığı inanılmaz kurtarışlarla turnuvanın en iyi kalecileri arasında yer alıp dünya üçüncüsü oldu.",
+      "Gözlerinin altına sürdüğü siyah parlamayı önleyici savaş boyası onun dünya çapında imzası haline geldi.",
+      "Euro 2008 çeyrek finalinde Hırvatistan maçında son dakika hatası yapsa da penaltılarda Petric'in vuruşunu kurtararak yarı finale taşıdı.",
+      "Uzun saçları, göz altı siyah boyası ve ceza sahasındaki cesur kurtarışlarıyla tanınan efsanevi Türk kaleci."
+    ]
+  },
+  {
+    "id": "calhanoglu-hakan",
+    "wikidataId": "Q1370002",
+    "name": "Hakan Çalhanoğlu",
+    "aliases": [
+      "Hakan Calhanoglu",
+      "Calhanoglu"
+    ],
+    "nationality": "Türkiye",
+    "league": "Serie A",
+    "club": "Inter",
+    "position": "Orta Saha",
+    "birthYear": 1994,
+    "shirtNumber": 20,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Hamburg forması giyerken Dortmund maçında Jurgen Klopp'un gözleri önünde tam 41 metreden attığı akıl almaz frikikle dünyayı sarstı.",
+      "Milan'dan doğrudan şehirdeki ezeli rakibi Inter'e transfer olarak İtalya'da büyük yankı uyandırdı.",
+      "Inter ile 2023 yılında Şampiyonlar Ligi finali oynadı ve 2024 yılında İtalya Serie A şampiyonluğu yaşadı.",
+      "Topun sibobuna vurarak geliştirdiği knuckleball (ölü yaprak) frikik tekniğiyle dünyanın en iyi duran top ustalarından sayıldı.",
+      "Türkiye A Milli Takımı kaptanı olan, Serie A'da Inter'in 20 numaralı beyni olan frikik ustası."
+    ]
+  },
+  {
+    "id": "guler-arda",
+    "wikidataId": "Q108255301",
+    "name": "Arda Güler",
+    "aliases": [
+      "Arda Guler",
+      "Guler",
+      "Altin Cocuk"
+    ],
+    "nationality": "Türkiye",
+    "league": "La Liga",
+    "club": "Real Madrid",
+    "position": "Orta Saha",
+    "birthYear": 2005,
+    "shirtNumber": 15,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Gençlerbirliği altyapısından Fenerbahçe'ye geldi ve 17 yaşında 10 numaralı efsane formayı sırtına geçirdi.",
+      "2023 yazında Barcelona ile Real Madrid arasındaki kıyasıya transfer savaşının ardından Real Madrid'i seçti.",
+      "La Liga'da Real Madrid formasıyla süre aldığı her 60 dakikada bir gol atarak inanılmaz bir verimlilik yakaladı.",
+      "Euro 2024'te Gürcistan'a ceza sahası dışından 90'a gönderdiği füze golü turnuvanın en güzel gollerinden biri seçildi.",
+      "Gol sevinçlerinde sağ elini kalbine götürüp sol işaret parmağını gökyüzüne kaldıran, Real Madrid'in genç Türk yıldızı."
+    ]
+  },
+  {
+    "id": "dzeko-edin",
+    "wikidataId": "Q180540",
+    "name": "Edin Džeko",
+    "aliases": [
+      "Dzeko",
+      "Edin Dzeko",
+      "Bosnak Elmasi"
+    ],
+    "nationality": "Bosna Hersek",
+    "league": "Süper Lig",
+    "club": "Fenerbahçe",
+    "position": "Forvet",
+    "birthYear": 1986,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Wolfsburg'da Grafite ile birlikte Bundesliga'yı şampiyon tamamladı ve o sezonun gol kralı oldu.",
+      "Manchester City'nin meşhur 2012 şampiyonluk maçında (Aguero'nun golünden önce) 91. dakikada kafayla beraberlik golünü atan isimdi.",
+      "Roma'da çıktığı 260 maçta 119 gol attı ve ardından Inter ile Şampiyonlar Ligi finaline çıktı.",
+      "Bundesliga, Premier Lig ve Serie A'nın üçünde birden 50'şer gol barajını geçen tarihteki ilk futbolcu oldu.",
+      "'Boşnak Elması' lakaplı, uzun boyu, iki ayağını da kullanabilmesi ve Fenerbahçe'deki 9 numaralı kaptanlığıyla tanınan golcü."
+    ]
+  },
+  {
+    "id": "mertens-dries",
+    "wikidataId": "Q43930",
+    "name": "Dries Mertens",
+    "aliases": [
+      "Mertens",
+      "Ciro"
+    ],
+    "nationality": "Belçika",
+    "league": "Süper Lig",
+    "club": "Galatasaray",
+    "position": "Forvet",
+    "birthYear": 1987,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "PSV Eindhoven'da parladıktan sonra transfer olduğu Napoli'de kanat oynarken santrfora dönüştürüldü.",
+      "Diego Maradona ve Hamsik'i geride bırakarak Napoli kulüp tarihinin tüm zamanlardaki en golcü futbolcusu (148 gol) oldu.",
+      "Napoli halkı onu o kadar benimsedi ki ona yerel bir İtalyan ismi olan 'Ciro' lakabını taktılar.",
+      "Galatasaray'a transfer olduğu ilk iki sezonda kazanılan Süper Lig şampiyonluklarında pres gücü ve asistleriyle parladı.",
+      "'Ciro' lakaplı, dilini çıkararak yaptığı gol sevinciyle bilinen, sarı-kırmızılı takımın Belçikalı hücum beyni."
+    ]
+  },
+  {
+    "id": "tadic-dusan",
+    "wikidataId": "Q312497",
+    "name": "Dušan Tadić",
+    "aliases": [
+      "Tadic",
+      "Dusan Tadic",
+      "Maestro Tadic"
+    ],
+    "nationality": "Sırbistan",
+    "league": "Süper Lig",
+    "club": "Fenerbahçe",
+    "position": "Forvet",
+    "birthYear": 1988,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Southampton'da Premier Lig'de 4 sezon oynadıktan sonra Ajax'a transfer olarak kariyerinin zirvesine çıktı.",
+      "2019 Şampiyonlar Ligi'nde Santiago Bernabeu'da Real Madrid'i 4-1 yendikleri maçta yaptığı rulet çalım ve resitalle L'Equipe gazetesinden 10 üzerinden 10 puan aldı.",
+      "Bir takvim yılında (2021) kulüp ve milli takımda tam 37 asist yaparak Lionel Messi'nin dünya asist rekorunu kırdı.",
+      "Sırbistan Milli Takımı kaptanı olarak 100'ün üzerinde maça çıktı.",
+      "Fenerbahçe'de 10 numarayı giyen, kusursuz sol ayağı ve adrese teslim asistleriyle tanınan Sırp maestro."
+    ]
+  },
+  {
+    "id": "immobile-ciro",
+    "wikidataId": "Q972621",
+    "name": "Ciro Immobile",
+    "aliases": [
+      "Immobile",
+      "Ciro Immobile"
+    ],
+    "nationality": "İtalya",
+    "league": "Süper Lig",
+    "club": "Beşiktaş",
+    "position": "Forvet",
+    "birthYear": 1990,
+    "shirtNumber": 17,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Dortmund ve Sevilla'daki zorlu dönemlerin ardından Lazio'ya transfer olarak adeta yeniden doğdu.",
+      "2019-20 sezonunda Serie A'da tam 36 gol atarak Gonzalo Higuain'in tarihi rekorunu egale etti.",
+      "Aynı sezon Lewandowski ve Ronaldo'yu geride bırakarak Avrupa Altın Ayakkabı (European Golden Shoe) ödülünü kazandı.",
+      "İtalya Milli Takımı ile Euro 2020 şampiyonu olan kadronun ana santrforuydu.",
+      "2024 yazında Beşiktaş'a transfer olan, Süper Kupa maçında Galatasaray'a 21. saniyede gol atan İtalyan gol makinesi."
+    ]
+  },
+  {
+    "id": "osimhen-victor",
+    "wikidataId": "Q21622269",
+    "name": "Victor Osimhen",
+    "aliases": [
+      "Osimhen",
+      "Victor James Osimhen",
+      "Maskeli Golcu"
+    ],
+    "nationality": "Nijerya",
+    "league": "Süper Lig",
+    "club": "Galatasaray",
+    "position": "Forvet",
+    "birthYear": 1998,
+    "shirtNumber": 45,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Çocukluğunda Lagos sokaklarında trafik ışıklarında su satarak geçimini sağladı.",
+      "Lille'den sonra 70 milyon Euro'yu aşan rekor bedelle Napoli'ye transfer oldu.",
+      "2022-23 sezonunda Napoli'yi 33 yıl sonra (Maradona'dan beri ilk kez) Serie A şampiyonu yaptı ve ligin gol kralı oldu.",
+      "Yüz kemiklerinin kırıldığı ağır sakatlık sonrası taktığı siyah koruyucu karbon maske onun küresel ikonik simgesi haline geldi.",
+      "2024 yazında tüm Avrupa'yı sarsan bir kararla kiralık olarak Galatasaray'a gelen, 'Maskeli Golcü' lakaplı Nijeryalı forvet."
+    ]
+  },
+  {
+    "id": "fred-rodrigues",
+    "wikidataId": "Q13580979",
+    "name": "Fred",
+    "aliases": [
+      "Fred",
+      "Frederico Rodrigues de Paula Santos"
+    ],
+    "nationality": "Brezilya",
+    "league": "Süper Lig",
+    "club": "Fenerbahçe",
+    "position": "Orta Saha",
+    "birthYear": 1993,
+    "shirtNumber": 13,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Shakhtar Donetsk ile Ukrayna'da parladıktan sonra Manchester City ve United arasındaki transfer savaşını Manchester United kazandı.",
+      "Manchester United orta sahasında 5 sezon boyunca düzenli ilk 11 oynadı ve 200'den fazla maça çıktı.",
+      "2023 yazında Fenerbahçe'ye transfer oldu ve oynadığı ilk 20 maçın tamamında takımının galip gelmesiyle 'uğurlu tılsım' lakabını aldı.",
+      "Brezilya Milli Takımı ile 2022 Dünya Kupası kadrosunda yer aldı.",
+      "Kısa boyu, yüksek temposu ve iki yönlü pres gücüyle Fenerbahçe orta sahasının dinamosu olan sambacı."
+    ]
+  },
+  {
+    "id": "torreira-lucas",
+    "wikidataId": "Q18098670",
+    "name": "Lucas Torreira",
+    "aliases": [
+      "Torreira",
+      "Lucas Torreira",
+      "Atom Karinca"
+    ],
+    "nationality": "Uruguay",
+    "league": "Süper Lig",
+    "club": "Galatasaray",
+    "position": "Orta Saha",
+    "birthYear": 1996,
+    "shirtNumber": 34,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Sampdoria'daki müthiş pres oyunuyla dikkat çekip Arsenal'e transfer oldu ve Kuzey Londra derbisinde Tottenham'a gol attı.",
+      "Diego Simeone'nin Atletico Madrid'i ile 2021 yılında La Liga şampiyonluğu yaşadı.",
+      "2022 yılında Galatasaray'a transfer olarak arka arkaya kazanılan şampiyonlukların orta sahadaki gizli kahramanı oldu.",
+      "1.66 boyunda olmasına rağmen sahanın her yerine basan presi ve top kapma yüzdesiyle taraftarların sevgilisi oldu.",
+      "'Atom Karınca' lakaplı, 34 numaralı formayı giyen ve formasını terinin son damlasına kadar ıslatan Uruguaylı savaşçı."
+    ]
+  },
+  {
+    "id": "bellingham-jude",
+    "wikidataId": "Q66363870",
+    "name": "Jude Bellingham",
+    "aliases": [
+      "Bellingham",
+      "Jude Bellingham",
+      "Hey Jude"
+    ],
+    "nationality": "İngiltere",
+    "league": "La Liga",
+    "club": "Real Madrid",
+    "position": "Orta Saha",
+    "birthYear": 2003,
+    "shirtNumber": 5,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "17 yaşındayken Birmingham City'den ayrıldığında kulüp onun giydiği 22 numaralı formayı emekliye ayırdı.",
+      "Borussia Dortmund'da Bundesliga'nın en iyi oyuncusu seçildikten sonra 103 milyon Euro'ya Real Madrid'e transfer oldu.",
+      "Real Madrid'deki ilk sezonunda El Clasico'da Barcelona'yı son dakika golleriyle iki kez yıktı ve Şampiyonlar Ligi'ni kazandı.",
+      "Taraftarlar gollerinden sonra stadyumda hep bir ağızdan The Beatles'ın meşhur şarkısını söyler.",
+      "Gol sevincinde tribünlerin önünde kollarını iki yana açıp dimdik duruşuyla simgeleşen, Real Madrid'in 5 numaralı İngiliz yıldızı."
+    ]
+  },
+  {
+    "id": "vinicius-junior",
+    "wikidataId": "Q29906560",
+    "name": "Vinícius Júnior",
+    "aliases": [
+      "Vinicius Jr",
+      "Vini Jr",
+      "Vinicius Junior"
+    ],
+    "nationality": "Brezilya",
+    "league": "La Liga",
+    "club": "Real Madrid",
+    "position": "Forvet",
+    "birthYear": 2000,
+    "shirtNumber": 7,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Flamengo altyapısında yetişirken henüz 16 yaşındayken Real Madrid tarafından 45 milyon Euro'ya satın alındı.",
+      "İlk yıllarında bitiriciliği alay konusu olsa da Ancelotti döneminde dünyanın en durdurulamaz sol açığına dönüştü.",
+      "2022 ve 2024 Şampiyonlar Ligi finallerinin ikisinde de gol atarak Real Madrid'e iki Avrupa şampiyonluğu kazandırdı.",
+      "Köşe bayrağının dibinde yaptığı samba dansı gol sevinci rakip taraftarlarla büyük polemiklere yol açtı.",
+      "'Vini Jr' lakaplı, 7 numarayı giyen, inanılmaz patlayıcı hızı ve çalımlarıyla 2024 Ballon d'Or'un en büyük adayı olan sambacı."
+    ]
+  },
+  {
+    "id": "kane-harry",
+    "wikidataId": "Q15629471",
+    "name": "Harry Kane",
+    "aliases": [
+      "Kane",
+      "Harry Edward Kane",
+      "Hurricane"
+    ],
+    "nationality": "İngiltere",
+    "league": "Bundesliga",
+    "club": "Bayern Münih",
+    "position": "Forvet",
+    "birthYear": 1993,
+    "shirtNumber": 9,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Gençken Arsenal altyapısından 'fazla kilolu' olduğu gerekçesiyle gönderildi ve ezeli rakip Tottenham'a katıldı.",
+      "Premier Lig'de 3 kez gol kralı oldu ve Wayne Rooney'yi geçerek İngiltere Milli Takımı tarihinin en çok gol atan oyuncusu oldu.",
+      "Kariyeri boyunca attığı yüzlerce gole rağmen Tottenham ile hiç kupa kazanamaması futbol dünyasında espri konusu oldu.",
+      "2023 yazında 100 milyon Euro karşılığında kupa kazanmak için Alman devi Bayern Münih'e transfer oldu.",
+      "'Kasırga' (Hurricane) lakaplı, ceza sahası dışından attığı keskin şutlar ve pasör santrforluğuyla ünlü İngiliz 9 numara."
+    ]
+  },
+  {
+    "id": "griezmann-antoine",
+    "wikidataId": "Q455460",
+    "name": "Antoine Griezmann",
+    "aliases": [
+      "Griezmann",
+      "Antoine Griezmann",
+      "Grizou",
+      "Kucuk Prens"
+    ],
+    "nationality": "Fransa",
+    "league": "La Liga",
+    "club": "Atletico Madrid",
+    "position": "Forvet",
+    "birthYear": 1991,
+    "shirtNumber": 7,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Fransa'daki kulüpler 'boyu çok kısa ve cılız' diye onu reddedince İspanya'ya gidip Real Sociedad altyapısına girdi.",
+      "2016 Avrupa Şampiyonası'nda 6 gol atarak turnuvanın en iyi oyuncusu ve gol kralı oldu.",
+      "2018 Dünya Kupası'nı kazanan Fransa Milli Takımı'nın sahadaki beyni ve hücum lideriydi.",
+      "Drake'in şarkısından esinlendiği elleriyle telefon işareti yaparak dans ettiği 'Hotline Bling' gol sevinciyle meşhur oldu.",
+      "'Küçük Prens' ve 'Grizou' lakaplı, renkli saç stilleri ve Atletico Madrid'deki 7 numarasıyla bilinen Fransız forvet."
+    ]
+  },
+  {
+    "id": "courtois-thibaut",
+    "wikidataId": "Q73356",
+    "name": "Thibaut Courtois",
+    "aliases": [
+      "Courtois",
+      "Thibaut Nicolas Marc Courtois"
+    ],
+    "nationality": "Belçika",
+    "league": "La Liga",
+    "club": "Real Madrid",
+    "position": "Kaleci",
+    "birthYear": 1992,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Genç yaşta kiralandığı Atletico Madrid ile Chelsea'yi ve Barcelona'yı devirerek lig şampiyonluğu ve UEFA Kupası kazandı.",
+      "Chelsea'de iki kez Premier Lig şampiyonu olduktan sonra Madrid'e dönmek için antrenmanlara çıkmayarak Real Madrid'e transfer oldu.",
+      "2022 Şampiyonlar Ligi finalinde Liverpool'a karşı tam 9 kritik kurtarış yaparak finalin 'Maçın Adamı' seçildi.",
+      "2.00 metrelik dev boyu ve ahtapot gibi uzayan kollarıyla karşı karşıya pozisyonlarda dünyanın en zor geçilen kalecisi oldu.",
+      "2018 Dünya Kupası'nda Altın Eldiven kazanan, Real Madrid'in Belçikalı 1 numaralı kale devi."
+    ]
+  },
+  {
+    "id": "kroos-toni",
+    "wikidataId": "Q131234",
+    "name": "Toni Kroos",
+    "aliases": [
+      "Kroos",
+      "Toni Kroos",
+      "Alman Keskin Nisanci"
+    ],
+    "nationality": "Almanya",
+    "league": "La Liga",
+    "club": "Real Madrid",
+    "position": "Orta Saha",
+    "birthYear": 1990,
+    "shirtNumber": 8,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2024,
+    "clues": [
+      "2014 Dünya Kupası yarı finalinde Brezilya'yı 7-1 yendikleri tarihi maçta 2 dakika içinde 2 gol atarak maça damga vurdu.",
+      "Aynı yaz Bayern Münih'ten sadece 25 milyon Euro gibi komik bir bedelle Real Madrid'e transfer oldu.",
+      "Kariyeri boyunca 10 yıl boyunca aynı beyaz klasik Adidas Adipure krampon modelini giydi ve kramponlarını kendi elleriyle temizledi.",
+      "Real Madrid formasıyla tam 5 kez, Bayern Münih ile 1 kez olmak üzere toplam 6 kez Şampiyonlar Ligi kazandı.",
+      "Kariyerini 2024'te zirvedeyken noktalayan, %95 üzeri pas isabetiyle bilinen 8 numaralı Alman keskin nişancı."
+    ]
+  },
+  {
+    "id": "muller-thomas",
+    "wikidataId": "Q43666",
+    "name": "Thomas Müller",
+    "aliases": [
+      "Muller",
+      "Thomas Muller",
+      "Raumdeuter"
+    ],
+    "nationality": "Almanya",
+    "league": "Bundesliga",
+    "club": "Bayern Münih",
+    "position": "Forvet",
+    "birthYear": 1989,
+    "shirtNumber": 25,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "2010 Dünya Kupası basın toplantısında Maradona onun kim olduğunu bilmediği için 'top toplayıcı çocukla aynı masada oturmam' demiş, sahada ondan 4 gol yemişti.",
+      "2010 Dünya Kupası'nda henüz 20 yaşındayken 5 gol ve 3 asistle Altın Ayakkabı kazandı.",
+      "Geleneksel hiçbir mevkiye sığmayan oyun tarzı için kendisi 'Raumdeuter' (Alan / Boşluk Yorumlayıcısı) kavramını icat etti.",
+      "Bayern Münih formasıyla 700'ün üzerinde maça çıkarak kulüp tarihinin en çok kupa kazanan oyuncusu oldu.",
+      "Çoraplarını dizlerinin altında düşük giyen, komik şakaları ve 25 numaralı formasıyla tanınan Alman futbol efsanesi."
+    ]
+  },
+  {
+    "id": "di-maria-angel",
+    "wikidataId": "Q211054",
+    "name": "Ángel Di María",
+    "aliases": [
+      "Di Maria",
+      "Angel Di Maria",
+      "El Fideo"
+    ],
+    "nationality": "Arjantin",
+    "league": "Liga Portugal",
+    "club": "Benfica",
+    "position": "Forvet",
+    "birthYear": 1988,
+    "shirtNumber": 11,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "2008 Pekin Olimpiyatları finalinde, 2021 Copa America finalinde (Maracana'da Brezilya'ya) ve 2022 Dünya Kupası finalinde gol attı.",
+      "Oynadığı tüm finallerde gol atarak Arjantin futbol tarihinin 'Büyük Finallerin Adamı' unvanını kazandı.",
+      "2014 Şampiyonlar Ligi finalinde Atletico Madrid karşısında maçın adamı seçilerek Real Madrid'e 'La Decima'yı kazandırdı.",
+      "İncecik uzun yapısı sebebiyle İspanyolca 'Erişte' anlamına gelen 'El Fideo' lakabıyla anıldı.",
+      "Gol attıktan sonra iki eliyle göğsünde 'kalp' işareti yapan, rabona ortalarıyla ünlü Arjantinli sol açık."
+    ]
+  },
+  {
+    "id": "cavani-edinson",
+    "wikidataId": "Q167850",
+    "name": "Edinson Cavani",
+    "aliases": [
+      "Cavani",
+      "Edinson Roberto Cavani Gomez",
+      "El Matador"
+    ],
+    "nationality": "Uruguay",
+    "league": "Arjantin Premier Ligi",
+    "club": "Boca Juniors",
+    "position": "Forvet",
+    "birthYear": 1987,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Napoli'de Lavezzi ve Hamsik ile kurduğu hücum hattıyla Serie A gol kralı oldu.",
+      "Paris Saint-Germain tarihinin tüm zamanlarda 200 gole ulaşan ilk futbolcusu olarak kulüp rekoru kırdı.",
+      "Manchester United'a transfer olduğunda 34 yaşında olmasına rağmen inanılmaz savunma presi ve kafa golleriyle taraftarın sevgilisi oldu.",
+      "Gol sevinçlerinde diz çöküp gökyüzüne doğru görünmez bir yaydan ok fırlatma hareketi yapardı.",
+      "'El Matador' lakaplı, uzun siyah saçları, saç bandı ve atletik fiziğiyle tanınan Uruguaylı savaşçı forvet."
+    ]
+  },
+  {
+    "id": "busquets-sergio",
+    "wikidataId": "Q484017",
+    "name": "Sergio Busquets",
+    "aliases": [
+      "Busquets",
+      "Sergio Busquets Burgos",
+      "Busi"
+    ],
+    "nationality": "İspanya",
+    "league": "MLS",
+    "club": "Inter Miami",
+    "position": "Orta Saha",
+    "birthYear": 1988,
+    "shirtNumber": 5,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Pep Guardiola tarafından 2008'de Barcelona 3. lig takımından doğrudan A takıma çıkarılarak Yaya Toure'nin yerine monte edildi.",
+      "İspanya Milli Takım Teknik Direktörü Del Bosque onun için: 'Maçı izlersen onu göremezsin ama onu izlersen tüm maçı görürsün' demiştir.",
+      "2010 Şampiyonlar Ligi yarı finalinde Inter maçında yerde yatarken ellerinin arasından hakeme baktığı an meşhur bir 'timsah gözyaşı' memesi oldu.",
+      "Tek dokunuşla vücut çalımı yaparak rakiplerin en şiddetli ön alan presini tereyağından kıl çeker gibi boşa çıkarmada ustalaştı.",
+      "Barcelona'da 5 numarayı giyen, sakinliği ve olağanüstü futbol aklıyla modern ön liberonun tanımı olan İspanyol çapa."
+    ]
+  },
+  {
+    "id": "silva-bernardo",
+    "wikidataId": "Q10323386",
+    "name": "Bernardo Silva",
+    "aliases": [
+      "Bernardo Silva",
+      "Bernardo",
+      "Bubblegum"
+    ],
+    "nationality": "Portekiz",
+    "league": "Premier Lig",
+    "club": "Manchester City",
+    "position": "Orta Saha",
+    "birthYear": 1994,
+    "shirtNumber": 20,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Benfica altyapısında başlarken dönemin teknik direktörü Jorge Jesus onu sol bek oynatmak isteyince Monaco'ya gitti.",
+      "Monaco'da Mbappe ve Falcao ile Ligue 1 şampiyonu olup Manchester City'ye transfer oldu.",
+      "Top ayağına sanki sakızla yapışmış gibi dar alanda 3-4 rakibin arasından tereyağından kıl çeker gibi çıkmasıyla ünlendi.",
+      "Guardiola onun için defalarca 'Hayatımda gördüğüm en zeki ve en çok koşan oyunculardan biri' dedi.",
+      "Kısa boyu, sempatik gülüşü ve Manchester City'deki 20 numaralı formasıyla tanınan Portekizli sol ayaklı büyücü."
+    ]
+  },
+  {
+    "id": "rodri-hernandez",
+    "wikidataId": "Q22007255",
+    "name": "Rodri",
+    "aliases": [
+      "Rodri",
+      "Rodrigo Hernandez Cascante"
+    ],
+    "nationality": "İspanya",
+    "league": "Premier Lig",
+    "club": "Manchester City",
+    "position": "Orta Saha",
+    "birthYear": 1996,
+    "shirtNumber": 16,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Villarreal ve Atletico Madrid'de oynarken aynı zamanda üniversitede İşletme ve Ekonomi lisans eğitimini tamamladı.",
+      "Sosyal medyası ve dövmesi bulunmayan, formasını her zaman şortunun içine sokarak maça çıkan eski tarz bir profesyoneldir.",
+      "2023 Şampiyonlar Ligi finalinde Inter'e attığı tek golle Manchester City'ye tarihindeki ilk Şampiyonlar Ligi zaferini getirdi.",
+      "Manchester City ve İspanya ile üst üste tam 74 resmi maç boyunca hiç mağlubiyet görmeyerek tarihi bir rekora imza attı.",
+      "Euro 2024'ün en iyi oyuncusu seçilen, 16 numaralı pozisyonunun dünyadaki 1 numarası olan İspanyol ön libero."
+    ]
+  },
+  {
+    "id": "fernandes-bruno",
+    "wikidataId": "Q3645749",
+    "name": "Bruno Fernandes",
+    "aliases": [
+      "Bruno Fernandes",
+      "Bruno"
+    ],
+    "nationality": "Portekiz",
+    "league": "Premier Lig",
+    "club": "Manchester United",
+    "position": "Orta Saha",
+    "birthYear": 1994,
+    "shirtNumber": 8,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "İtalya'da Novara, Udinese ve Sampdoria'da oynadıktan sonra Sporting Lizbon'da bir sezonda orta sahadan 32 gol atarak patlama yaptı.",
+      "2020 Ocak ayında geldiği Manchester United'ı tek başına dönüştürerek kulübün 1 numaralı lideri haline geldi.",
+      "Penaltı kullanırken topa vurmadan hemen önce havaya küçük bir sıçrama (hop-step) yaparak kaleciyi ters köşeye yatırma tekniğiyle meşhur oldu.",
+      "Avrupa'nın 5 büyük liginde en çok gol pozisyonu (şans) yaratan orta saha istatistiklerinde zirvede yer aldı.",
+      "Manchester United'ın 8 numaralı kaptanı olan, sürekli konuşan hırslı yapısı ve kilit paslarıyla tanınan Portekizli oyun kurucu."
+    ]
+  },
+  {
+    "id": "becker-alisson",
+    "wikidataId": "Q3611849",
+    "name": "Alisson Becker",
+    "aliases": [
+      "Alisson",
+      "Alisson Becker",
+      "Alisson Ramses Becker"
+    ],
+    "nationality": "Brezilya",
+    "league": "Premier Lig",
+    "club": "Liverpool",
+    "position": "Kaleci",
+    "birthYear": 1992,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Internacional'den Roma'ya transfer oldu ve Barcelona karşısındaki tarihi 3-0'lık Şampiyonlar Ligi geri dönüşünde kalesini gole kapattı.",
+      "2018'de Liverpool'a transfer olarak kulübün Şampiyonlar Ligi ve 30 yıl sonra gelen Premier Lig şampiyonluğunda kilit rol oynadı.",
+      "2021 Mayıs ayında West Bromwich maçının 95. dakikasında kornerden ceza sahasına gelip kafayla attığı mucizevi golle takımını Şampiyonlar Ligi'ne taşıdı.",
+      "Premier Lig tarihinde kafa golü atan ilk ve tek kaleci olarak tarihe geçti.",
+      "Gür sakalları, sakinliği ve 1 numaralı formasıyla Brezilya Milli Takımı'nın as kalecisi olan dev file bekçisi."
+    ]
+  },
+  {
+    "id": "oblak-jan",
+    "wikidataId": "Q1355416",
+    "name": "Jan Oblak",
+    "aliases": [
+      "Oblak",
+      "Jan Oblak"
+    ],
+    "nationality": "Slovenya",
+    "league": "La Liga",
+    "club": "Atletico Madrid",
+    "position": "Kaleci",
+    "birthYear": 1993,
+    "shirtNumber": 13,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Benfica'da parladıktan sonra Thibaut Courtois'nın Chelsea'ye dönmesi üzerine Atletico Madrid'e transfer oldu.",
+      "Diego Simeone'nin katı savunma sisteminde kalesinde maç başına 0.7 gibi inanılmaz düşük bir gol yeme ortalaması yakaladı.",
+      "İspanya La Liga'da en az gol yiyen kaleciye verilen prestijli 'Zamora Ödülü'nü tam 5 kez kazanarak rekora ortak oldu.",
+      "2017 Şampiyonlar Ligi'nde Leverkusen'e karşı tek pozisyonda üst üste yaptığı 3 mucizevi kurtarış turnuva tarihine geçti.",
+      "Atletico Madrid kalesini 10 yılı aşkın süredir koruyan, 13 numaralı Sloven kaleci duvarı."
+    ]
+  },
+  {
+    "id": "ter-stegen-marc-andre",
+    "wikidataId": "Q152864",
+    "name": "Marc-André ter Stegen",
+    "aliases": [
+      "Ter Stegen",
+      "Marc-Andre ter Stegen"
+    ],
+    "nationality": "Almanya",
+    "league": "La Liga",
+    "club": "Barcelona",
+    "position": "Kaleci",
+    "birthYear": 1992,
+    "shirtNumber": 1,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Borussia Mönchengladbach altyapısında yetişti ve 2014 yılında Claudio Bravo ile birlikte Barcelona'ya imza attı.",
+      "İlk sezonunda Şampiyonlar Ligi maçlarında kaleyi koruyarak 2015'te üçleme (Treble) kazandı.",
+      "Bir kaleci olmasına rağmen ayak pas kalitesi bir orta saha kadar keskin olup La Liga'da forvetlere doğrudan asistler yaptı.",
+      "2022-23 sezonunda La Liga'da çıktığı 38 maçın 26'sında kalesini gole kapatarak tarihi lig rekorunu kırdı.",
+      "Barcelona'nın 1 numaralı Alman kalecisi ve takım kaptanlarından biri."
+    ]
+  },
+  {
+    "id": "mane-sadio",
+    "wikidataId": "Q1435272",
+    "name": "Sadio Mané",
+    "aliases": [
+      "Mane",
+      "Sadio Mane"
+    ],
+    "nationality": "Senegal",
+    "league": "Suudi Profesyonel Ligi",
+    "club": "Al-Nassr",
+    "position": "Forvet",
+    "birthYear": 1992,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Southampton formasıyla Aston Villa'ya karşı sadece 2 dakika 56 saniyede hat-trick yaparak Premier Lig tarihinin en hızlı hat-trick rekorunu kırdı.",
+      "Liverpool'da Salah ve Firmino ile birlikte Avrupa'nın en korkulan hücum üçlüsünü kurdu ve Şampiyonlar Ligi'ni kazandı.",
+      "2022 Afrika Uluslar Kupası finalinde Mısır'a karşı son penaltıyı atarak Senegal'e tarihindeki ilk Afrika şampiyonluğunu kazandırdı.",
+      "Köyüne hastaneler, okullar ve camiler yaptırıp halka maaş bağlayan olağanüstü yardımseverliğiyle tanındı.",
+      "Saçındaki sarı çizgi, alçakgönüllülüğü ve Al-Nassr'daki hücum ortaklığıyla bilinen Senegalli süper forvet."
+    ]
+  },
+  {
+    "id": "kante-ngolo",
+    "wikidataId": "Q20641094",
+    "name": "N'Golo Kanté",
+    "aliases": [
+      "Kante",
+      "NGolo Kante"
+    ],
+    "nationality": "Fransa",
+    "league": "Suudi Profesyonel Ligi",
+    "club": "Al-Ittihad",
+    "position": "Orta Saha",
+    "birthYear": 1991,
+    "shirtNumber": 7,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Fransa 2. Ligi ekibi Caen'den Leicester City'ye geldikten sonra 1'e 5000'lik tarihi Premier Lig şampiyonluğunun gizli mimarı oldu.",
+      "Ertesi sezon Chelsea'ye transfer olup üst üste iki farklı kulüple Premier Lig şampiyonluğu yaşadı.",
+      "2021 Şampiyonlar Ligi yarı final ve final maçlarının tamamında 'Maçın Adamı' seçilerek Chelsea'yi Avrupa şampiyonu yaptı.",
+      "Futbol dünyasında 'Dünyanın %71'i sularla, geri kalan %29'u Kanté tarafından kaplıdır' esprisiyle viral oldu.",
+      "Milyonlar kazanmasına rağmen eski bir Mini Cooper araba kullanan, utangaç gülümsemesiyle herkesin sevdiği 2018 Dünya Kupası şampiyonu Fransız dinamo."
+    ]
+  },
+  {
+    "id": "gundogan-ilkay",
+    "wikidataId": "Q312480",
+    "name": "İlkay Gündoğan",
+    "aliases": [
+      "Gundogan",
+      "Ilkay Gundogan"
+    ],
+    "nationality": "Almanya",
+    "league": "Premier Lig",
+    "club": "Manchester City",
+    "position": "Orta Saha",
+    "birthYear": 1990,
+    "shirtNumber": 19,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Dortmund ile 2013 Şampiyonlar Ligi finalinde Bayern Münih'e penaltıdan gol attı.",
+      "2022'de ligin son haftasında Aston Villa karşısında 2-0 geriye düşen City'de oyuna girip 5 dakikada 2 gol atarak şampiyonluğu getirdi.",
+      "Manchester City'nin kaptanı olarak 2023 yılında tarihi üçlemeyi (Premier Lig, FA Cup, Şampiyonlar Ligi) havaya kaldırdı.",
+      "Barcelona'da bir sezon oynadıktan sonra 2024'te Guardiola'nın isteğiyle yeniden Manchester City'ye döndü.",
+      "Almanya Milli Takımı'nın ilk Türk asıllı kaptanı olan, ceza sahasına sürpriz koşuları ve akıllı oyunuyla ünlü orta saha."
+    ]
+  },
+  {
+    "id": "lukaku-romelu",
+    "wikidataId": "Q313316",
+    "name": "Romelu Lukaku",
+    "aliases": [
+      "Lukaku",
+      "Romelu Menama Lukaku Bolingoli",
+      "Big Rom"
+    ],
+    "nationality": "Belçika",
+    "league": "Serie A",
+    "club": "Napoli",
+    "position": "Forvet",
+    "birthYear": 1993,
+    "shirtNumber": 11,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Henüz 16 yaşındayken Anderlecht formasıyla Belçika Ligi'nde gol kralı olarak dünya devlerinin radarına girdi.",
+      "Everton'da parladıktan sonra Manchester United ve Inter'de 100 milyon Euro'yu aşan transfer bedelleriyle el değiştirdi.",
+      "Antonio Conte yönetimindeki Inter'de Lautaro Martinez ile müthiş bir uyum yakalayarak 2021 Serie A şampiyonluğunu kazandırdı.",
+      "Belçika Milli Takımı tarihinin açık ara en çok gol atan oyuncusu (85+ gol) unvanını elinde tutar.",
+      "'Big Rom' lakaplı, 1.91 boyunda, durdurulamaz omuz omuza fizik gücü ve sol ayağıyla tanınan forvet devi."
+    ]
+  },
+  {
+    "id": "martinez-lautaro",
+    "wikidataId": "Q27671158",
+    "name": "Lautaro Martínez",
+    "aliases": [
+      "Lautaro Martinez",
+      "Lautaro",
+      "El Toro"
+    ],
+    "nationality": "Arjantin",
+    "league": "Serie A",
+    "club": "Inter",
+    "position": "Forvet",
+    "birthYear": 1997,
+    "shirtNumber": 10,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "Arjantin'in Racing kulübünde Diego Milito'nun veliahtı olarak yetiştikten sonra Inter'e transfer oldu.",
+      "2022 Dünya Kupası çeyrek finalinde Hollanda karşısında maçı bitiren tarihi son seri penaltıyı gole çevirdi.",
+      "2023-24 sezonunda Inter'in kaptanı olarak Serie A'da gol kralı (Capocannoniere) oldu ve lig şampiyonluğu yaşadı.",
+      "2024 Copa America finalinde uzatma dakikalarında Kolombiya'ya attığı golle Arjantin'i şampiyon yaptı ve turnuva gol kralı oldu.",
+      "'El Toro' (Boğa) lakaplı, mücadeleci hırsı ve kafa vuruşlarıyla tanınan Inter'in 10 numaralı Arjantinli kaptanı."
+    ]
+  },
+  {
+    "id": "pique-gerard",
+    "wikidataId": "Q41997",
+    "name": "Gerard Piqué",
+    "aliases": [
+      "Pique",
+      "Gerard Pique Bernabeu"
+    ],
+    "nationality": "İspanya",
+    "league": "La Liga",
+    "club": "Barcelona",
+    "position": "Defans",
+    "birthYear": 1987,
+    "shirtNumber": 3,
+    "difficulty": "kolay",
+    "status": "emekli",
+    "retirementYear": 2022,
+    "clues": [
+      "Manchester United'da Alex Ferguson'ın yanında yetişip Şampiyonlar Ligi kazandıktan sonra evine, Barcelona'ya döndü.",
+      "2010'da Real Madrid'i 5-0 yendikleri El Clasico'da tribünlere elini açarak yaptığı 'beşlik' (manita) hareketiyle ezeli rekabetin simgesi oldu.",
+      "2010 Dünya Kupası ve Euro 2012'yi kazanan İspanya Milli Takımı'nın savunmadaki temel taşıydı.",
+      "Şarkıcı Shakira ile olan ünlü birlikteliği ve kurduğu 'Kings League' futbol organizasyonuyla küresel bir figür oldu.",
+      "3 numaralı forması, hava toplarındaki hakimiyeti ve ileride forvet gibi hücuma çıkışlarıyla tanınan Katalan stoper."
+    ]
+  },
+  {
+    "id": "marcelo-vieira",
+    "wikidataId": "Q6079",
+    "name": "Marcelo",
+    "aliases": [
+      "Marcelo",
+      "Marcelo Vieira da Silva Junior"
+    ],
+    "nationality": "Brezilya",
+    "league": "Brezilya Serie A",
+    "club": "Fluminense",
+    "position": "Defans",
+    "birthYear": 1988,
+    "shirtNumber": 12,
+    "difficulty": "kolay",
+    "status": "aktif",
+    "retirementYear": null,
+    "clues": [
+      "18 yaşındayken Fluminense'den Roberto Carlos'un veliahtı olarak Real Madrid'e transfer edildi ve 15 yıl aralıksız oynadı.",
+      "Real Madrid formasıyla kazandığı 25 kupayla bir dönem kulüp tarihinin en çok kupa kazanan oyuncusu oldu.",
+      "Sol bekte oynamasına rağmen dünyanın en iyi kanat oyuncularını kıskandıracak derecede ipeksi ilk dokunuş ve çalım yeteneğine sahipti.",
+      "Cristiano Ronaldo ile sol kanatta kurduğu telepatik uyum ve arkadaşlık Real Madrid'e üst üste 3 Şampiyonlar Ligi getirdi.",
+      "Kocaman kabarık kıvırcık saçları, sempatik tavırları ve 12 numarasıyla futbol tarihinin en yetenekli sol beklerinden olan Brezilyalı."
     ]
   }
 ]
