@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { Trophy, Flame, Volume2, VolumeX, Award, Home } from 'lucide-react';
 import { Difficulty } from '@/types/player';
 
@@ -28,7 +29,16 @@ export const ScoreBoard: React.FC<ScoreBoardProps> = ({
   onReturnMenu,
 }) => {
   return (
-    <header className="w-full max-w-4xl mx-auto flex items-center justify-end mb-2.5">
+    <header className="w-full max-w-4xl mx-auto flex items-center justify-between mb-2.5 px-2">
+      {/* SOL: Tarih Moduna Geçiş */}
+      <Link
+        href="/tarih"
+        className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-black/50 hover:bg-black/70 border border-amber-500/30 text-amber-300 hover:text-amber-100 text-xs font-bold transition-all shadow-md"
+        title="Tarihi Karakter Tahmin Oyununa Geç"
+      >
+        <span>🏛️ Tarih Modu</span>
+      </Link>
+
       {/* SAĞ ÜST PANEL: Skor, Seri, Tur, Ses ve Menü */}
       <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 bg-emerald-950/85 backdrop-blur-md border border-emerald-500/30 rounded-2xl p-1.5 sm:px-3 sm:py-1.5 shadow-xl shadow-black/60">
         

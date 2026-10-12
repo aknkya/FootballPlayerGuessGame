@@ -295,7 +295,7 @@ export const GameContainer: React.FC = () => {
 
       {/* Alt Bilgi */}
       <footer className="text-center text-xs text-emerald-400/60 mt-8 py-2">
-        ⚽ Futbolcu Tahmin Oyunu • 100 Efsane Futbolcu • Next.js & Tailwind CSS
+        ⚽ Futbolcu Tahmin Oyunu • 200 Efsane Futbolcu • Next.js & Tailwind CSS
       </footer>
     </div>
   );

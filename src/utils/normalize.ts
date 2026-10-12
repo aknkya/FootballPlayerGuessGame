@@ -56,3 +56,47 @@ export function getCountryFlag(country: string): string {
   };
   return flags[country] || '⚽';
 }
+
+/**
+ * Tarihi ülke veya medeniyet adına göre simge/bayrak döndürür
+ */
+export function getHistoricalFlag(nationality: string): string {
+  const flags: Record<string, string> = {
+    'Türkiye': '🇹🇷',
+    'Osmanlı İmparatorluğu': '🇹🇷',
+    'Osmanlı': '🇹🇷',
+    'Almanya': '🇩🇪',
+    'Sırbistan': '🇷🇸',
+    'İtalya': '🇮🇹',
+    'İtalya (Floransa)': '🇮🇹',
+    'İngiltere': '🇬🇧',
+    'Polonya / Fransa': '🇵🇱',
+    'Makedonya': '🇲🇰',
+    'Roma': '🏛️',
+    'Antik Mısır': '🇪🇬',
+    'Fransa': '🇫🇷',
+    'Moğolistan': '🇲🇳',
+    'Yunanistan / Antik Atina': '🇬🇷',
+    'Yunanistan / Antik Makedonya': '🇬🇷',
+    'Antik Yunan / Sicilya (Siracusa)': '🏛️',
+    'Antik Yunan / Sisam': '🏛️',
+    'Avusturya': '🇦🇹',
+    'Hollanda': '🇳🇱',
+    'Buhara / İran-Türk Dünyası': '🕌',
+    'Horasan / Anadolu Selçuklu': '🕌',
+    'İskoçya / ABD': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    'İskoçya': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    'ABD': '🇺🇸',
+    'Timur İmparatorluğu / Osmanlı': '🕌',
+    'Ceneviz (İtalya) / İspanya': '⛵',
+    'Venedik Cumhuriyeti': '🎭',
+    'Sovyetler Birliği (SSCB)': '🚀',
+    'Hindistan': '🇮🇳',
+    'Arjantin / Küba': '🇦🇷',
+    'Antik Çin (Lu Devleti)': '🇨🇳',
+    'Rusya': '🇷🇺',
+    'Rusya İmparatorluğu': '🇷🇺'
+  };
+  return flags[nationality] || '🏛️';
+}
+

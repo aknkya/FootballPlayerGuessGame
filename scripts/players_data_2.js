@@ -103,7 +103,7 @@ module.exports = [
     position: "Defans",
     birthYear: 1968,
     shirtNumber: 3,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2009,
     clues: [
@@ -241,7 +241,7 @@ module.exports = [
     position: "Defans",
     birthYear: 1978,
     shirtNumber: 5,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2014,
     clues: [
@@ -264,7 +264,7 @@ module.exports = [
     position: "Orta Saha",
     birthYear: 1980,
     shirtNumber: 8,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2016,
     clues: [
@@ -287,7 +287,7 @@ module.exports = [
     position: "Orta Saha",
     birthYear: 1978,
     shirtNumber: 8,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2016,
     clues: [
@@ -310,7 +310,7 @@ module.exports = [
     position: "Forvet",
     birthYear: 1985,
     shirtNumber: 10,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2021,
     clues: [
@@ -379,7 +379,7 @@ module.exports = [
     position: "Forvet",
     birthYear: 1991,
     shirtNumber: 10,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2023,
     clues: [
@@ -425,7 +425,7 @@ module.exports = [
     position: "Forvet",
     birthYear: 1983,
     shirtNumber: 7,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2022,
     clues: [
@@ -448,7 +448,7 @@ module.exports = [
     position: "Forvet",
     birthYear: 1981,
     shirtNumber: 9,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2019,
     clues: [
@@ -471,7 +471,7 @@ module.exports = [
     position: "Kaleci",
     birthYear: 1969,
     shirtNumber: 1,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2008,
     clues: [
@@ -494,7 +494,7 @@ module.exports = [
     position: "Defans",
     birthYear: 1991,
     shirtNumber: 4,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "aktif",
     retirementYear: null,
     clues: [
@@ -517,7 +517,7 @@ module.exports = [
     position: "Forvet",
     birthYear: 1992,
     shirtNumber: 7,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "aktif",
     retirementYear: null,
     clues: [
@@ -540,7 +540,7 @@ module.exports = [
     position: "Forvet",
     birthYear: 1987,
     shirtNumber: 9,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "aktif",
     retirementYear: null,
     clues: [
@@ -563,7 +563,7 @@ module.exports = [
     position: "Forvet",
     birthYear: 1983,
     shirtNumber: 7,
-    difficulty: "kolay",
+    difficulty: "orta",
     status: "emekli",
     retirementYear: 2022,
     clues: [

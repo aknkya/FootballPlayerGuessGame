@@ -5,70 +5,100 @@ const batch1 = require('./players_data_1');
 const batch2 = require('./players_data_2');
 const batch3 = require('./players_data_3');
 const batch4 = require('./players_data_4');
+const batch5 = require('./players_data_5');
+const batch6 = require('./players_data_6');
+const batch7 = require('./players_data_7');
+const batch8 = require('./players_data_8');
 
-const allPlayers = [...batch1, ...batch2, ...batch3, ...batch4];
+const allPlayers = [
+  ...batch1,
+  ...batch2,
+  ...batch3,
+  ...batch4,
+  ...batch5,
+  ...batch6,
+  ...batch7,
+  ...batch8,
+];
 
-console.log(`Total players loaded: ${allPlayers.length}`);
+console.log(`Toplam yuklenen futbolcu sayisi: ${allPlayers.length}`);
 
-if (allPlayers.length !== 100) {
-  throw new Error(`Expected 100 players, got ${allPlayers.length}`);
+if (allPlayers.length !== 200) {
+  throw new Error(`Beklenen 200 futbolcu, yuklenen: ${allPlayers.length}`);
 }
 
 const validPositions = ['Kaleci', 'Defans', 'Orta Saha', 'Forvet'];
 const validStatuses = ['aktif', 'emekli'];
+const validDifficulties = ['kolay', 'orta', 'zor'];
 const ids = new Set();
+const wikidataIds = new Set();
+
+const diffCounts = { kolay: 0, orta: 0, zor: 0 };
+const posCounts = {};
+const natCounts = {};
 
 allPlayers.forEach((player, idx) => {
   const num = idx + 1;
-  if (!player.id) throw new Error(`Player #${num} missing id`);
-  if (ids.has(player.id)) throw new Error(`Duplicate id: ${player.id}`);
+  if (!player.id) throw new Error(`Oyuncu #${num} 'id' eksik`);
+  if (ids.has(player.id)) throw new Error(`Cakisan id: ${player.id}`);
   ids.add(player.id);
 
-  if (!player.wikidataId) throw new Error(`Player #${num} (${player.name}) missing wikidataId`);
-  if (!player.name) throw new Error(`Player #${num} missing name`);
+  if (!player.wikidataId) throw new Error(`Oyuncu #${num} (${player.name}) 'wikidataId' eksik`);
+  if (wikidataIds.has(player.wikidataId)) {
+    console.warn(`[Uyari] Oyuncu #${num} (${player.name}) tekrarlanan wikidataId: ${player.wikidataId}`);
+  }
+  wikidataIds.add(player.wikidataId);
+
+  if (!player.name) throw new Error(`Oyuncu #${num} 'name' eksik`);
   if (!Array.isArray(player.aliases) || player.aliases.length === 0) {
-    throw new Error(`Player #${num} (${player.name}) invalid aliases`);
+    throw new Error(`Oyuncu #${num} (${player.name}) 'aliases' gecersiz`);
   }
-  if (!player.nationality) throw new Error(`Player #${num} (${player.name}) missing nationality`);
-  if (!player.league) throw new Error(`Player #${num} (${player.name}) missing league`);
-  if (!player.club) throw new Error(`Player #${num} (${player.name}) missing club`);
+  if (!player.nationality) throw new Error(`Oyuncu #${num} (${player.name}) 'nationality' eksik`);
+  if (!player.league) throw new Error(`Oyuncu #${num} (${player.name}) 'league' eksik`);
+  if (!player.club) throw new Error(`Oyuncu #${num} (${player.name}) 'club' eksik`);
+
   if (!validPositions.includes(player.position)) {
-    throw new Error(`Player #${num} (${player.name}) invalid position: ${player.position}`);
+    throw new Error(`Oyuncu #${num} (${player.name}) gecersiz mevkii: ${player.position}`);
   }
+  posCounts[player.position] = (posCounts[player.position] || 0) + 1;
+  natCounts[player.nationality] = (natCounts[player.nationality] || 0) + 1;
+
   if (typeof player.birthYear !== 'number') {
-    throw new Error(`Player #${num} (${player.name}) invalid birthYear`);
+    throw new Error(`Oyuncu #${num} (${player.name}) gecersiz dogum yili: ${player.birthYear}`);
   }
   if (typeof player.shirtNumber !== 'number') {
-    throw new Error(`Player #${num} (${player.name}) invalid shirtNumber`);
+    throw new Error(`Oyuncu #${num} (${player.name}) gecersiz forma numarasi: ${player.shirtNumber}`);
   }
-  if (player.difficulty !== 'kolay') {
-    throw new Error(`Player #${num} (${player.name}) difficulty must be 'kolay', got: ${player.difficulty}`);
+  if (!validDifficulties.includes(player.difficulty)) {
+    throw new Error(`Oyuncu #${num} (${player.name}) gecersiz zorluk: ${player.difficulty}`);
   }
+  diffCounts[player.difficulty] = (diffCounts[player.difficulty] || 0) + 1;
+
   if (!validStatuses.includes(player.status)) {
-    throw new Error(`Player #${num} (${player.name}) invalid status: ${player.status}`);
+    throw new Error(`Oyuncu #${num} (${player.name}) gecersiz durum: ${player.status}`);
   }
   if (player.status === 'aktif' && player.retirementYear !== null) {
-    throw new Error(`Player #${num} (${player.name}) active player must have null retirementYear`);
+    throw new Error(`Oyuncu #${num} (${player.name}) aktif oyuncunun emeklilik yili null olmali`);
   }
   if (player.status === 'emekli' && typeof player.retirementYear !== 'number') {
-    throw new Error(`Player #${num} (${player.name}) retired player must have number retirementYear`);
+    throw new Error(`Oyuncu #${num} (${player.name}) emekli oyuncunun emeklilik yili sayi olmali`);
   }
   if (!Array.isArray(player.clues) || player.clues.length !== 5) {
-    throw new Error(`Player #${num} (${player.name}) must have exactly 5 clues, got ${player.clues?.length}`);
+    throw new Error(`Oyuncu #${num} (${player.name}) tam olarak 5 ipucuna sahip olmali, olan: ${player.clues?.length}`);
   }
 
-  // Check name leaks in clues
-  const nameParts = player.name.split(' ').filter(p => p.length > 2);
+  // Clue validation
   player.clues.forEach((clue, cIdx) => {
-    nameParts.forEach(part => {
-      // Exclude generic parts or common words if any
-      const regex = new RegExp(`\\b${part}\\b`, 'i');
-      if (regex.test(clue)) {
-        console.warn(`[Warning] Name part "${part}" might be leaking in player #${num} (${player.name}) clue ${cIdx + 1}: "${clue}"`);
-      }
-    });
+    if (typeof clue !== 'string' || clue.trim().length === 0) {
+      throw new Error(`Oyuncu #${num} (${player.name}) ipucu #${cIdx + 1} bos olamaz`);
+    }
   });
 });
+
+console.log('\n--- ISTATISTIKLER ---');
+console.log('Zorluk Dagilimi:', diffCounts);
+console.log('Mevki Dagilimi:', posCounts);
+console.log(`Farkli Ulke Sayisi: ${Object.keys(natCounts).length}`);
 
 const jsonString = JSON.stringify(allPlayers, null, 2);
 
@@ -81,7 +111,7 @@ const targets = [
 
 targets.forEach(targetPath => {
   fs.writeFileSync(targetPath, jsonString, 'utf-8');
-  console.log(`Saved to ${targetPath}`);
+  console.log(`Kaydedildi: ${targetPath}`);
 });
 
-console.log('Successfully validated and written 100 players JSON dataset!');
+console.log('\n200 futbolculuk veri seti basariyla dogrulandi ve olusturuldu!');

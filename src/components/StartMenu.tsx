@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { Trophy, Flame, Play, HelpCircle, Sparkles, Shield, Star, Volume2, VolumeX } from 'lucide-react';
 import { Difficulty } from '@/types/player';
 
@@ -28,7 +29,7 @@ const difficultyOptions: {
   {
     id: 'tum',
     title: 'Tüm Futbolcular',
-    badge: '100 Efsane',
+    badge: '200 Efsane',
     desc: 'Aktif ve efsane tüm futbolculardan rastgele',
     color: 'from-emerald-500/20 to-teal-600/20 text-emerald-300',
     borderColor: 'border-emerald-500/40 hover:border-emerald-400',
@@ -37,7 +38,7 @@ const difficultyOptions: {
   {
     id: 'kolay',
     title: 'Kolay Seviye',
-    badge: 'Dünya & Süper Lig',
+    badge: 'Dünya & Süper Lig (72)',
     desc: 'Messi, Ronaldo, Hagi, Alex, Muslera gibi devler',
     color: 'from-green-500/20 to-emerald-600/20 text-green-300',
     borderColor: 'border-green-500/40 hover:border-green-400',
@@ -46,7 +47,7 @@ const difficultyOptions: {
   {
     id: 'orta',
     title: 'Orta Seviye',
-    badge: 'Büyük 5 Lig',
+    badge: 'Büyük 5 Lig (108)',
     desc: 'Vardy, Son, Maldini, Quaresma, Van Dijk',
     color: 'from-amber-500/20 to-yellow-600/20 text-amber-300',
     borderColor: 'border-amber-500/40 hover:border-amber-400',
@@ -55,8 +56,8 @@ const difficultyOptions: {
   {
     id: 'zor',
     title: 'Zor Seviye',
-    badge: 'Nostalji & Ustalar',
-    desc: 'Okocha, Juninho gibi efsanevi frikik ve çalım kralları',
+    badge: 'Nostalji & Ustalar (20)',
+    desc: 'Okocha, Juninho, Yaşin, Best gibi efsanevi ustalar',
     color: 'from-rose-500/20 to-red-600/20 text-rose-300',
     borderColor: 'border-rose-500/40 hover:border-rose-400',
     icon: '🔥',
@@ -75,8 +76,15 @@ export const StartMenu: React.FC<StartMenuProps> = ({
 }) => {
   return (
     <div className="w-full max-w-3xl mx-auto my-auto flex flex-col items-center justify-center space-y-6 py-6 px-2">
-      {/* Üst Ses Butonu */}
-      <div className="w-full flex justify-end">
+      {/* Üst Bar: Mod Seçici ve Ses Butonu */}
+      <div className="w-full flex items-center justify-between">
+        <Link
+          href="/tarih"
+          className="flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-amber-950/70 border border-amber-500/40 text-amber-300 hover:text-amber-100 text-xs font-bold transition-all hover:scale-105 shadow-md shadow-amber-950/40"
+        >
+          <span>🏛️ Tarihi Karakterler Modu</span>
+        </Link>
+
         <button
           onClick={onToggleSound}
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-black/40 border border-emerald-500/30 text-emerald-300 hover:text-white hover:bg-emerald-900/40 text-xs font-bold transition-all cursor-pointer"
