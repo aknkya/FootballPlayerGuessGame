@@ -157,12 +157,13 @@ export const HistoryGameContainer: React.FC = () => {
 
     if (isMatch) {
       // Doğru tahmin! Puan hesapla
-      const pointsTable = [500, 400, 300, 200, 100];
-      const earned = pointsTable[revealedCount - 1] || 100;
+      const basePoints = Math.max(100, 600 - revealedCount * 100);
+      const streakBonus = streak * 25;
+      const totalEarned = basePoints + streakBonus;
 
-      setRoundPoints(earned);
+      setRoundPoints(totalEarned);
       setGameState('won');
-      updateScoreAndStats(earned, true);
+      updateScoreAndStats(totalEarned, true);
 
       if (soundEnabled) sounds.playGoal();
 
@@ -178,7 +179,7 @@ export const HistoryGameContainer: React.FC = () => {
         // ignore
       }
     } else {
-      // Hatalı tahmin
+      // Hatalı tahmin!
       setIsShaking(true);
       setTimeout(() => setIsShaking(false), 500);
 
@@ -187,6 +188,17 @@ export const HistoryGameContainer: React.FC = () => {
       }
 
       if (soundEnabled) sounds.playMiss();
+
+      // Otomatik sonraki ipucunu aç (Futbol modundaki gibi)
+      if (revealedCount < 5) {
+        setRevealedCount((prev) => prev + 1);
+      } else {
+        // 5 ipucu da açıktı ve yine bilemedi -> Kaybetti
+        if (soundEnabled) sounds.playWhistle();
+        setRoundPoints(0);
+        updateScoreAndStats(0, false);
+        setGameState('lost');
+      }
     }
   };
 
