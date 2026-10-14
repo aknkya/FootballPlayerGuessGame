@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Trophy, Flame, RotateCcw, Home, Share2, Check, Sparkles, Star, Clapperboard, Award } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { Language, MovieItem } from '@/types/movie';
+import { getEmojiDescription } from '@/utils/emojiMap';
 
 export interface RoundHistoryItem {
   movie: MovieItem;
@@ -199,7 +200,12 @@ export const CinemaReportCard: React.FC<CinemaReportCardProps> = ({
               >
                 <div className="flex items-center gap-2 truncate pr-2">
                   <span className="font-bold text-stone-500 text-[11px] w-4">{i + 1}.</span>
-                  <span className="text-sm">{h.movie.emojis.split(' ')[0] || '🎬'}</span>
+                  <span
+                    className="text-sm cursor-help select-none"
+                    title={`${h.movie.emojis.split(' ')[0] || '🎬'} — ${getEmojiDescription(h.movie.emojis.split(' ')[0] || '🎬', language)}`}
+                  >
+                    {h.movie.emojis.split(' ')[0] || '🎬'}
+                  </span>
                   <span className="font-bold text-stone-200 truncate">{title}</span>
                 </div>
                 <div className="flex items-center gap-1.5 flex-shrink-0">

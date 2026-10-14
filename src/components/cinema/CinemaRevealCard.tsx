@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MovieItem, Language } from '@/types/movie';
+import { CinemaEmojiRow } from './CinemaEmojiRow';
 import { CheckCircle2, XCircle, ArrowRight, Film, Users, Sparkles, Star } from 'lucide-react';
 
 interface CinemaRevealCardProps {
@@ -111,12 +112,17 @@ export const CinemaRevealCard: React.FC<CinemaRevealCardProps> = ({
 
           {/* Emojiler */}
           <motion.div
-            className="text-2xl sm:text-3xl py-1 tracking-[0.3em]"
+            className="py-1"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            {movie.emojis}
+            <CinemaEmojiRow
+              emojiString={movie.emojis}
+              language={language}
+              size="md"
+              showHelperHint={false}
+            />
           </motion.div>
 
           {/* Yönetmen */}

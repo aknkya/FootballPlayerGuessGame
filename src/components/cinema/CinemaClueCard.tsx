@@ -4,6 +4,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Eye, Sparkles, Clapperboard } from 'lucide-react';
 import { Language } from '@/types/movie';
+import { CinemaEmojiRow } from './CinemaEmojiRow';
 
 interface CinemaClueCardProps {
   clues: string[];
@@ -185,17 +186,26 @@ export const CinemaClueCard: React.FC<CinemaClueCardProps> = ({
                 </div>
 
                 {/* İpucu İçeriği */}
-                <p
-                  className={`text-stone-100 leading-relaxed pl-0.5 ${
-                    isEmoji
-                      ? 'text-2xl sm:text-3xl font-black tracking-[0.25em] text-center py-2.5 drop-shadow-lg'
-                      : isQuote
+                {isEmoji ? (
+                  <div className="py-1">
+                    <CinemaEmojiRow
+                      emojiString={clue}
+                      language={language}
+                      size="lg"
+                      showHelperHint={true}
+                    />
+                  </div>
+                ) : (
+                  <p
+                    className={`text-stone-100 leading-relaxed pl-0.5 ${
+                      isQuote
                         ? 'text-sm sm:text-base italic font-semibold text-fuchsia-200 pl-2 border-l-2 border-fuchsia-500/40'
                         : 'text-sm sm:text-base font-medium'
-                  }`}
-                >
-                  {isQuote && '"'}{clue}{isQuote && '"'}
-                </p>
+                    }`}
+                  >
+                    {isQuote && '"'}{clue}{isQuote && '"'}
+                  </p>
+                )}
               </motion.div>
             );
           })}

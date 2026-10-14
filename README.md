@@ -115,6 +115,7 @@ npm run start
 │   ├── components/cinema/
 │   │   ├── CinemaGameContainer.tsx   # Core game state management, round logic, and session flow
 │   │   ├── CinemaStartMenu.tsx       # Start screen, game mode selection, and How to Play modal
+│   │   ├── CinemaEmojiRow.tsx        # Interactive emoji cards with hover & tap description tooltips
 │   │   ├── CinemaClueCard.tsx        # 5-step clue chain presentation card
 │   │   ├── CinemaAutocomplete.tsx    # Intelligent fuzzy search and guess input field
 │   │   ├── CinemaRevealCard.tsx      # Movie reveal and credits summary card
@@ -127,6 +128,7 @@ npm run start
 │   │   └── movie.ts                  # MovieItem, CountryInfo, and Language TypeScript interfaces
 │   └── utils/
 │       ├── audio.ts                  # Web Audio API sound synthesis effects
+│       ├── emojiMap.ts               # Bilingual emoji description dictionary (300+ emojis)
 │       └── normalize.ts              # Diacritic folding and fuzzy title matching
 └── scripts/
     ├── build-100-movies.js           # Dataset build and verification script
