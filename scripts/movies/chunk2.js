@@ -25,17 +25,17 @@ module.exports = [
       "Zoe Saldana",
       "Sigourney Weaver"
     ],
-    "emojis": "🔵 🏹 🪐 🐉 🌳 🛸",
+    "emojis": "👽 🔵 🏹 🪐 🐉 🌳",
     "clues": {
       "tr": [
-        "🔵 🏹 🪐 🐉 🌳 🛸",
+        "👽 🔵 🏹 🪐 🐉 🌳",
         "'Seni görüyorum.' (I see you.) ve 'Burası Kansas değil beyler, Pandora!'",
         "Tekerlekli sandalyeli eski bir deniz piyadesi, maden çıkarmak isteyen şirketin emriyle 3 metrelik mavi bir uzaylı bedenine bağlanır; sonra yerli kabile kızına aşık olup kendi ırkına karşı savaş başlatır.",
         "Uçan dağlar, saç örgülerini birbirine bağlayarak kurulan biyolojik internet ve kutsal ağacı roketlerle bombalayan doyumsuz insanlar içerir.",
         "3D sinema teknolojisini başlatan ve yaklaşık 3 milyar dolarla tüm zamanların en çok gişe yapan James Cameron filmi."
       ],
       "en": [
-        "🔵 🏹 🪐 🐉 🌳 🛸",
+        "👽 🔵 🏹 🪐 🐉 🌳",
         "'I see you.' and 'You are not in Kansas anymore. You are on Pandora, ladies and gentlemen.'",
         "A paraplegic marine is transferred into a 10-foot-tall blue feline alien body on an alien moon, falls in love with the chieftain's daughter, and leads a wildlife rebellion against human strip-mining corporations.",
         "Renowned for floating Hallelujah mountains, glowing bioluminescent flora, and plugging ponytail nerve-endings into flying dragon mounts.",
@@ -67,17 +67,17 @@ module.exports = [
       "Robert De Niro",
       "Zazie Beetz"
     ],
-    "emojis": "🤡 🚬 🩸 🪜 📺 🔫",
+    "emojis": "🤡 💄 🕺 🚬 📺 🔫",
     "clues": {
       "tr": [
-        "🤡 🚬 🩸 🪜 📺 🔫",
+        "🤡 💄 🕺 🚬 📺 🔫",
         "'Hayatımın bir trajedi olduğunu düşünürdüm ama şimdi anlıyorum ki tam bir komediymiş!' ve 'Beni tanıtırken Joker deyin.'",
         "Gülme krizine giren psikolojik sorunlu bir palyaço ve başarısız komedyen, metroda kendisine saldıran üç zengin borsacıyı vurunca tüm şehri ateşe veren bir halk hareketinin idolü olur.",
         "Upuzun New York taş merdivenlerinde müzik eşliğinde inerek dans eden adam ve canlı talk show yayınında sunucuya sıkılan kurşun.",
         "Joaquin Phoenix'e muazzam bir zayıflama sürecinin ardından En İyi Erkek Oyuncu Oscar'ını kazandıran Todd Phillips filmi."
       ],
       "en": [
-        "🤡 🚬 🩸 🪜 📺 🔫",
+        "🤡 💄 🕺 🚬 📺 🔫",
         "'I used to think that my life was a tragedy, but now I realize, it's a f**king comedy.' and 'When you bring me out, can you introduce me as Joker?'",
         "An impoverished, mentally ill party clown suffering from pathological laughing fits snaps after being beaten in an alley, kills three Wall Street bullies on the subway, and ignites a violent populist uprising.",
         "Iconic for painting a crimson blood smile across his face while dancing down a steep Bronx staircase to Gary Glitter's rock anthem.",
@@ -109,17 +109,17 @@ module.exports = [
       "Ed Harris",
       "Laura Linney"
     ],
-    "emojis": "📺 ⛵ 🎥 ☀️ 🚪 ☁️",
+    "emojis": "👶 📺 👁️ 🎥 🌊 🚪",
     "clues": {
       "tr": [
-        "📺 ⛵ 🎥 ☀️ 🚪 ☁️",
+        "👶 📺 👁️ 🎥 🌊 🚪",
         "'Ve eğer sizi tekrar göremezsem... Günaydın, iyi günler ve iyi geceler!'",
         "Doğduğu andan itibaren tüm hayatı devasa bir stüdyoda 5000 gizli kamerayla 24 saat canlı yayınlanan bir adam, gökten stüdyo ışığı düşünce dünyasının sahte olduğunu keşfeder.",
         "Karısının konuşurken sürekli kameraya dönüp kahve reklamı yapması ve deniz sandığı duvara çarpıp gökyüzündeki kapıdan eğilerek selam verip çıkış.",
         "Jim Carrey'nin olağanüstü bir dramatik performans sergilediği, Peter Weir yönetmenliğindeki distopik medya eleştirisi başyapıtı."
       ],
       "en": [
-        "📺 ⛵ 🎥 ☀️ 🚪 ☁️",
+        "👶 📺 👁️ 🎥 🌊 🚪",
         "'In case I don't see ya, good afternoon, good evening, and good night!'",
         "An insurance salesman completely unaware that his entire life is an around-the-clock reality TV show broadcast to billions inside a gigantic dome discovers the truth when a stage spotlight falls from the blue sky.",
         "His wife constantly plugs hot cocoa brands mid-argument, leading him to sail across a fake ocean and literally puncture the painted sky horizon.",
@@ -193,17 +193,17 @@ module.exports = [
       "Christoph Waltz",
       "Leonardo DiCaprio"
     ],
-    "emojis": "⛓️ 🐎 🦷 🩸 💀 🚬",
+    "emojis": "⛓️ 🤠 🐎 🔫 🩸 🏰",
     "clues": {
       "tr": [
-        "⛓️ 🐎 🦷 🩸 💀 🚬",
+        "⛓️ 🤠 🐎 🔫 🩸 🏰",
         "'Benim adım Django... 'D' harfi okunmaz köylü!' ve 'Bay Candie, normalde elinizi sıkardım ama ısrar ederseniz hayır diyemem.'",
         "Alman bir ödül avcısı dişçi tarafından özgürleştirilen siyahi bir köle, hızlı silah çekmeyi öğrenip zalim bir pamuk çiftliği sahibinin elindeki karısını kurtarmak için kan gövdeyi götüren bir çatışmaya girer.",
         "Kafatasını masaya vuran Leonardo DiCaprio'nun elini gerçekten kesip sahneye kanlar içinde devam etmesi ve dinamitle havaya uçurulan konak.",
         "Christoph Waltz'a ikinci Oscar'ını, Quentin Tarantino'ya En İyi Senaryo Oscar'ını kazandıran modern western şaheseri."
       ],
       "en": [
-        "⛓️ 🐎 🦷 🩸 💀 🚬",
+        "⛓️ 🤠 🐎 🔫 🩸 🏰",
         "'The 'D' is silent, hillbilly.' and 'Gentlemen, you had my curiosity... but now you have my attention.'",
         "A freed slave trains under an eccentric German dentist turned bounty hunter to master the quick-draw and rescue his German-speaking wife from a sadistic Mississippi plantation aristocrat.",
         "Unforgettable for Leonardo DiCaprio genuinely smashing a wine glass and slicing his real hand open mid-take while in character.",
@@ -236,17 +236,17 @@ module.exports = [
       "Christoph Waltz",
       "Mélanie Laurent"
     ],
-    "emojis": "🪓 🥛 🥨 📽️ 🔥 🇩🇪",
+    "emojis": "🪓 🥛 🍰 📽️ 🔥 🇩🇪",
     "clues": {
       "tr": [
-        "🪓 🥛 🥨 📽️ 🔥 🇩🇪",
+        "🪓 🥛 🍰 📽️ 🔥 🇩🇪",
         "'Au revoir Shosanna!' ve 'Her birinizin bana 100 Nazi kafa derisi borcu var! Ve ben kafa derilerimi istiyorum!'",
         "İkinci Dünya Savaşı'nda Yahudi asıllı Amerikalı bir asker grubu Nazilerin kafasını yüzmek için Fransa'ya sızar; sinema salonunda Hitler ve tüm Nazi liderlerini alevler içinde yakarak tarihi baştan yazarlar.",
         "Süt içerek çiftçiyi sorgulayan korkunç dedektif, kremalı tatlı yeme gerilimi ve 3 parmak yerine yanlış parmakla sipariş verip kendini ele veren casus.",
         "Christoph Waltz'un Albay Hans Landa rolüyle sinema tarihine geçtiği Quentin Tarantino'nun alternatif tarih filmi."
       ],
       "en": [
-        "🪓 🥛 🥨 📽️ 🔥 🇩🇪",
+        "🪓 🥛 🍰 📽️ 🔥 🇩🇪",
         "'Au revoir, Shosanna!' and 'Each and every man under my command owes me one hundred Nazi scalps. And I want my scalps!'",
         "A bloodthirsty squad of Jewish-American guerrilla soldiers known for scalping enemy officers teams up with a French theatre owner to incinerate the entire Nazi high command in a cinema.",
         "Renowned for the nail-biting basement tavern shootout triggered by ordering three whiskeys with the wrong three fingers.",
@@ -279,17 +279,17 @@ module.exports = [
       "Jonah Hill",
       "Margot Robbie"
     ],
-    "emojis": "📈 💵 🚁 💊 🍾 🦍",
+    "emojis": "📈 💵 💊 🚁 🍾 🦍",
     "clues": {
       "tr": [
-        "📈 💵 🚁 💊 🍾 🦍",
+        "📈 💵 💊 🚁 🍾 🦍",
         "'Bana şu kalemi sat.' (Sell me this pen.) ve 'Gitmiyorum! Hiçbir yere gitmiyorum! Lanet şov devam ediyor!'",
         "Wall Street'te değersiz beş paralık hisseleri zenginlere kakalayarak 26 yaşında haftada milyon dolarlar kazanan bir komisyoncu; parti, uyuşturucu ve lüks içinde yüzerken FBI peşine düşer.",
         "Aşırı doz sakinleştirici alıp felç gibi yerlerde sürünerek beyaz Ferrari'ye binmeye çalışan adam ve ofiste göğse yumruk vurup mırıldanan ritüel.",
         "Martin Scorsese'nin yönettiği, Leonardo DiCaprio ve Margot Robbie'nin yıldızlaştığı aşırılıklar dolu biyografik komedi."
       ],
       "en": [
-        "📈 💵 🚁 💊 🍾 🦍",
+        "📈 💵 💊 🚁 🍾 🦍",
         "'Sell me this pen.' and 'I'm not leaving! The show goes on!'",
         "A pump-and-dump boiler-room stockbroker builds a multi-million-dollar empire defrauding greedy investors, descending into debauched madness with helicopters, supermodels, and chimpanzees.",
         "Famous for the paralyzed crawl on country club steps during the 'cerebral palsy' phase of expired Quaaludes.",
@@ -322,17 +322,17 @@ module.exports = [
       "Helen Hunt",
       "Nick Searcy"
     ],
-    "emojis": "🏐 🏝️ 📦 ✈️ 🌊 🥥",
+    "emojis": "✈️ 🏝️ 🏐 🥥 🦷 📦",
     "clues": {
       "tr": [
-        "🏐 🏝️ 📦 ✈️ 🌊 🥥",
+        "✈️ 🏝️ 🏐 🥥 🦷 📦",
         "'Wilson! Özür dilerim Wilson! Wilson!!' ve 'Ateş yaktım! Ateşi ben yarattım!'",
         "Zaman takıntılı bir kargo şirketi sistem mühendisi, uçağı Pasifik'e düşünce 4 yıl boyunca ıssız bir adada tek başına yaşar; kanlı el iziyle yüz çizdiği bir voleybol topunu en yakın arkadaşı yapar.",
         "Buz pateni bıçağıyla kendi çürük dişini çeken adam ve okyanusta sal üzerinde sürüklenirken elinden kayıp giden voleybol topuna ağlayan seyirciler.",
         "Tom Hanks'in kilo verip tek başına filmi sırtladığı, Robert Zemeckis'in yönettiği efsanevi hayatta kalma draması."
       ],
       "en": [
-        "🏐 🏝️ 📦 ✈️ 🌊 🥥",
+        "✈️ 🏝️ 🏐 🥥 🦷 📦",
         "'WILSON! I'm sorry, Wilson! Wilson!!' and 'Look what I have created! I have made fire!'",
         "A hyper-punctual FedEx logistics executive crash-lands into the South Pacific, surviving 4 years in total isolation by harvesting coconuts, spearing fish, and befriending a volleyball.",
         "Made millions of moviegoers weep over a floating sports ball drifting away into the open ocean.",
@@ -407,17 +407,17 @@ module.exports = [
       "Jordan Nagai",
       "John Ratzenberger"
     ],
-    "emojis": "🎈 🏠 👴 👦 🐕 🍫",
+    "emojis": "🎈 🏠 👴 👦 🐕 🗺️",
     "clues": {
       "tr": [
-        "🎈 🏠 👴 👦 🐕 🍫",
+        "🎈 🏠 👴 👦 🐕 🗺️",
         "'Macera dışarıda bir yerlerde!' ve 'Sincap! Konuşan tasmam var, seni çok seviyorum efendim!'",
         "Vefat eden eşinin hayalini gerçekleştirmek isteyen huysuz bir baloncu ihtiyar, evinin bacasına binlerce helyum balonu bağlayıp Güney Amerika'ya uçar; verandasında ise tombul bir izci çocuk mahsur kalmıştır.",
         "Filmin ilk 10 dakikasındaki hiç repliksiz hayat ve aşk hikayesiyle salonlardaki herkesi hıçkırıklara boğan animasyon.",
         "Pixar'ın En İyi Film dalında Oscar'a aday gösterilen ikinci animasyonu olan, Michael Giacchino'nun unutulmaz vals melodisine sahip film."
       ],
       "en": [
-        "🎈 🏠 👴 👦 🐕 🍫",
+        "🎈 🏠 👴 👦 🐕 🗺️",
         "'Adventure is out there!' and 'Squirrel! My name is Dug. I have just met you, and I love you.'",
         "A grieving 78-year-old balloon salesman ties thousands of balloons to his house to fly to Paradise Falls in South America, inadvertently taking an overeager 8-year-old wilderness explorer along for the ride.",
         "Universally famous for its opening four-minute wordless montage chronicling Carl and Ellie's lifelong love and loss, leaving audiences in tears.",
@@ -450,17 +450,17 @@ module.exports = [
       "Ellen DeGeneres",
       "Alexander Gould"
     ],
-    "emojis": "🐠 🌊 🦈 🐢 🤿 🇦🇺",
+    "emojis": "🐠 🌊 🤿 🦈 🐢 🦷",
     "clues": {
       "tr": [
-        "🐠 🌊 🦈 🐢 🤿 🇦🇺",
+        "🐠 🌊 🤿 🦈 🐢 🦷",
         "'Yüzmeye devam et, yüzmeye devam et!' (Just keep swimming!) ve 'Balıklar arkadaştır, yiyecek değil!'",
         "Tek yüzgeci küçük olan yavru bir balık dalgıç tarafından yakalanıp bir dişçi muayenehanesindeki akvaryuma konur; aşırı korumacı babası hafızası 3 saniye süren mavi bir balıkla okyanusu aşar.",
         "'P. Sherman, 42 Wallaby Way, Sydney' adresini ezberleyen mavi balık ve deniz kaplumbağalarıyla Doğu Avustralya Akıntısı'nda sörf yapma sahneleri.",
         "Pixar'ın En İyi Animasyon Oscar'ını kazanan, Ellen DeGeneres'in Dory'yi seslendirdiği gişe rekortmeni su altı macerası."
       ],
       "en": [
-        "🐠 🌊 🦈 🐢 🤿 🇦🇺",
+        "🐠 🌊 🤿 🦈 🐢 🦷",
         "'Just keep swimming, just keep swimming!' and 'Fish are friends, not food!'",
         "A timid, overprotective clownfish father crosses the entire Pacific Ocean alongside an amnesiac blue tang to rescue his abducted son from a dentist's office fish tank in Sydney.",
         "Immortalized the address 'P. Sherman, 42 Wallaby Way, Sydney' and support groups for vegetarian great white sharks.",
@@ -494,17 +494,17 @@ module.exports = [
       "Tim Allen",
       "Don Rickles"
     ],
-    "emojis": "🤠 🚀 🦖 🥔 👽 🧸",
+    "emojis": "🤠 🚀 🧸 👦 📦 🦖",
     "clues": {
       "tr": [
-        "🤠 🚀 🦖 🥔 👽 🧸",
+        "🤠 🚀 🧸 👦 📦 🦖",
         "'Sonsuzluğa ve ötesine!' (To infinity and beyond!) ve 'Sen sadece bir çocuk oyuncağısın!'",
         "Odadaki çocuk dışarı çıktığında canlanan oyuncakların lideri olan çekme ipli bez kovboy, çocuğa doğum gününde gelen uçtuğunu zanneden kibirli bir uzay askeri yüzünden pabucunun dama atıldığını hisseder.",
         "Pizza Planet restoranındaki pençe makinesi, zalim komşu çocuğu Sid'in mutant oyuncakları ve 'Benim bir dostum var' (You've Got a Friend in Me) şarkısı.",
         "Sinema tarihinin ilk tamamen bilgisayar animasyonuyla üretilen uzun metrajlı filmi; Tom Hanks (Woody) ve Tim Allen (Buzz)."
       ],
       "en": [
-        "🤠 🚀 🦖 🥔 👽 🧸",
+        "🤠 🚀 🧸 👦 📦 🦖",
         "'To infinity and beyond!' and 'You are a child's plaything!'",
         "A vintage pull-string cowboy doll gets intensely jealous when a flashy new electronic space ranger toy with laser beams arrives and replaces him as his boy's favorite toy.",
         "Famous for the green aliens worshipping The Claw at Pizza Planet and sadistic neighbor kid Sid blowing toys up with fireworks.",
@@ -623,17 +623,17 @@ module.exports = [
       "Ian Holm",
       "Lou Romano"
     ],
-    "emojis": "🐀 👨‍🍳 🧀 🍷 🥖 🗼",
+    "emojis": "🐀 👨‍🍳 🍲 🍷 🥖 🗼",
     "clues": {
       "tr": [
-        "🐀 👨‍🍳 🧀 🍷 🥖 🗼",
+        "🐀 👨‍🍳 🍲 🍷 🥖 🗼",
         "'Herkes harika bir sanatçı olamaz ama harika bir sanatçı her yerden çıkabilir!'",
         "Paris'in lüks bir restoranında aşçı olmak isteyen üstün koku duyusuna sahip bir lağım faresi, beceriksiz bir çöpçü çocuğun saçlarını aşçı şapkasının altından kukla gibi çekerek efsane yemekler yapar.",
         "Acımasız gurme yemek eleştirmeni Anton Ego'nun bir lokma sebze yemeği tattığında çocukluğundaki annesinin mutfağına ışınlandığı sahne.",
         "Brad Bird'ün yönettiği, Pixar'ın gastronomi ve tutkuyu enfes anlatan En İyi Animasyon Oscar'lı filmi."
       ],
       "en": [
-        "🐀 👨‍🍳 🧀 🍷 🥖 🗼",
+        "🐀 👨‍🍳 🍲 🍷 🥖 🗼",
         "'Not everyone can become a great artist, but a great artist can come from anywhere.'",
         "A rat with exceptionally sophisticated olfactory senses forms an unlikely culinary partnership with an awkward garbage boy by controlling his movements like a marionette tugging his ginger hair.",
         "Features the stone-faced critic Anton Ego tasting a simple traditional vegetable stew and instantly getting transported to his mother's countryside kitchen.",
@@ -667,17 +667,17 @@ module.exports = [
       "Elissa Knight",
       "Jeff Garlin"
     ],
-    "emojis": "🤖 🗑️ 🌱 🚀 🛸 🪳",
+    "emojis": "🤖 🗑️ 🌱 🤍 🚀 🪐",
     "clues": {
       "tr": [
-        "🤖 🗑️ 🌱 🚀 🛸 🪳",
+        "🤖 🗑️ 🌱 🤍 🚀 🪐",
         "'Evaaaaa!' ve 'Ben sadece hayatta kalmak istemiyorum, yaşamak istiyorum!'",
         "İnsanların çöplüğe çevirip terk ettiği Dünya'da 700 yıldır tek başına çöpleri presleyip kule yapan küçük paslı bir robot, uzaydan gelen beyaz şık bir robota aşık olup onun peşinden galaksiye fırlar.",
         "Uçan koltuklarda ekran başında obezleşmiş insanların yaşadığı uzay gemisi ve bir yangın söndürücü köpüğüyle uzay boşluğunda yapılan romantik dans.",
         "İlk 40 dakikasında neredeyse hiç insan sesi olmadan saf sinema diliyle büyüleyen, Oscar ödüllü Pixar bilim kurgusu."
       ],
       "en": [
-        "🤖 🗑️ 🌱 🚀 🛸 🪳",
+        "🤖 🗑️ 🌱 🤍 🚀 🪐",
         "'Eeeee-vah?' and 'I don't want to survive. I want to live!'",
         "A lonely solar-powered waste-collector robot left on an abandoned, garbage-strewn Earth falls hopelessly in love with a sleek extraterrestrial probe and follows her across the cosmos.",
         "Depicts morbidly obese humans hovering on screen-mesmerized lounge chairs and a zero-gravity space dance fueled by a fire extinguisher.",
@@ -754,17 +754,17 @@ module.exports = [
       "Emma Stone",
       "John Legend"
     ],
-    "emojis": "🎹 💃 🌆 🎺 👗 🌌",
+    "emojis": "🎹 💃 🕺 🌆 🎺 🎬",
     "clues": {
       "tr": [
-        "🎹 💃 🌆 🎺 👗 🌌",
+        "🎹 💃 🕺 🌆 🎺 🎬",
         "'Gözlerindeki ışıkla bana baktığında... Şehirde sadece sen ve ben vardık.' ve 'City of Stars... Are you shining just for me?'",
         "Geleneksel caz kulübü açmak isteyen tutkulu bir piyanist ile seçmelerde sürekli reddedilen bir oyuncu Los Angeles trafiğinde tanışır; kariyerlerinde zirveye çıkarken birbirlerini kaybederler.",
         "Mor-turuncu gökyüzü altında yapılan step dansı, planetaryumda havada uçarak edilen vals ve filmin sonundaki 'eğer ayrı kalmasaydık ne olurdu' hayal sekansı.",
         "14 dalda Oscar'a aday gösterilip Emma Stone'a En İyi Kadın Oyuncu dahil 6 Oscar kazandıran Damien Chazelle müzikali."
       ],
       "en": [
-        "🎹 💃 🌆 🎺 👗 🌌",
+        "🎹 💃 🕺 🌆 🎺 🎬",
         "'City of stars, are you shining just for me?' and 'Here's to the fools who dream, crazy as they may seem.'",
         "An idealistic jazz purist pianist and an aspiring barista actress fall deeply in love in Los Angeles, but find their professional artistic ambitions slowly pulling their relationship apart.",
         "Spectacular for its freeway gridlock opening song and an achingly poignant 'what-if' fantasy montage looking back at the life they never lived together.",
@@ -796,17 +796,17 @@ module.exports = [
       "J.K. Simmons",
       "Paul Reiser"
     ],
-    "emojis": "🥁 🩸 🥪 ⏱️ 🤬 🎺",
+    "emojis": "🥁 🩸 ⏱️ 🤬 🪑 🎺",
     "clues": {
       "tr": [
-        "🥁 🩸 🥪 ⏱️ 🤬 🎺",
+        "🥁 🩸 ⏱️ 🤬 🪑 🎺",
         "'İngiliz dilindeki en tehlikeli iki kelime nedir bilir misin? İyi iş!' (Good job!) ve 'Benim tempomda mı çalıyordun yoksa acele mi ediyordun?!'",
         "Geleceğin en büyük caz davulcusu olmak isteyen 19 yaşındaki konservatuvar öğrencisi, mükemmeliyeti arayan sadist bir orkestra şefinin psikolojik ve fiziksel işkencelerine maruz kalır.",
         "Öğrencinin kafasına fırlatılan sandalye, davul derisini delen kanlı kabarcıklar ve filmin sonunda göz temasında patlayan 9 dakikalık solo 'Caravan'.",
         "J.K. Simmons'a En İyi Yardımcı Erkek Oyuncu Oscar'ını kazandıran, Damien Chazelle'in tansiyonu hiç düşmeyen başyapıtı."
       ],
       "en": [
-        "🥁 🩸 🥪 ⏱️ 🤬 🎺",
+        "🥁 🩸 ⏱️ 🤬 🪑 🎺",
         "'There are no two words in the English language more harmful than 'good job'.' and 'Were you rushing or were you dragging?!'",
         "An ambitious 19-year-old jazz drummer at a cutthroat New York music conservatory is pushed to the brink of physical collapse and psychological destruction by a merciless, abusive band conductor.",
         "Legendary for blistering hand blisters bleeding onto cymbals and a spine-chilling 9-minute climax drum solo of Duke Ellington's 'Caravan'.",
@@ -881,17 +881,17 @@ module.exports = [
       "Mathieu Kassovitz",
       "Rufus"
     ],
-    "emojis": "🥄 🍓 📸 📮 🧝‍♀️ 🇫🇷",
+    "emojis": "🥄 🍮 📸 💌 🚲 🗼",
     "clues": {
       "tr": [
-        "🥄 🍓 📸 📮 🧝‍♀️ 🇫🇷",
+        "🥄 🍮 📸 💌 🚲 🗼",
         "'En azından sen asla bir sebze olamazsın; çünkü enginarın bile bir kalbi vardır!' ve 'Şans bir Tour de France gibidir; beklersin, geçer ve yakalayamazsan biter.'",
         "Paris'in Montmartre semtinde garsonluk yapan hayalperest utangaç bir kız, banyosundaki fayansın arkasında bulduğu 40 yıllık oyuncak kutusunu sahibine ulaştırınca insanların hayatını gizlice güzelleştirmeye karar verir.",
         "Krem karamelin üstündeki şekeri kaşığın ucuyla çıtırdatma zevki ve dünyayı gezen bahçe cücesinin gönderdiği fotoğraflar.",
         "Audrey Tautou'nun dev gözleriyle hayat verdiği, Yann Tiersen'in akordeonlu unutulmaz müziklerine sahip Fransız sineması şaheseri."
       ],
       "en": [
-        "🥄 🍓 📸 📮 🧝‍♀️ 🇫🇷",
+        "🥄 🍮 📸 💌 🚲 🗼",
         "'At least you'll never be a vegetable; even artichokes have hearts!' and 'Failure teaches us that life is but a draft.'",
         "A delightfully whimsical and introverted Parisian waitress in Montmartre decides to secretly orchestrate subtle acts of joy for the eccentric people around her while chasing an enigmatic collector of discarded photo-booth scraps.",
         "Iconic for the tactile pleasure of cracking creme brulee crusts with a teaspoon and sending her father's garden gnome on a worldwide vacation.",
@@ -968,17 +968,17 @@ module.exports = [
       "Natalie Portman",
       "Gary Oldman"
     ],
-    "emojis": "🥛 🪴 🕶️ 🔫 👧 🎧",
+    "emojis": "🕶️ 🥛 🪴 🔫 👧 💣",
     "clues": {
       "tr": [
-        "🥛 🪴 🕶️ 🔫 👧 🎧",
+        "🕶️ 🥛 🪴 🔫 👧 💣",
         "'Hayat her zaman mı bu kadar zor, yoksa sadece çocukken mi?' - 'Her zaman.' ve 'HERKESİ GETİRİN! EVVVVET HERKESİİİ!' (Everyone!)",
         "Sadece süt içen, bitkisine gözü gibi bakan okuma yazma bilmeyen İtalyan bir tetikçi; ailesi yozlaşmış uyuşturucu polisi tarafından katledilen 12 yaşındaki komşu kızı evine alıp ona temizlikçilik mesleğini öğretir.",
         "Gary Oldman'ın hap yutup Beethoven dinleyerek katliam yapması ve küçük kızın elindeki saksıyı parkın toprağına diktiği duygusal son.",
         "Natalie Portman'ın 12 yaşında sinema dünyasına adım attığı, Jean Reno'nun başrolünde olduğu Luc Besson klasiği."
       ],
       "en": [
-        "🥛 🪴 🕶️ 🔫 👧 🎧",
+        "🕶️ 🥛 🪴 🔫 👧 💣",
         "'Is life always this hard, or is it just when you're a kid?' - 'Always.' and 'EVERYONE! Bring me everyone!'",
         "An illiterate, milk-drinking Italian hitman living quietly in Little Italy reluctantly shelters a cynical 12-year-old girl after her family is slaughtered by a pill-popping, Beethoven-obsessed corrupt DEA agent.",
         "Unforgettable for Mathilda carrying her potted plant through Manhattan streets and learning the assassin trade as a 'cleaner'.",

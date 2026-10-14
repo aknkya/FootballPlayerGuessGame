@@ -14,6 +14,8 @@ import { isMovieMatch } from '@/utils/normalize';
 import rawMovieData from '@/data/kotu-anlatilmis-filmler.json';
 
 const allMovies: MovieItem[] = rawMovieData as unknown as MovieItem[];
+// Şimdilik sadece global (yabancı) yapımlar oyuna alınıyor, yerli yapımlar JSON'da saklanıyor
+const playableMovies: MovieItem[] = allMovies.filter((m) => m.origin === 'yabanci');
 
 export const CinemaGameContainer: React.FC = () => {
   const [viewMode, setViewMode] = useState<'menu' | 'playing'>('menu');
@@ -100,7 +102,7 @@ export const CinemaGameContainer: React.FC = () => {
 
   // Oyunu Başlat
   const startGame = useCallback(() => {
-    let pool = [...allMovies];
+    let pool = [...playableMovies];
 
     if (selectedType !== 'tum') {
       pool = pool.filter((m) => m.type === selectedType);
@@ -268,7 +270,7 @@ export const CinemaGameContainer: React.FC = () => {
                     />
                   ) : (
                     <CinemaAutocomplete
-                      movies={allMovies}
+                      movies={playableMovies}
                       onGuess={handleGuess}
                       onGiveUp={handleGiveUp}
                       disabled={gameState !== 'playing'}

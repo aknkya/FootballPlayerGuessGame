@@ -24,17 +24,17 @@ module.exports = [
       "Michelle Pfeiffer",
       "Steven Bauer"
     ],
-    "emojis": "🏔️ 🔫 🐅 🇨🇺 🌴 💥",
+    "emojis": "🇨🇺 👃 💼 🔫 🐅 💥",
     "clues": {
       "tr": [
-        "🏔️ 🔫 🐅 🇨🇺 🌴 💥",
+        "🇨🇺 👃 💼 🔫 🐅 💥",
         "'Küçük arkadaşıma merhaba deyin!' (Say hello to my little friend!) ve 'Dünya senindir chico!'",
         "Küba'dan tekneyle Miami'ye göç eden yaralı yüzlü hırslı bir mülteci, bulaşıkçılıktan başlayıp patronunu vurarak uyuşturucu baronu olur; paranoyadan kendi malikanesinde tek başına orduya karşı savaşır.",
         "Mermer masanın üzerindeki devasa beyaz pudra dağı, altın küvet ve arkasında 'The World Is Yours' yazan dönen küre heykeli.",
         "Al Pacino'nun sinema tarihinin en ikonik anti-kahramanlarından Tony Montana'yı canlandırdığı Brian De Palma filmi."
       ],
       "en": [
-        "🏔️ 🔫 🐅 🇨🇺 🌴 💥",
+        "🇨🇺 👃 💼 🔫 🐅 💥",
         "'Say hello to my little friend!' and 'The world, chico, and everything in it.'",
         "An ambitious Cuban refugee with a facial scar starts out washing dishes in Miami, ruthlessly eliminates his cartel bosses to become the ultimate cocaine kingpin, but succumbs to paranoid cocaine-fueled megalomania.",
         "Synonymous with burying his face into a mountain of white powder before shooting an under-barrel grenade launcher at hitmen storming his mansion.",
@@ -65,17 +65,17 @@ module.exports = [
       "Robert Downey Jr.",
       "Emily Blunt"
     ],
-    "emojis": "💣 ⚛️ 🏜️ 🍎 🎩 📻",
+    "emojis": "👨‍🔬 ⚛️ 💣 💥 🇺🇸 🍄",
     "clues": {
       "tr": [
-        "💣 ⚛️ 🏜️ 🍎 🎩 📻",
+        "👨‍🔬 ⚛️ 💣 💥 🇺🇸 🍄",
         "'Ben artık ölüm oldum, dünyaların yok edicisi.' ve 'Dünyayı yok etme şansımız neredeyse sıfırdı... Sıfır ne demek istiyorsun?'",
         "Teorik bir fizikçi, İkinci Dünya Savaşı'nı bitirmek için çölde gizli bir kasaba kurup binlerce bilim insanıyla tarihin ilk nükleer silahını yapar; sonra vicdan azabı ve soğuk savaş cadı avıyla boğuşur.",
         "Trinity nükleer testindeki o ölümcül sessizlik ve alkışlayan kalabalığın yüzünün aydınlanıp nükleer patlama kabusuna dönüşmesi.",
         "7 Oscar ödülü kazanan, Cillian Murphy ve Robert Downey Jr.'a Oscar getiren Christopher Nolan biyografisi."
       ],
       "en": [
-        "💣 ⚛️ 🏜️ 🍎 🎩 📻",
+        "👨‍🔬 ⚛️ 💣 💥 🇺🇸 🍄",
         "'Now I am become Death, the destroyer of worlds.' and 'Near zero... What do you want from theory alone?'",
         "A brilliant theoretical physicist directs the secretive Manhattan Project in the New Mexico desert to beat the Nazis in building the atomic bomb, only to suffer crippling existential guilt over unleashing nuclear apocalypse.",
         "Renowned for the dead silence before the shocking acoustic shockwave of the Trinity test and the stomping feet in the auditorium bleachers.",
@@ -195,17 +195,17 @@ module.exports = [
       "Charlize Theron",
       "Nicholas Hoult"
     ],
-    "emojis": "🔥 🚗 🎸 🏜️ 🥛 ☠️",
+    "emojis": "🔥 🚗 🎸 🏜️ 🥛 💀",
     "clues": {
       "tr": [
-        "🔥 🚗 🎸 🏜️ 🥛 ☠️",
+        "🔥 🚗 🎸 🏜️ 🥛 💀",
         "'Bana tanıklık edin!' (Witness me!) ve 'Ne güzel bir gün!' (What a lovely day!)",
         "Kıyamet sonrası su ve benzinin tükendiği bir çölde, mekanik kollu bir kadın savaşçı zalim diktatörün haremindeki kadınları dev bir tankerle kaçırır; kafesinde kan torbası olarak asılı duran sessiz bir adam da onlara katılır.",
         "Hareket eden devasa ses kamyonunun tepesinde asılı durup alev fırlatan elektro gitar çalan çılgın adam ve kum fırtınasında 2 saatlik kesintisiz araba takibi.",
         "George Miller'ın 70 yaşında yönettiği, 6 teknik Oscar kazanan sinema tarihinin en saf aksiyon filmlerinden biri."
       ],
       "en": [
-        "🔥 🚗 🎸 🏜️ 🥛 ☠️",
+        "🔥 🚗 🎸 🏜️ 🥛 💀",
         "'Witness me!' and 'Oh, what a day... What a lovely day!'",
         "In a post-apocalyptic desert wasteland where gasoline and water are supreme currency, a one-armed renegade imperator smuggles a warlord's five captive wives in a war rig with the help of a muzzled universal blood donor.",
         "Unrivaled for a bungee-corded mutant shredding a fire-spewing guitar atop a rolling wall of speakers at 70 miles per hour.",
@@ -411,17 +411,17 @@ module.exports = [
       "Tom Hanks",
       "Christopher Walken"
     ],
-    "emojis": "✈️ 👨‍✈️ 💳 🏨 🏃‍♂️ 👮",
+    "emojis": "👨‍✈️ ✈️ 💳 🏨 🏃‍♂️ 👮",
     "clues": {
       "tr": [
-        "✈️ 👨‍✈️ 💳 🏨 🏃‍♂️ 👮",
+        "👨‍✈️ ✈️ 💳 🏨 🏃‍♂️ 👮",
         "'İki küçük fare bir kova kremanın içine düşmüş... Biri pes edip boğulmuş, diğeri ise öyle çok çırpınmış ki kremayı tereyağına çevirip dışarı tırmanmış!'",
         "Henüz 19 yaşına basmadan sahte çekler basarak milyon dolarlar dolandıran bir dahi çocuk, sırasıyla Pan Am havayolları pilotu, çocuk doktoru ve savcı kılığına girerek peşindeki inatçı FBI ajanını yıllarca peşinden koşturur.",
         "Her Noel akşamı kendisini yakalamaya çalışan yalnız FBI ajanını telefonla arayıp dalga geçen ve havalimanında hosteslerin arasına karışıp kaçan genç.",
         "Steven Spielberg'in yönettiği, gerçek bir hayat hikayesinden uyarlanan Leonardo DiCaprio ve Tom Hanks'li kedi-fare oyunu."
       ],
       "en": [
-        "✈️ 👨‍✈️ 💳 🏨 🏃‍♂️ 👮",
+        "👨‍✈️ ✈️ 💳 🏨 🏃‍♂️ 👮",
         "'Two little mice fell in a bucket of cream... The second mouse, he struggled so hard that eventually he churned that cream into butter and crawled out!'",
         "Before his 19th birthday, a brilliant teenage runaway successfully cons millions of dollars worth of forged checks while posing as a Pan Am co-pilot, a chief pediatrician, and a Louisiana prosecutor with a dogged FBI agent on his heels.",
         "Iconic for calling his pursuer Carl Hanratty every lonely Christmas Eve and strolling through airport security surrounded by glamorous Pan Am stewardesses.",
@@ -496,17 +496,17 @@ module.exports = [
       "Lee J. Cobb",
       "Martin Balsam"
     ],
-    "emojis": "🏛️ 👔 🔪 ⏳ 🌧️ 🗳️",
+    "emojis": "🏛️ 👨‍⚖️ 🔪 🌧️ ⏳ 🗳️",
     "clues": {
       "tr": [
-        "🏛️ 👔 🔪 ⏳ 🌧️ 🗳️",
+        "🏛️ 👨‍⚖️ 🔪 🌧️ ⏳ 🗳️",
         "'Sadece makul bir şüphe olduğunu söylüyorum.' ve 'Bir çocuğun hayatı söz konusuyken beş dakikada karar veremeyiz.'",
         "Babasını öldürmekle suçlanan yoksul bir gencin idam davasında, bunaltıcı sıcakta tek bir odada toplanan 12 jüri üyesinden 11'i suçlu derken, tek bir mimar 'şüpheliyim' diyerek diğer 11 adamın fikrini mantıkla tek tek değiştirir.",
         "Cebinden sanığın bıçağının aynısını çıkarıp ahşap masaya saplayan adam, bozuk tavan vantilatörü ve son kalan inatçı babanın cüzdanındaki oğlunun fotoğrafını yırtarak ağlaması.",
         "Sidney Lumet'in tek bir odada geçen ve sinema tarihinin en iyi diyaloglarına sahip siyah-beyaz başyapıtı; Henry Fonda."
       ],
       "en": [
-        "🏛️ 👔 🔪 ⏳ 🌧️ 🗳️",
+        "🏛️ 👨‍⚖️ 🔪 🌧️ ⏳ 🗳️",
         "'It's just that I want to talk for a while.' and 'Prejudice always obscures the truth.'",
         "Following the closing arguments in a capital murder trial of an impoverished teen, 11 of the 12 jurors immediately vote guilty, but one stubborn, thoughtful architect holds out on reasonable doubt and methodically deconstructs the evidence.",
         "Takes place almost entirely inside a claustrophobic locked conference room with a broken fan, slamming identical switchblade knives into wooden tables.",
@@ -538,17 +538,17 @@ module.exports = [
       "Justin Theroux",
       "Josh Lucas"
     ],
-    "emojis": "🪓 🪪 🪚 🩸 📻 👔",
+    "emojis": "👔 🪪 🪓 🩸 🎧 💼",
     "clues": {
       "tr": [
-        "🪓 🪪 🪚 🩸 📻 👔",
+        "👔 🪪 🪓 🩸 🎧 💼",
         "'Şu kabartmalı yazıya bak... Aman tanrım, bir de filigranı var!' ve 'Benim kaset iade etmem gerekiyor.'",
         "Wall Street'te çalışan ultra zengin, cilt bakımı ve pahalı takım elbise takıntılı bir yatırım bankacısı; meslektaşlarının daha havalı kartvizitlerini kıskandıkça geceleri sokaklarda balta ve testereyle cinayetler işler.",
         "Yağmurluk giyip Huey Lewis and the News kaseti takarak meslektaşının kafasına balta indiren adam ve apartman boşluğundan aşağı atılan çalışan motorlu testere.",
         "Christian Bale'in kariyerinin dönüm noktası olan, Bret Easton Ellis romanından Mary Harron tarafından çekilen hiciv başyapıtı."
       ],
       "en": [
-        "🪓 🪪 🪚 🩸 📻 👔",
+        "👔 🪪 🪓 🩸 🎧 💼",
         "'Look at that subtle off-white coloring. The tasteful thickness of it. Oh my God, it even has a watermark!' and 'I have to return some videotapes.'",
         "A hyper-narcissistic 1980s Manhattan investment banking executive obsessed with luxury designer grooming and status symbols spirals into psychotic murderous delusions of hacking associates with axes and chainsaws.",
         "Famous for delivering an upbeat lecture on Phil Collins before axing a co-worker to death on a newspaper-lined floor.",
@@ -581,17 +581,17 @@ module.exports = [
       "Robert Sean Leonard",
       "Ethan Hawke"
     ],
-    "emojis": "📜 📚 🪑 🕯️ 🎭 ❄️",
+    "emojis": "🏫 📚 🪑 📜 🕯️ 👨‍🏫",
     "clues": {
       "tr": [
-        "📜 📚 🪑 🕯️ 🎭 ❄️",
+        "🏫 📚 🪑 📜 🕯️ 👨‍🏫",
         "'Carpe Diem! Anı yaşayın çocuklar, hayatınızı olağanüstü kılın!' ve 'O Kaptan, Kaptanım!' (O Captain! My Captain!)",
         "Katı kurallarla yönetilen muhafazakar bir yatılı erkek lisesine gelen sıra dışı bir edebiyat öğretmeni, öğrencilerine ders kitaplarının sayfalarını yırttırarak şiiri, özgür düşünceyi ve hayatı tutkuyla sevmeyi aşılar.",
         "Sıraların üzerine çıkarak dünyayı farklı bir açıdan görme dersi, gizli mağarada toplanıp şiir okuyan kulüp ve filmin sonunda sıraların tepesine çıkan öğrenciler.",
         "Robin Williams'ın unutulmaz John Keating performansıyla Oscar'a aday olduğu Peter Weir klasiği."
       ],
       "en": [
-        "📜 📚 🪑 🕯️ 🎭 ❄️",
+        "🏫 📚 🪑 📜 🕯️ 👨‍🏫",
         "'Carpe Diem! Seize the day, boys. Make your lives extraordinary!' and 'O Captain! My Captain!'",
         "An unconventional English teacher at an elite, tradition-bound New England boys' boarding school inspires his repressed students to tear out textbook introductory pages, write poetry, and think for themselves.",
         "Iconic for teaching students to stand atop their classroom desks to gain a completely different perspective on the world.",
@@ -624,17 +624,17 @@ module.exports = [
       "Nicoletta Braschi",
       "Giorgio Cantarini"
     ],
-    "emojis": "🌻 🚲 🎖️ 🚂 🪖 🛡️",
+    "emojis": "🚲 👨‍👦 🚂 🪖 🎖️ 🚜",
     "clues": {
       "tr": [
-        "🌻 🚲 🎖️ 🚂 🪖 🛡️",
+        "🚲 👨‍👦 🚂 🪖 🎖️ 🚜",
         "'Günaydın Prenses!' (Buongiorno Principessa!) ve 'Bu basit bir hikaye... Ama anlatması kolay değil.'",
         "Neşeli bir İtalyan Yahudi garson, aşık olduğu prensesiyle evlenir; ancak İkinci Dünya Savaşı'nda küçük oğluyla Nazi toplama kampına gönderilince, çocuğun korkmaması için tüm kampı 1000 puan toplayanın gerçek bir tank kazanacağı bir oyun olduğuna inandırır.",
         "Alman subayın emirlerini İtalyanca oyun kuralları olarak tercüme eden baba ve demir dolabın içinden tankı görünce sevinen küçük çocuk.",
         "Roberto Benigni'ye hem En İyi Yabancı Film hem de En İyi Erkek Oyuncu Oscar'ını kazandıran gözyaşı ve kahkaha dolu başyapıt."
       ],
       "en": [
-        "🌻 🚲 🎖️ 🚂 🪖 🛡️",
+        "🚲 👨‍👦 🚂 🪖 🎖️ 🚜",
         "'Buongiorno, Principessa!' and 'This is my story. This is the sacrifice my father made.'",
         "An exuberant Italian Jewish bookshop owner uses his boundless comedic imagination to shield his young son from the horrors of a Nazi concentration camp by pretending the entire imprisonment is an elaborate game with a real army tank as the grand prize.",
         "Features hilariously mistranslating a ferocious Nazi officer's orders into ridiculous playground game regulations for points.",
@@ -668,17 +668,17 @@ module.exports = [
       "Peter Dinklage",
       "Kit Harington"
     ],
-    "emojis": "👑 🗡️ 🐉 ❄️ 🍷 🐺",
+    "emojis": "👑 🗡️ 🐉 ❄️ 🐺 🧟",
     "clues": {
       "tr": [
-        "👑 🗡️ 🐉 ❄️ 🍷 🐺",
+        "👑 🗡️ 🐉 ❄️ 🐺 🧟",
         "'Kış geliyor!' (Winter is coming!) ve 'Hiçbir şey bilmiyorsun Jon Snow!' ve 'Kaos bir çukur değil, bir merdivendir.'",
         "Yüzlerce kılıçtan dövülen demir bir tahta oturmak için 7 krallığın asil aileleri birbirini zehirlerken, kuzeyden buz zombileri, deniz aşırı topraklardan ise gümüş saçlı ejderhaların anası yaklaşır.",
         "Bir salonda müzik değiştiğinde herkesin bıçaklandığı Kırmızı Düğün, şarap içip her şeyi bilen cüce ve duvarın ardındaki dondurucu soğuk.",
         "HBO'nun tüm dünyayı ekran başına kilitleyen, George R.R. Martin'in kitaplarından uyarlanan Emmy rekortmeni fantastik dizisi."
       ],
       "en": [
-        "👑 🗡️ 🐉 ❄️ 🍷 🐺",
+        "👑 🗡️ 🐉 ❄️ 🐺 🧟",
         "'Winter is coming.' and 'You know nothing, Jon Snow.' and 'When you play the game of thrones, you win or you die.'",
         "Noble dynastic houses across the continent of Westeros conspire, betray, and murder one another for control of the Iron Throne while ancient icy horrors awaken beyond the northern ice wall and a dragon queen mobilizes in the east.",
         "Traumatized global audiences with the bloodbath of the Red Wedding, beheading the supposed protagonist in season one, and Tyrion's witty tavern drinking.",
@@ -711,17 +711,17 @@ module.exports = [
       "Finn Wolfhard",
       "Winona Ryder"
     ],
-    "emojis": "🚲 🧇 🩸 💡 🎸 👾",
+    "emojis": "🚲 👧 🧇 💡 🩸 👾",
     "clues": {
       "tr": [
-        "🚲 🧇 🩸 💡 🎸 👾",
+        "🚲 👧 🧇 💡 🩸 👾",
         "'Arkadaşlar yalan söylemez.' (Friends don't lie.) ve 'Neden normal olmak isteyesin ki, sıradan olmak berbat bir şey!'",
         "1980'lerde küçük bir Indiana kasabasında bir çocuk gizemli şekilde kaybolur; arkadaşları bisikletleriyle onu ararken saçları kazınmış ve burnu kanadığında eşyaları havaya fırlatan waffle aşığı süper güçleri olan bir kız bulur.",
         "Duvara alfabeyle çizilen ve ampulleri yakarak diğer boyuttan konuşan anne, Demogorgon canavarı ve Eddie'nin çatıda 'Master of Puppets' çaldığı sahne.",
         "Netflix'in 80'ler nostaljisini şaha kaldıran, Duffer Kardeşler imzalı dünya çapında fenomen dizisi."
       ],
       "en": [
-        "🚲 🧇 🩸 💡 🎸 👾",
+        "🚲 👧 🧇 💡 🩸 👾",
         "'Friends don't lie.' and 'Mornings are for coffee and contemplation.'",
         "In 1980s small-town Indiana, the vanishing of a young boy uncovers top-secret government experiments, an alternate nightmarish dimension called the Upside Down, and a buzzcut telekinetic girl hooked on frozen waffles.",
         "Iconic for communication through twinkling Christmas bulbs taped to living room wallpaper and shredding Metallica on an electric guitar in the demonic wasteland.",
@@ -754,17 +754,17 @@ module.exports = [
       "Courteney Cox",
       "Matthew Perry"
     ],
-    "emojis": "🛋️ ☕ 🦃 🦆 🎸 🚪",
+    "emojis": "🛋️ ☕ 🦃 🎸 🚪 ☔",
     "clues": {
       "tr": [
-        "🛋️ ☕ 🦃 🦆 🎸 🚪",
+        "🛋️ ☕ 🦃 🎸 🚪 ☔",
         "'Biz ara vermiştik!' (We were on a break!) ve 'How you doin'?' ve 'Could this BE any more obvious?'",
         "Manhattan'da yaşayan 20'li yaşlarındaki altı arkadaş, günlerinin yarısını bir kafenin turuncu koltuğunda kahve içip dedikodu yaparak, diğer yarısını ise birbirlerinin dairelerinde aşk ve kariyer bunalımları yaşayarak geçirir.",
         "Dar merdivenlerden koltuk çıkarırken 'PIVOT! PIVOT!' diye bağıran adam, kafasına güneş gözlüklü hindi takıp dans eden kız ve kedi kokusu şarkısı.",
         "10 sezon boyunca dünyayı kasıp kavuran, Jennifer Aniston, Matthew Perry ve ekibinin başrolünde olduğu televizyon tarihinin en popüler sitcom'u."
       ],
       "en": [
-        "🛋️ ☕ 🦃 🦆 🎸 🚪",
+        "🛋️ ☕ 🦃 🎸 🚪 ☔",
         "'We were on a break!' and 'How you doin'?' and 'Smelly Cat, Smelly Cat, what are they feeding you?'",
         "Six twenty-something singles living in Greenwich Village spend nearly every waking moment gossiping on a velvet sofa at their favorite coffeehouse, surviving bizarre dating cycles and tangled apartment leases.",
         "Legendary for screaming 'PIVOT!' wedging a sofa up a stairwell, dancing with a raw turkey on someone's head, and Ross's leather pants disaster.",
@@ -798,17 +798,17 @@ module.exports = [
       "Rainn Wilson",
       "John Krasinski"
     ],
-    "emojis": "📄 ☕ 🪟 🍮 🌶️ 🏆",
+    "emojis": "📄 👔 ☕ 🍮 🌶️ 🏆",
     "clues": {
       "tr": [
-        "📄 ☕ 🪟 🍮 🌶️ 🏆",
+        "📄 👔 ☕ 🍮 🌶️ 🏆",
         "'That's what she said!' (Kız da öyle dedi!) ve 'Ben batıl inançlı biri değilim ama birazcık inançlıyım.' (I'm a little stitious)",
         "Scranton kasabasındaki sıkıcı bir kağıt dağıtım şirketinin çalışanları, kendini komedyen ve herkesin en iyi dostu zanneden beceriksiz bir müdürün absürt kaprislerine katlanırken sahte belgesel kamerasına çaresizce bakar.",
         "Zımbası jölenin içine hapsedilen pancar çiftçisi yardımcısı, ofis içi yangın tatbikatında tavandan düşen kedi ve yerde dökülen kazan dolusu çili sosu.",
         "Steve Carell'ın Michael Scott performansıyla efsaneleştiği, modern televizyonun en çok izlenen komedi dizisi."
       ],
       "en": [
-        "📄 ☕ 🪟 🍮 🌶️ 🏆",
+        "📄 👔 ☕ 🍮 🌶️ 🏆",
         "'That's what she said!' and 'I'm not superstitious, but I am a little stitious.' and 'Bears. Beets. Battlestar Galactica.'",
         "A documentary camera crew follows the absurd daily banalities at the Scranton branch of a mid-sized paper distribution company led by an oblivious, socially awkward regional manager desperate to be loved.",
         "Iconic for encasing office supplies in lemon gelatin, a chaotic fire drill featuring a cat tossed through ceiling tiles, and Kevin spilling his famous carpet chili.",
@@ -841,17 +841,17 @@ module.exports = [
       "Martin Freeman",
       "Andrew Scott"
     ],
-    "emojis": "🎻 🧥 🧠 📱 🕵️‍♂️ 🇬🇧",
+    "emojis": "🕵️‍♂️ 🧥 🎻 📱 🔍 🇬🇧",
     "clues": {
       "tr": [
-        "🎻 🧥 🧠 📱 🕵️‍♂️ 🇬🇧",
+        "🕵️‍♂️ 🧥 🎻 📱 🔍 🇬🇧",
         "'Ben bir psikopat değilim Anderson, ben yüksek fonksiyonlu bir sosyopatım; numaramı da al!' ve 'Beni özlediniz mi?' (Did you miss me?)",
         "Londra'da yaşayan kibirli ve dahi bir danışman dedektif, Afganistan gazisi bir doktor ev arkadaşıyla akıllı telefonlar, SMS'ler ve zihin sarayını kullanarak polisin çözemediği cinayetleri çözer.",
         "Göz açıp kapayıncaya kadar birinin çamurlu ayakkabısından tüm hayatını çıkaran dedektif ve çatıdan atlayıp hayatta kalma sırrı.",
         "Benedict Cumberbatch (Sherlock) ve Martin Freeman'ın (Watson) oynadığı, Sir Arthur Conan Doyle'ın dedektifini modern çağa taşıyan BBC dizisi."
       ],
       "en": [
-        "🎻 🧥 🧠 📱 🕵️‍♂️ 🇬🇧",
+        "🕵️‍♂️ 🧥 🎻 📱 🔍 🇬🇧",
         "'I'm not a psychopath, Anderson. I'm a high-functioning sociopath. Do your research.' and 'Did you miss me?'",
         "A hyper-observant, abrasive consulting detective navigates modern 21st-century London alongside an Afghan war veteran doctor, utilizing smartphones, nicotine patches, and an immense mental mind palace to outwit criminal mastermind Moriarty.",
         "Renowned for deductions breaking down cigarette ash and scuffed watch dials in milliseconds, and the infamous St. Bart's hospital rooftop dive.",

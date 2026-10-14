@@ -63,17 +63,17 @@ module.exports = [
       "Kate Winslet",
       "Billy Zane"
     ],
-    "emojis": "🚢 🧊 🎨 💎 🎻 🥶",
+    "emojis": "🚢 🧊 🎻 🎨 💎 🌊",
     "clues": {
       "tr": [
-        "🚢 🧊 🎨 💎 🎻 🥶",
+        "🚢 🧊 🎻 🎨 💎 🌊",
         "'I'm the king of the world!' (Ben dünyanın kralıyım!) ve 'Beni Fransız kızlarından biri gibi çiz Jack.'",
         "Zengin bir sosyete kızı, fakir bir ressamla 2 gün takılır; sonra tahtada iki kişilik yer olmasına rağmen adamı buzlu suda dondurarak öldürür.",
         "Gemi batarken bile çalmaya devam eden kemancılar, çizilen kömür portresi ve 84 yıl sonra okyanusa atılan dev elmasla ünlüdür.",
         "Leonardo DiCaprio ve Kate Winslet'ın başrollerinde olduğu, 11 Oscar ödüllü James Cameron başyapıtı."
       ],
       "en": [
-        "🚢 🧊 🎨 💎 🎻 🥶",
+        "🚢 🧊 🎻 🎨 💎 🌊",
         "'I'm the king of the world!' and 'Draw me like one of your French girls.'",
         "A wealthy high-society girl hooks up with a penniless artist for two days, then lets him freeze to death in icy water even though there was plenty of room on the floating wooden door.",
         "Famous for string violinists playing until the bitter end, a secret charcoal nude sketch, and an old woman chucking a priceless sapphire into the Atlantic 84 years later.",
@@ -148,17 +148,17 @@ module.exports = [
       "Michael Nyqvist",
       "Alfie Allen"
     ],
-    "emojis": "🐶 🚗 ✏️ 🔫 👔 🪙",
+    "emojis": "🐶 🚗 ✏️ 🔫 🩸 🏨",
     "clues": {
       "tr": [
-        "🐶 🚗 ✏️ 🔫 👔 🪙",
+        "🐶 🚗 ✏️ 🔫 🩸 🏨",
         "'Evet, sanırım geri döndüm!' (Yeah, I'm thinking I'm back!) ve 'O sadece bir köpek değildi.'",
         "Emekli bir kiralık katil, vefat eden eşinin hediye ettiği yavru köpeği öldürüldü ve 1969 model arabası çalındı diye bütün mafya teşkilatını tek başına yok eder.",
         "Bir kurşun kalemle üç kişinin nasıl etkisiz hale getirileceğini ve Continental Oteli'nde asla iş yapılmaması gerektiğini gösterir.",
         "Keanu Reeves'in başrolünde olduğu, 'Baba Yaga' lakaplı efsanevi suikastçının intikam serisi."
       ],
       "en": [
-        "🐶 🚗 ✏️ 🔫 👔 🪙",
+        "🐶 🚗 ✏️ 🔫 🩸 🏨",
         "'Yeah, I'm thinking I'm back!' and 'It wasn't just a puppy.'",
         "A retired hitman systematically annihilates an entire mob syndicate because some spoiled brat stole his vintage 1969 Mustang and killed his farewell puppy.",
         "Demonstrates how lethal a graphite number 2 pencil can be in close quarters and stresses the strict 'no business' policy at the Continental Hotel.",
@@ -189,17 +189,17 @@ module.exports = [
       "Joseph Gordon-Levitt",
       "Elliot Page"
     ],
-    "emojis": "🌀 ⏳ 💤 🏙️ 🚂 🎲",
+    "emojis": "🌀 💤 😴 🏙️ 🚂 🪙",
     "clues": {
       "tr": [
-        "🌀 ⏳ 💤 🏙️ 🚂 🎲",
+        "🌀 💤 😴 🏙️ 🚂 🪙",
         "'Bir fikir bir virüs gibidir; son derece dirençli ve fazlasıyla bulaşıcıdır.'",
         "Bir grup profesyonel uyku uzmanı, zengin bir adamın aklına fikir sokmak için uyurken uykuya dalıp, o uykuda da tekrar uyurlar.",
         "Dönen otel koridorları, bükülen Paris caddeleri ve filmin sonunda masadaki topacın durup durmadığını izlemekten delirme hissi yaratır.",
         "Christopher Nolan'ın yönettiği, Leonardo DiCaprio'nun bilinçaltı hırsızı Cobb'u canlandırdığı zihin bükücü başyapıt."
       ],
       "en": [
-        "🌀 ⏳ 💤 🏙️ 🚂 🎲",
+        "🌀 💤 😴 🏙️ 🚂 🪙",
         "'An idea is like a virus. Resilient, highly contagious.'",
         "A squad of corporate nap specialists enter a sleeping man's subconscious, fall asleep inside that dream, and fall asleep again just to plant a simple corporate idea.",
         "Causes severe psychological paranoia analyzing zero-gravity hotel corridor brawls, folding Parisian streets, and whether that brass spinning top ever falls over.",
@@ -229,17 +229,17 @@ module.exports = [
       "Laurence Fishburne",
       "Carrie-Anne Moss"
     ],
-    "emojis": "💊 🕶️ 💻 🟢 🥋 🥄",
+    "emojis": "🕶️ 🔴 💊 🔵 🥋 💻",
     "clues": {
       "tr": [
-        "💊 🕶️ 💻 🟢 🥋 🥄",
+        "🕶️ 🔴 💊 🔵 🥋 💻",
         "'Mavi hapı alırsan masal biter; kırmızı hapı alırsan Harikalar Diyarı'nda kalırsın ve tavşan deliğinin ne kadar derine gittiğini gösteririm.'",
         "Gündüzleri depresif bir bilgisayar programcısı, güneş gözlüklü yabancılardan aldığı renkli bir hap yüzünden sümüksü bir küvette uyanıp insanları pil olarak kullanan robotlarla kavgaya tutuşur.",
         "Ağır çekimde geriye eğilerek mermilerden kaçan uzun siyah deri paltolu adamlar ve yeşil akan kod ekranları içerir.",
         "Keanu Reeves'in 'Seçilmiş Kişi' Neo'yu, Laurence Fishburne'ün Morpheus'u oynadığı 1999 yapımı siberpunk efsanesi."
       ],
       "en": [
-        "💊 🕶️ 💻 🟢 🥋 🥄",
+        "🕶️ 🔴 💊 🔵 🥋 💻",
         "'You take the blue pill, the story ends. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes.'",
         "A bored hacker swallows a suspicious red pill handed to him by men in sunglasses, wakes up bald and naked in pink slime, and realizes human beings are Duracell batteries for sentient AI machines.",
         "Revolutionized cinema with green digital rain screens, bullet-time slow-motion acrobatics in black vinyl trench coats, and bending metal spoons with mind power.",
@@ -312,17 +312,17 @@ module.exports = [
       "Rasim Öztekin",
       "Özge Özberk"
     ],
-    "emojis": "🛸 👽 🪐 🧅 🥋 🤖",
+    "emojis": "🛸 👽 🪐 🤖 🥩 🔥",
     "clues": {
       "tr": [
-        "🛸 👽 🪐 🧅 🥋 🤖",
+        "🛸 👽 🪐 🤖 🥩 🔥",
         "'Komutan Logar, bir cisim yaklaşıyor efendim!' ve 'G.O.R.A.'dan bir dost...'",
         "Turistlere sahte UFO fotoğrafı satan bir halı tüccarı, gerçek uzaylılar tarafından kaçırılıp bir maden gezegenine köle yapılır; orada komutanın darbe planını bozup prensese aşık olur.",
         "Ateş, su, toprak ve dördüncü element olarak tahtayı keşfettiren, uzaylıya sucuk ve kaset ikram ettiren unutulmaz Türk komedisi.",
         "Cem Yılmaz'ın Arif Işık, Komutan Logar ve Erşan Kuneri karakterlerini canlandırdığı 2004 yapımı Türk bilim kurgu klasiği."
       ],
       "en": [
-        "🛸 👽 🪐 🧅 🥋 🤖",
+        "🛸 👽 🪐 🤖 🥩 🔥",
         "'Commander Logar, an unidentified flying object is approaching sir!' and 'A message from a dear friend in G.O.R.A.'",
         "A cunning Turkish carpet merchant faking tourist UFO photos gets abducted by actual extraterrestrials, sent to penal space labor, thwarts a planetary coup, and romances an alien princess.",
         "Teaches audiences that the four essential elements of nature are fire, water, earth... and wood; and champions the diplomatic art of sharing spicy garlic sausage with space aliens.",
@@ -353,17 +353,17 @@ module.exports = [
       "Anne Hathaway",
       "Jessica Chastain"
     ],
-    "emojis": "🌽 🚀 🕳️ ⌚ 🪐 🌊",
+    "emojis": "🌽 🚀 🕳️ ⌚ 🌊 🪐",
     "clues": {
       "tr": [
-        "🌽 🚀 🕳️ ⌚ 🪐 🌊",
+        "🌽 🚀 🕳️ ⌚ 🌊 🪐",
         "'Girme o güzel geceye uysallıkla; öfkelen, öfkelen ışığın ölümünün karşısında.' ve 'Sevgi boyutları aşan tek şeydir.'",
         "Mısır tarlası olan eski bir pilot, kızının yatak odasındaki tozlu hayalet koordinatlarını takip edip uzaya fırlar ve kızına kitaplığın arkasından kol saati tıkırtısıyla mors alfabesiyle mesaj yollar.",
         "Gidilen gezegendeki 1 saatin dünyada 7 yıla bedel olduğu dev dalgalar, TARS adında esprili bir robot ve solucan deliği içerir.",
         "Hans Zimmer'ın kilise orglu efsanevi müzikleri eşliğinde Matthew McConaughey'nin uzayın derinliklerine daldığı Christopher Nolan filmi."
       ],
       "en": [
-        "🌽 🚀 🕳️ ⌚ 🪐 🌊",
+        "🌽 🚀 🕳️ ⌚ 🌊 🪐",
         "'Do not go gentle into that good night; rage, rage against the dying of the light.' and 'Love is the one thing we're capable of perceiving that transcends dimensions of time and space.'",
         "A former NASA test pilot turned corn farmer follows gravitational dust patterns in his daughter's bedroom, launches into a wormhole near Saturn, and sends quantum gravity data through a wristwatch's ticking second hand.",
         "Shows a planet where every hour spent surfing skyscraper tidal waves costs 7 years of your children's lives back on Earth, accompanied by a witty monolith military robot named TARS.",
@@ -397,17 +397,17 @@ module.exports = [
       "Kıvanç Tatlıtuğ",
       "Selçuk Yöntem"
     ],
-    "emojis": "💔 🏰 💍 🔫 🍷 👰",
+    "emojis": "🏰 💔 💍 🍷 🌿 👰",
     "clues": {
       "tr": [
-        "💔 🏰 💍 🔫 🍷 👰",
+        "🏰 💔 💍 🍷 🌿 👰",
         "'Beni, beni... Bihter'ini!' ve 'Sen benim oğlumdun...'",
         "Zengin yaşlı bir adamla yalısına yerleşmek için evlenen genç kadın, kocasının yakışıklı ve hayta yeğeniyle yasak aşk yaşar; düğün günü adam kaçar, kadın beyaz elbisesiyle kendini vurur.",
         "Bir seranın asla sadece çiçek yetiştirmek için olmadığını, Firdevs Yöreoğlu'nun hırslarını ve Behlül'ün kaçış dehasını gösterir.",
         "Beren Saat (Bihter), Kıvanç Tatlıtuğ (Behlül) ve Selçuk Yöntem'in (Adnan Ziyagil) oynadığı Türk televizyon tarihinin en çok izlenen finaline sahip dizisi."
       ],
       "en": [
-        "💔 🏰 💍 🔫 🍷 👰",
+        "🏰 💔 💍 🍷 🌿 👰",
         "'Me, me... your Bihter!' and 'You were like a son to me...'",
         "A gorgeous young woman marries an aging wealthy widower to live in his Bosphorus mansion, embarks on a forbidden romance with his handsome playboy nephew, and meets a tragic fate in a white wedding gown.",
         "Demonstrates that a garden greenhouse is rarely used for gardening, showcases iconic mother-daughter high-society rivalries, and features Behlül's cowardly escape sprints.",

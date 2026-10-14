@@ -69,17 +69,17 @@ module.exports = [
       "Samuel L. Jackson",
       "Uma Thurman"
     ],
-    "emojis": "🍔 💼 💉 🕺 💃 ⏱️",
+    "emojis": "🍔 💼 💉 🕺 💃 🔫",
     "clues": {
       "tr": [
-        "🍔 💼 💉 🕺 💃 ⏱️",
+        "🍔 💼 💉 🕺 💃 🔫",
         "'Ezekiel 25:17... Ve sana intikamımı getirdiğimde adımın Tanrı olduğunu öğreneceksin!' ve 'Say what again!'",
         "İki takım elbiseli tetikçi patronlarının altın gibi parlayan gizemli çantasını ararken, birisi patronun karısına aşırı dozdan adrenalin batırır, diğeri tuvaletteyken hayatının şokunu yaşar.",
         "Karakterlerin kronolojik sırayla ölmediği, 5 dolarlık milkshake içilen ve restoranda çılgın bir büküm dansı yarışması yapılan kült yapım.",
         "Quentin Tarantino'nun Cannes Altın Palmiye ödüllü, John Travolta ve Samuel L. Jackson'lı ikonik gangster filmi."
       ],
       "en": [
-        "🍔 💼 💉 🕺 💃 ⏱️",
+        "🍔 💼 💉 🕺 💃 🔫",
         "'The path of the righteous man... Ezekiel 25:17' and 'Say 'what' again, I dare you, I double dare you!'",
         "Two philosophical hitmen retrieve a glowing yellow briefcase for their boss while one must revive the boss's OD'ing wife with an adrenaline shot directly to the heart.",
         "Famous for its non-linear timeline, casual debates about Parisian quarter pounders with cheese, and a diner twist-contest dance sequence.",
@@ -111,17 +111,17 @@ module.exports = [
       "Edward Norton",
       "Helena Bonham Carter"
     ],
-    "emojis": "🧼 🥊 🏢 💥 🚬 🪪",
+    "emojis": "🧼 🥊 🩸 👥 🏙️ 💥",
     "clues": {
       "tr": [
-        "🧼 🥊 🏢 💥 🚬 🪪",
+        "🧼 🥊 🩸 👥 🏙️ 💥",
         "'Dövüş Kulübü'nün birinci kuralı: Dövüş Kulübü hakkında konuşmamaktır.' ve 'Sahip olduğun şeyler sonunda sana sahip olur.'",
         "Uykusuzluk çeken ve IKEA kataloglarıyla ev döşeyen bir ofis çalışanı, karizmatik bir sabun satıcısıyla bodrum katlarında birbirini yumruklayarak kredi kartı şirketlerini havaya uçuracak bir anarşist ordu kurar.",
         "İnsan yağından yapılan sabunlar, kimlik karmaşası ve gökdelenlerin 'Where Is My Mind?' eşliğinde çöküşüyle akıllara kazınmıştır.",
         "David Fincher'ın yönettiği, Brad Pitt ve Edward Norton'ın Tyler Durden personasında buluştuğu Chuck Palahniuk uyarlaması."
       ],
       "en": [
-        "🧼 🥊 🏢 💥 🚬 🪪",
+        "🧼 🥊 🩸 👥 🏙️ 💥",
         "'The first rule of Fight Club is: you do not talk about Fight Club.' and 'The things you own end up owning you.'",
         "A depressed insomniac corporate drone bonds with a swaggering soap salesman to start an underground bare-knuckle brawl club that morphs into a nationwide anti-consumerist terrorist movement.",
         "Renowned for recycling human liposuction fat into high-end soap and collapsing credit card corporate towers to the tune of The Pixies' 'Where Is My Mind?'.",
@@ -152,17 +152,17 @@ module.exports = [
       "Robin Wright",
       "Gary Sinise"
     ],
-    "emojis": "🍫 🪶 👟 🦐 🏓 🎖️",
+    "emojis": "🍫 🪶 🏃‍♂️ 👟 🦐 🏓",
     "clues": {
       "tr": [
-        "🍫 🪶 👟 🦐 🏓 🎖️",
+        "🍫 🪶 🏃‍♂️ 👟 🦐 🏓",
         "'Hayat bir kutu çikolata gibidir, içinden ne çıkacağını asla bilemezsin.' ve 'Koş Forrest, koş!'",
         "Düşük IQ'lu ama saf kalpli bir çocuk bacaklarındaki demirleri kırıp koşmaya başlar; Vietnam gazisi olur, masa tenisi şampiyonu olur, karides zengini olur ve Amerika'yı baştan başa koşarak geçer.",
         "Otobüs durağındaki bir bankta yabancılara hayat hikayesini anlatan, 'Bubba Gump' karides şirketini kuran adamın dokunaklı öyküsü.",
         "Tom Hanks'e En İyi Erkek Oyuncu Oscar'ı kazandıran, 6 Oscar ödüllü Robert Zemeckis başyapıtı."
       ],
       "en": [
-        "🍫 🪶 👟 🦐 🏓 🎖️",
+        "🍫 🪶 🏃‍♂️ 👟 🦐 🏓",
         "'Life was like a box of chocolates. You never know what you're gonna get.' and 'Run, Forrest, run!'",
         "A kind-hearted Alabama man with a low IQ inadvertently influences major 20th-century historical events, plays ping-pong in China, captains a shrimping boat, and runs across the continent for 3 years.",
         "Narrated from a park bus bench with a white feather drifting in the breeze, establishing the multi-million dollar Bubba Gump Shrimp empire.",
@@ -196,17 +196,17 @@ module.exports = [
       "Heath Ledger",
       "Aaron Eckhart"
     ],
-    "emojis": "🦇 🃏 🤡 🪙 💥 🏙️",
+    "emojis": "🦇 🃏 🤡 🪙 🏥 💥",
     "clues": {
       "tr": [
-        "🦇 🃏 🤡 🪙 💥 🏙️",
+        "🦇 🃏 🤡 🪙 🏥 💥",
         "'Neden bu kadar ciddisin?' (Why so serious?) ve 'Ya bir kahraman olarak ölürsün ya da kötüye dönüştüğünü görecek kadar uzun yaşarsın.'",
         "Yarasa kostümlü milyarder bir vigilante, yüzü boyalı anarşist bir psikopatın şehrin savcısını iki yüzlü bir katile dönüştürmesini engellemek için geceleri motorla gezer.",
         "Kalem kaybetme sihirbazlığı numarası, hastaneyi patlatırken hemşire kılığında kumandaya vuran adam ve bir dağ dolusu parayı benzin döküp yakan anarşi.",
         "Heath Ledger'a ölümünden sonra En İyi Yardımcı Erkek Oyuncu Oscar'ını kazandıran Christopher Nolan'ın Batman şaheseri."
       ],
       "en": [
-        "🦇 🃏 🤡 🪙 💥 🏙️",
+        "🦇 🃏 🤡 🪙 🏥 💥",
         "'Why so serious?' and 'You either die a hero or you live long enough to see yourself become the villain.'",
         "A billionaire dressed like a flying mammal battles an anarchic psycho with face paint who just wants to watch the world burn and corrupt the city's golden boy prosecutor.",
         "Iconic for making a pencil disappear into a gangster's eye socket, setting a pyramid of mafia cash on fire, and blowing up a hospital in a nurse dress.",
@@ -325,17 +325,17 @@ module.exports = [
       "Harrison Ford",
       "Carrie Fisher"
     ],
-    "emojis": "🌌 ⚔️ 🤖 🚀 🪐 🦹",
+    "emojis": "🌌 🗡️ 🤖 🚀 🪐 🦹",
     "clues": {
       "tr": [
-        "🌌 ⚔️ 🤖 🚀 🪐 🦹",
+        "🌌 🗡️ 🤖 🚀 🪐 🦹",
         "'Güç seninle olsun!' (May the Force be with you!) ve 'Yardım et Obi-Wan Kenobi, tek umudum sensin.'",
         "Çiftlikte yaşayan yetim bir köylü genç, çölde bulduğu iki robot sayesinde uzay gemisi kaptanı bir kaçakçı ve yaşlı bir kılıç ustasıyla anlaşıp devasa bir metal küreyi patlatır.",
         "Ağır nefes alan siyah pelerinli astımlı bir babanın evrenin yarısını yok eden süper silahı ve yeşil/kırmızı parlayan ışın kılıçları içerir.",
         "George Lucas'ın sinema tarihini değiştiren, Luke Skywalker ve Han Solo'nun doğduğu orijinal 1977 Star Wars filmi."
       ],
       "en": [
-        "🌌 ⚔️ 🤖 🚀 🪐 🦹",
+        "🌌 🗡️ 🤖 🚀 🪐 🦹",
         "'May the Force be with you.' and 'Help me Obi-Wan Kenobi, you're my only hope.'",
         "A whiny moisture farm boy teams up with an old hermit monk and a cynical smuggler with a hairy co-pilot to fire a torpedo into a thermal exhaust port and destroy a moon-sized battle station.",
         "Introduced the glowing laser sword, asthmatic breathing black helmets, and holographic distress calls.",
@@ -369,17 +369,17 @@ module.exports = [
       "Rupert Grint",
       "Emma Watson"
     ],
-    "emojis": "⚡ 👓 🧙 🦉 🚂 🏰",
+    "emojis": "⚡ 👓 🧙‍♂️ 🦉 🚂 🏰",
     "clues": {
       "tr": [
-        "⚡ 👓 🧙 🦉 🚂 🏰",
+        "⚡ 👓 🧙‍♂️ 🦉 🚂 🏰",
         "'Sen bir büyücüsün Harry!' ve 'Wingardium Leviosa! Leviosaaaa değil Leviooosa!'",
         "Merdiven altındaki dolapta yaşayan yetim bir çocuk, 11 yaşında dev bir adamdan mektup alıp şatoya gider ve burnu olmayan bir adamın kafasının arkasında yaşayan bir parazitle savaşır.",
         "Uçan süpürgelerle altın top kovalanan Quidditch maçları, hareket eden merdivenler ve konuşan Seçmen Şapka ile ünlüdür.",
         "Daniel Radcliffe, Emma Watson ve Rupert Grint'in Hogwarts kapılarından ilk kez girdiği 2001 yapımı ilk Harry Potter filmi."
       ],
       "en": [
-        "⚡ 👓 🧙 🦉 🚂 🏰",
+        "⚡ 👓 🧙‍♂️ 🦉 🚂 🏰",
         "'You're a wizard, Harry!' and 'It's Levi-O-sa, not Levio-SAR!'",
         "An abused boy living in an under-stairs broom closet turns 11, gets rescued by an enormous bearded giant, and enrolls in a Scottish castle boarding school where an evil noseless soul lives on a professor's head.",
         "Introduced chocolate frogs, flying broomstick Quidditch, moving staircases, and the grumpy Sorting Hat.",
@@ -538,17 +538,17 @@ module.exports = [
       "Joe Pesci",
       "Daniel Stern"
     ],
-    "emojis": "🏠 🎄 👦 🔨 🕷️ 🍕",
+    "emojis": "🏠 🎄 😱 👦 🕷️ 🍕",
     "clues": {
       "tr": [
-        "🏠 🎄 👦 🔨 🕷️ 🍕",
+        "🏠 🎄 😱 👦 🕷️ 🍕",
         "'Aileni kaybetmek dünyanın en kötü şeyi... ama tek başınaysan da tadını çıkar!' ve 'Keep the change, ya filthy animal!'",
         "Ailesi Paris'e tatile giderken tavan arasında unutulan 8 yaşındaki yaramaz bir velet, evi soymaya gelen iki beceriksiz hırsızı sıcak ütüler, kaynar kapı kolları ve tarantulalarla hastanelik eder.",
         "Yanaklarına tıraş kolonyası sürünce çığlık atan çocuk pozu ve merdivenlerden sallandırılan ağır boya kutuları ile özdeşleşmiştir.",
         "Macaulay Culkin'i dünya çapında çocuk yıldıza dönüştüren, Chris Columbus'un yönettiği kült yılbaşı komedisi."
       ],
       "en": [
-        "🏠 🎄 👦 🔨 🕷️ 🍕",
+        "🏠 🎄 😱 👦 🕷️ 🍕",
         "'Keep the change, ya filthy animal!' and 'This is my house, I have to defend it.'",
         "An 8-year-old brat gets accidentally left behind when his massive family flies to Paris for Christmas, then defends his suburban house against two bumbling burglars using lethal cartoon traps.",
         "Iconic for the aftershave scream in the mirror, red-hot doorknobs, micro-machines on wood floors, and a pet tarantula on Joe Pesci's face.",
@@ -670,17 +670,17 @@ module.exports = [
       "Willem Dafoe",
       "Kirsten Dunst"
     ],
-    "emojis": "🕷️ 🕸️ 🧪 🍕 🌧️ 🎭",
+    "emojis": "🕷️ 🕸️ 🍕 🌧️ 💋 🎭",
     "clues": {
       "tr": [
-        "🕷️ 🕸️ 🧪 🍕 🌧️ 🎭",
+        "🕷️ 🕸️ 🍕 🌧️ 💋 🎭",
         "'Büyük güç, büyük sorumluluk getirir.' ve 'Ben kim miyim? Spider-Man!'",
         "Laboratuvarda genetiği değiştirilmiş bir böcek tarafından ısırılan gözlüklü ezik liseli, sabah kalktığında kaslı ve duvarlara yapışan birine dönüşür; en yakın arkadaşının babası ise yeşil zırhla şehre saldırır.",
         "Yağmur altında baş aşağı asılıyken maskesini burnuna kadar indirip öpüşen çift ve balkabağı bombaları fırlatan uçan planör.",
         "Sam Raimi'nin yönettiği, Tobey Maguire'ın Peter Parker'ı, Willem Dafoe'nun Yeşil Goblin'i canlandırdığı dönüm noktası süper kahraman filmi."
       ],
       "en": [
-        "🕷️ 🕸️ 🧪 🍕 🌧️ 🎭",
+        "🕷️ 🕸️ 🍕 🌧️ 💋 🎭",
         "'With great power comes great responsibility.' and 'Who am I? I'm Spider-Man.'",
         "A nerdy high schooler gets bitten by a genetically altered spider on a field trip, wakes up with six-pack abs and organic wrist-webs, and fights his best friend's unhinged tech-mogul father.",
         "Legendary for the iconic upside-down kiss in the pouring rain, delivering pizzas on a moped, and flying gliders throwing pumpkin bombs.",
@@ -757,17 +757,17 @@ module.exports = [
       "Gwyneth Paltrow",
       "Jeff Bridges"
     ],
-    "emojis": "🤖 💥 🍔 🕶️ 🔩 🦾",
+    "emojis": "🤖 🦾 🍔 🕶️ 💥 🚀",
     "clues": {
       "tr": [
-        "🤖 💥 🍔 🕶️ 🔩 🦾",
+        "🤖 🦾 🍔 🕶️ 💥 🚀",
         "'Gerçek şu ki... Ben Iron Man'im!' ve 'Bazen koşmadan önce uçmak gerekir.'",
         "Egoist ve çapkın bir silah tüccarı milyarder, Afganistan'da mağaraya hapsedilince kalbine giren şarapnel parçalarını durdurmak için göğsüne minyatür reaktör takar ve demir zırh yapıp uçar.",
         "Kurtulduktan sonra basın toplantısında yerlere oturup çizburger yiyen ve süper kahraman kimliğini gizlemeyip basına anında itiraf eden adam.",
         "Marvel Sinematik Evreni'ni başlatan, Robert Downey Jr.'ın kariyerini yeniden şaha kaldıran 2008 yapımı Jon Favreau filmi."
       ],
       "en": [
-        "🤖 💥 🍔 🕶️ 🔩 🦾",
+        "🤖 🦾 🍔 🕶️ 💥 🚀",
         "'The truth is... I am Iron Man.' and 'Sometimes you gotta run before you can walk.'",
         "A genius playboy billionaire arms dealer gets captured by insurgents, builds an arc reactor in his chest to survive shrapnel, welds a suit of motorized armor in a cave, and vows to stop selling weapons.",
         "Memorable for craving an American cheeseburger right after his desert rescue and brazenly blowing off superhero secrecy at a live press conference.",
@@ -800,17 +800,17 @@ module.exports = [
       "Anthony Hopkins",
       "Scott Glenn"
     ],
-    "emojis": "🦋 🍷 🥩 🪚 🪪 🎭",
+    "emojis": "🦋 🍷 🥩 🪪 🎭 🕳️",
     "clues": {
       "tr": [
-        "🦋 🍷 🥩 🪚 🪪 🎭",
+        "🦋 🍷 🥩 🪪 🎭 🕳️",
         "'Nüfus memurunun ciğerini biraz bakla ve nefis bir Chianti şarabıyla yedim.' ve 'Kuzular sustu mu Clarice?'",
         "Genç bir kadın FBI stajyeri, kadınların derisini yüzen bir seri katili yakalamak için cam hücrede yatan insan eti yiyen dahi bir psikiyatristle akıl oyunları oynar.",
         "Ağzında metal parmaklık maskesi olan, gözlerini hiç kırpmadan bakan adam ve boğazında ölüm başı kelebeği kozası bulunan kurbanlar.",
         "Anthony Hopkins'in sadece 16 dakika görünerek En İyi Erkek Oyuncu Oscar'ını kazandığı, 'Büyük Beşli' Oscar kazanan kült gerilim."
       ],
       "en": [
-        "🦋 🍷 🥩 🪚 🪪 🎭",
+        "🦋 🍷 🥩 🪪 🎭 🕳️",
         "'A census taker once tried to test me. I ate his liver with some fava beans and a nice Chianti.' and 'Well, Clarice... have the lambs stopped screaming?'",
         "A young female FBI trainee interviews an incarcerated cannibalistic forensic psychiatrist in a maximum-security glass cell to profile a serial killer who skins women.",
         "Unforgettable for Anthony Hopkins' unblinking predatory gaze, a moth cocoon slipped inside a victim's throat, and night-vision basement stalking.",
@@ -842,17 +842,17 @@ module.exports = [
       "Morgan Freeman",
       "Kevin Spacey"
     ],
-    "emojis": "📦 🌧️ 🍎 🔫 💀 📖",
+    "emojis": "🌧️ 📖 🍝 📦 🔫 🏜️",
     "clues": {
       "tr": [
-        "📦 🌧️ 🍎 🔫 💀 📖",
+        "🌧️ 📖 🍝 📦 🔫 🏜️",
         "'Kutuda ne var?! Kutuda ne var lan?!' (What's in the box?!) ve 'Burası güzel bir yer ve uğruna savaşmaya değer. İkinci kısmına katılıyorum.'",
         "Biri emekliliğe gün sayan bilge, diğeri öfkeli genç iki dedektif; İncil'deki yedi ölümcül günahı işleyen kurbanları cezalandıran titiz bir katilin peşine düşer.",
         "Şehirde neredeyse bir saniye bile durmayan kasvetli yağmur, spagettiye boğulan obez adam ve çöl ortasında kargo kamyonundan çıkan karton kutu.",
         "David Fincher'ın karanlık atmosferiyle sinema tarihine geçen, Brad Pitt, Morgan Freeman ve Kevin Spacey'li başyapıt."
       ],
       "en": [
-        "📦 🌧️ 🍎 🔫 💀 📖",
+        "🌧️ 📖 🍝 📦 🔫 🏜️",
         "'What's in the box?! What's in the box?!' and 'The world is a fine place and worth fighting for. I agree with the second part.'",
         "A retiring veteran detective and his brash young partner hunt an obsessive serial killer who constructs elaborate, stomach-churning murder tableaux based on the seven deadly sins.",
         "Drenched in perpetually rotting rain, flashlight-lit apartments, and the horrifying delivery of a taped delivery box on a dusty desert highway.",
@@ -885,17 +885,17 @@ module.exports = [
       "Shelley Duvall",
       "Danny Lloyd"
     ],
-    "emojis": "🪓 🚪 🩸 🏨 ❄️ 🛞",
+    "emojis": "🏨 ❄️ 🪓 🚪 🩸 👭",
     "clues": {
       "tr": [
-        "🪓 🚪 🩸 🏨 ❄️ 🛞",
+        "🏨 ❄️ 🪓 🚪 🩸 👭",
         "'Here's Johnny!' (İşte Johnny geldi!) ve 'Çalışmak ama oynamamak Jack'i sıkıcı bir çocuk yapar.' (All work and no play makes Jack a dull boy)",
         "Kışın karlar altında kapanan devasa bir otele bekçi olarak ailesiyle giren yazar bir baba, otelin hayaletleri ve daktilo başında kafayı yiyip eline baltayı alır.",
         "Asansör kapısından sel gibi akan galonlarca kan, koridorda beliren mavi elbiseli ikiz kızlar ve karlı labirentte donup kalan adam.",
         "Stanley Kubrick'in Stephen King romanından uyarladığı, Jack Nicholson'ın çıldırdığı gelmiş geçmiş en ikonik korku filmlerinden biri."
       ],
       "en": [
-        "🪓 🚪 🩸 🏨 ❄️ 🛞",
+        "🏨 ❄️ 🪓 🚪 🩸 👭",
         "'Here's Johnny!' and 'All work and no play makes Jack a dull boy.' and 'REDRUM! REDRUM!'",
         "A recovering alcoholic writer takes a winter caretaker gig at an isolated snowbound Colorado hotel with his wife and psychic young son, slowly losing his mind to demonic spirits and swinging a fire axe.",
         "Famous for hallway visions of creepy twins in blue dresses, blood pouring from elevator shafts, and freezing to death in a snowy hedge labyrinth.",
@@ -927,17 +927,17 @@ module.exports = [
       "Lee Sun-kyun",
       "Cho Yeo-jeong"
     ],
-    "emojis": "🪨 🍜 🌧️ 🏠 🩸 🎂",
+    "emojis": "🪨 🏠 🌧️ 🪜 🍜 🔪",
     "clues": {
       "tr": [
-        "🪨 🍜 🌧️ 🏠 🩸 🎂",
+        "🪨 🏠 🌧️ 🪜 🍜 🔪",
         "'Jessica, tek çocuk, Illinois Chicago'dan... ' ve 'En iyi plan nedir biliyor musun? Hiç plan yapmamak.'",
         "Yarı bodrum katında yaşayan fakir bir aile, sahte diplomalarla zengin ailenin evine öğretmen, şoför ve hizmetçi olarak tek tek sızar; meğer evin sığınağında yıllardır yaşayan başka biri daha varmış.",
         "Zenginlerin hissettiği 'fakirlik kokusu', sel basan evde tavana fırlayan lağım suyu ve çimlerdeki doğum günü partisinde patlayan kargaşa.",
         "Oscar tarihinde En İyi Film ödülünü kazanan ilk yabancı dildeki film; Bong Joon Ho'nun Güney Kore başyapıtı."
       ],
       "en": [
-        "🪨 🍜 🌧️ 🏠 🩸 🎂",
+        "🪨 🏠 🌧️ 🪜 🍜 🔪",
         "'Jessica, Only child, Illinois, Chicago...' and 'You know what kind of plan never fails? No plan at all.'",
         "A destitute family living in a cramped subterranean apartment deceitfully infiltrates a wealthy tech CEO's luxurious home as private tutors, chauffeurs, and housekeepers, until a hidden basement bunker exposes a dark secret.",
         "Obsessed with social class and the smell of poverty, a torrential rain flood erupting sewage into toilets, and a bloody backyard birthday climax.",
