@@ -11,6 +11,8 @@ interface CinemaScoreBoardProps {
   highStreak: number;
   currentRound: number;
   totalRounds: number;
+  hearts: number;
+  comboMultiplier: number;
   soundEnabled: boolean;
   onToggleSound: () => void;
   onReturnMenu: () => void;
@@ -24,6 +26,8 @@ export const CinemaScoreBoard: React.FC<CinemaScoreBoardProps> = ({
   highStreak,
   currentRound,
   totalRounds,
+  hearts,
+  comboMultiplier,
   soundEnabled,
   onToggleSound,
   onReturnMenu,
@@ -35,7 +39,7 @@ export const CinemaScoreBoard: React.FC<CinemaScoreBoardProps> = ({
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.4, ease: 'easeOut' }}
-      className="w-full max-w-4xl mx-auto flex items-center justify-between gap-2 mb-3 px-2"
+      className="w-full max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-2 mb-3 px-2"
     >
       {/* SOL: Logo ve Dil Değiştirici Buton */}
       <div className="flex items-center gap-2">
@@ -59,8 +63,47 @@ export const CinemaScoreBoard: React.FC<CinemaScoreBoardProps> = ({
         </motion.button>
       </div>
 
-      {/* SAĞ PANEL: Skor, Seri, Tur, Ses ve Menü */}
+      {/* SAĞ PANEL: Canlar, Çarpan, Skor, Seri, Tur, Ses ve Menü */}
       <div className="flex items-center gap-1.5 bg-white/[0.04] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-1.5 sm:px-3 sm:py-1.5 shadow-xl">
+        {/* Canlar (3 Can) */}
+        <div
+          className="flex items-center gap-1 bg-white/[0.06] px-2 py-1 rounded-xl"
+          title={language === 'tr' ? `Kalan Can: ${hearts}/3` : `Remaining Lives: ${hearts}/3`}
+        >
+          {[1, 2, 3].map((h) => {
+            const hasHeart = h <= hearts;
+            return (
+              <motion.span
+                key={h}
+                initial={false}
+                animate={{
+                  scale: hasHeart ? [1, 1.25, 1] : 0.8,
+                  opacity: hasHeart ? 1 : 0.25,
+                }}
+                transition={{ duration: 0.25 }}
+                className={`text-xs ${hasHeart ? 'drop-shadow-[0_0_8px_rgba(244,63,94,0.7)]' : 'grayscale'}`}
+              >
+                ❤️
+              </motion.span>
+            );
+          })}
+        </div>
+
+        {/* Kombo Çarpanı */}
+        {comboMultiplier > 1 && (
+          <motion.div
+            initial={{ scale: 0, x: -6 }}
+            animate={{ scale: 1, x: 0 }}
+            className="flex items-center gap-0.5 bg-gradient-to-r from-orange-500/25 to-amber-500/20 border border-orange-500/40 px-2 py-1 rounded-xl shadow-lg shadow-orange-950/40"
+            title={language === 'tr' ? `${comboMultiplier}x Kombo Çarpanı!` : `${comboMultiplier}x Combo Multiplier!`}
+          >
+            <Flame className="w-3.5 h-3.5 text-orange-400 animate-pulse" />
+            <span className="font-black text-orange-300 text-xs leading-none">
+              x{comboMultiplier}
+            </span>
+          </motion.div>
+        )}
+
         {/* Puan */}
         <motion.div
           key={score}
@@ -92,10 +135,10 @@ export const CinemaScoreBoard: React.FC<CinemaScoreBoardProps> = ({
           </span>
         </div>
 
-        {/* Tur */}
+        {/* Tur (Seans) */}
         <div
           className="flex items-center gap-1 bg-white/[0.06] px-2 py-1 rounded-xl"
-          title={language === 'tr' ? 'Mevcut Tur' : 'Current Round'}
+          title={language === 'tr' ? 'Seans İlerlemesi' : 'Session Progress'}
         >
           <span className="font-black text-stone-300 text-xs leading-none">
             {currentRound}/{totalRounds}

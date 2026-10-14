@@ -245,11 +245,11 @@ export const CinemaStartMenu: React.FC<CinemaStartMenuProps> = ({
           <div className="space-y-1.5 text-[11px] leading-relaxed text-left">
             <p>
               🧩 <strong className="text-stone-300">1. {language === 'tr' ? 'İpucu' : 'Clue'}:</strong>{' '}
-              {language === 'tr' ? 'Emoji şifresi (100P)' : 'Emoji riddle (100P)'}
+              {language === 'tr' ? 'Emoji şifresi (500P — Dahi Ödülü)' : 'Emoji riddle (500P — Master Reward)'}
             </p>
             <p>
               💬 <strong className="text-stone-300">2. {language === 'tr' ? 'İpucu' : 'Clue'}:</strong>{' '}
-              {language === 'tr' ? 'Efsane replik (200P)' : 'Iconic quote (200P)'}
+              {language === 'tr' ? 'Efsane replik (400P)' : 'Iconic quote (400P)'}
             </p>
             <p>
               🤪 <strong className="text-stone-300">3. {language === 'tr' ? 'İpucu' : 'Clue'}:</strong>{' '}
@@ -257,12 +257,26 @@ export const CinemaStartMenu: React.FC<CinemaStartMenuProps> = ({
             </p>
             <p>
               ⚠️ <strong className="text-stone-300">4. {language === 'tr' ? 'İpucu' : 'Clue'}:</strong>{' '}
-              {language === 'tr' ? 'İronik detay & uyarı (400P)' : 'Ironic detail & warning (400P)'}
+              {language === 'tr' ? 'İronik detay & uyarı (200P)' : 'Ironic detail & warning (200P)'}
             </p>
             <p>
               🎬 <strong className="text-stone-300">5. {language === 'tr' ? 'İpucu' : 'Clue'}:</strong>{' '}
-              {language === 'tr' ? 'Başroller & künye (500P)' : 'Cast & cinema trivia (500P)'}
+              {language === 'tr' ? 'Başroller & künye (100P)' : 'Cast & cinema trivia (100P)'}
             </p>
+            <div className="pt-1.5 border-t border-white/[0.06] text-[10px] text-stone-400 space-y-1">
+              <p>
+                ❤️ <span className="text-stone-300 font-semibold">{language === 'tr' ? '3 Can:' : '3 Lives:'}</span>{' '}
+                {language === 'tr' ? 'Her filmde 3 canın var, yanlış tahminde 1 can erir!' : '3 lives per movie, wrong guess burns 1 heart!'}
+              </p>
+              <p>
+                🔥 <span className="text-stone-300 font-semibold">{language === 'tr' ? 'Kombo Çarpanı:' : 'Combo Fire:'}</span>{' '}
+                {language === 'tr' ? 'Üst üste doğru bilerek x1.5, x2.0, x2.5 çarpanı yakala!' : 'Chain correct answers to unlock x1.5, x2.0, x2.5 multiplier!'}
+              </p>
+              <p>
+                🏁 <span className="text-stone-300 font-semibold">{language === 'tr' ? '5 Filmlik Seans:' : '5-Movie Session:'}</span>{' '}
+                {language === 'tr' ? 'Seansı bitir, Sinema Rütbeni kazan!' : 'Finish the session to earn your Cinema Rank!'}
+              </p>
+            </div>
           </div>
         </div>
       </motion.div>

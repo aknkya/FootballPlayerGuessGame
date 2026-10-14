@@ -8,6 +8,7 @@ import { CinemaScoreBoard } from './CinemaScoreBoard';
 import { CinemaClueCard } from './CinemaClueCard';
 import { CinemaAutocomplete } from './CinemaAutocomplete';
 import { CinemaRevealCard } from './CinemaRevealCard';
+import { CinemaReportCard, RoundHistoryItem } from './CinemaReportCard';
 import { CinemaBackground } from './CinemaBackground';
 import { sounds } from '@/utils/audio';
 import { isMovieMatch } from '@/utils/normalize';
@@ -17,6 +18,8 @@ const allMovies: MovieItem[] = rawMovieData as unknown as MovieItem[];
 // Şimdilik sadece global (yabancı) yapımlar oyuna alınıyor, yerli yapımlar JSON'da saklanıyor
 const playableMovies: MovieItem[] = allMovies.filter((m) => m.origin === 'yabanci');
 
+const SESSION_ROUNDS = 5; // 5 filmlik seans
+
 export const CinemaGameContainer: React.FC = () => {
   const [viewMode, setViewMode] = useState<'menu' | 'playing'>('menu');
   const [selectedType, setSelectedType] = useState<MovieType | 'tum'>('tum');
@@ -25,16 +28,18 @@ export const CinemaGameContainer: React.FC = () => {
   const [activeDeck, setActiveDeck] = useState<MovieItem[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [revealedCount, setRevealedCount] = useState(1);
+  const [hearts, setHearts] = useState(3); // 3 Can
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [highScore, setHighScore] = useState(0);
   const [highStreak, setHighStreak] = useState(0);
   const [totalGames, setTotalGames] = useState(0);
   const [soundEnabled, setSoundEnabled] = useState(true);
-  const [gameState, setGameState] = useState<'playing' | 'won' | 'lost'>('playing');
+  const [gameState, setGameState] = useState<'playing' | 'won' | 'lost' | 'finished'>('playing');
   const [isShaking, setIsShaking] = useState(false);
   const [wrongGuesses, setWrongGuesses] = useState<string[]>([]);
   const [roundPoints, setRoundPoints] = useState(0);
+  const [sessionHistory, setSessionHistory] = useState<RoundHistoryItem[]>([]);
 
   // LocalStorage kayıtları yükle (Skorlar & Dil tercihi)
   useEffect(() => {
@@ -62,6 +67,16 @@ export const CinemaGameContainer: React.FC = () => {
       return next;
     });
   }, []);
+
+  // Kombo çarpanını hesapla (Streak'e göre)
+  const getMultiplier = (currentStreak: number) => {
+    if (currentStreak >= 4) return 2.5;
+    if (currentStreak === 3) return 2.0;
+    if (currentStreak === 2) return 1.5;
+    return 1.0;
+  };
+
+  const currentMultiplier = getMultiplier(streak);
 
   // Skor ve istatistikleri güncelle
   const updateScoreAndStats = useCallback((addedPoints: number, isWin: boolean) => {
@@ -100,7 +115,7 @@ export const CinemaGameContainer: React.FC = () => {
     });
   }, [highScore, highStreak]);
 
-  // Oyunu Başlat
+  // Seansı Başlat (5 Film)
   const startGame = useCallback(() => {
     let pool = [...playableMovies];
 
@@ -114,16 +129,23 @@ export const CinemaGameContainer: React.FC = () => {
       [pool[i], pool[j]] = [pool[j], pool[i]];
     }
 
-    setActiveDeck(pool);
+    // 5 film seç
+    const selectedDeck = pool.slice(0, SESSION_ROUNDS);
+
+    setActiveDeck(selectedDeck);
     setCurrentIndex(0);
     setRevealedCount(1);
+    setHearts(3);
     setScore(0);
     setStreak(0);
+    setSessionHistory([]);
     setGameState('playing');
     setWrongGuesses([]);
     setIsShaking(false);
     setViewMode('playing');
-  }, [selectedType]);
+
+    if (soundEnabled) sounds.playClapper();
+  }, [selectedType, soundEnabled]);
 
   const currentMovie = activeDeck[currentIndex] || null;
 
@@ -154,43 +176,78 @@ export const CinemaGameContainer: React.FC = () => {
     );
 
     if (isMatch) {
-      const basePoints = Math.min(500, revealedCount * 100);
-      const streakBonus = streak * 25;
-      const totalEarned = basePoints + streakBonus;
+      // 1. İpucu: 500P -> 2. İpucu: 400P -> 3. İpucu: 300P -> 4. İpucu: 200P -> 5. İpucu: 100P
+      const basePointsMap = [500, 400, 300, 200, 100];
+      const basePoints = basePointsMap[revealedCount - 1] || 100;
+
+      // Gelecek streak çarpanı
+      const nextStreak = streak + 1;
+      const multiplier = getMultiplier(nextStreak);
+      const totalEarned = Math.round(basePoints * multiplier);
 
       setRoundPoints(totalEarned);
       setGameState('won');
       updateScoreAndStats(totalEarned, true);
 
-      if (soundEnabled) sounds.playGoal();
+      // Seans geçmişine kaydet
+      setSessionHistory((prev) => [
+        ...prev,
+        {
+          movie: currentMovie,
+          isWon: true,
+          revealedCount,
+          points: totalEarned,
+          comboMultiplier: multiplier,
+        },
+      ]);
+
+      if (soundEnabled) {
+        sounds.playCinemaWin();
+        if (multiplier > 1) {
+          setTimeout(() => sounds.playCombo(nextStreak), 200);
+        }
+      }
 
       try {
         confetti({
-          particleCount: 100,
-          spread: 80,
+          particleCount: 80,
+          spread: 70,
           origin: { y: 0.6 },
           colors: ['#d946ef', '#ec4899', '#f43f5e', '#fbbf24', '#ffffff'],
         });
-      } catch {
-        // ignore
-      }
+      } catch {}
     } else {
-      setIsShaking(true);
-      setTimeout(() => setIsShaking(false), 500);
+      // Yanlış Tahmin: 1 Can Azalır
+      const remainingHearts = hearts - 1;
+      setHearts(remainingHearts);
 
       if (!wrongGuesses.includes(guessedTitle)) {
         setWrongGuesses((prev) => [...prev, guessedTitle]);
       }
 
-      if (soundEnabled) sounds.playMiss();
+      setIsShaking(true);
+      setTimeout(() => setIsShaking(false), 500);
 
-      if (revealedCount < 5) {
-        setRevealedCount((prev) => prev + 1);
+      if (remainingHearts > 0) {
+        // Can kaldı, devam
+        if (soundEnabled) sounds.playHeartLoss();
       } else {
-        if (soundEnabled) sounds.playWhistle();
+        // 3 Can bitti! Film kaçtı
+        if (soundEnabled) sounds.playHeartLoss();
         setRoundPoints(0);
         updateScoreAndStats(0, false);
         setGameState('lost');
+
+        setSessionHistory((prev) => [
+          ...prev,
+          {
+            movie: currentMovie,
+            isWon: false,
+            revealedCount,
+            points: 0,
+            comboMultiplier: 1.0,
+          },
+        ]);
       }
     }
   };
@@ -198,22 +255,45 @@ export const CinemaGameContainer: React.FC = () => {
   // Pas geç
   const handleGiveUp = () => {
     if (gameState !== 'playing' || !currentMovie) return;
+    setHearts(0);
     setGameState('lost');
     setRoundPoints(0);
     updateScoreAndStats(0, false);
-    if (soundEnabled) sounds.playWhistle();
+    if (soundEnabled) sounds.playHeartLoss();
+
+    setSessionHistory((prev) => [
+      ...prev,
+      {
+        movie: currentMovie,
+        isWon: false,
+        revealedCount,
+        points: 0,
+        comboMultiplier: 1.0,
+      },
+    ]);
   };
 
-  // Sonraki filme geç
+  // Sonraki filme geç veya Seansı tamamla
   const handleNextMovie = () => {
-    if (currentIndex + 1 < activeDeck.length) {
+    if (currentIndex + 1 < SESSION_ROUNDS && currentIndex + 1 < activeDeck.length) {
       setCurrentIndex((prev) => prev + 1);
       setRevealedCount(1);
+      setHearts(3);
       setGameState('playing');
       setWrongGuesses([]);
       setIsShaking(false);
+      if (soundEnabled) sounds.playClapper();
     } else {
-      setViewMode('menu');
+      // 5 Film tamamlandı! Büyük Final Karnesi
+      setGameState('finished');
+      if (soundEnabled) sounds.playFinale();
+      try {
+        confetti({
+          particleCount: 150,
+          spread: 90,
+          origin: { y: 0.5 },
+        });
+      } catch {}
     }
   };
 
@@ -239,17 +319,32 @@ export const CinemaGameContainer: React.FC = () => {
               score={score}
               streak={streak}
               highStreak={highStreak}
-              currentRound={currentIndex + 1}
-              totalRounds={activeDeck.length}
+              currentRound={Math.min(currentIndex + 1, SESSION_ROUNDS)}
+              totalRounds={SESSION_ROUNDS}
+              hearts={hearts}
+              comboMultiplier={currentMultiplier}
               soundEnabled={soundEnabled}
-              onToggleSound={() => setSoundEnabled((prev) => !prev)}
+              onToggleSound={() => {
+                const next = !soundEnabled;
+                setSoundEnabled(next);
+                sounds.enabled = next;
+              }}
               onReturnMenu={() => setViewMode('menu')}
               language={language}
               onToggleLanguage={handleToggleLanguage}
             />
 
             <main className="flex-1 flex flex-col items-center justify-center space-y-4 w-full my-auto">
-              {currentMovie && (
+              {gameState === 'finished' ? (
+                <CinemaReportCard
+                  score={score}
+                  highScore={highScore}
+                  history={sessionHistory}
+                  onPlayAgain={startGame}
+                  onReturnMenu={() => setViewMode('menu')}
+                  language={language}
+                />
+              ) : currentMovie ? (
                 <>
                   <CinemaClueCard
                     clues={currentMovie.clues[language] || currentMovie.clues.tr}
@@ -280,7 +375,7 @@ export const CinemaGameContainer: React.FC = () => {
                     />
                   )}
                 </>
-              )}
+              ) : null}
             </main>
           </>
         )}

@@ -17,7 +17,7 @@ export const getCinemaDifficultyMeta = (lang: Language) => [
   {
     level: lang === 'tr' ? 'Emoji Şifresi' : 'Emoji Riddle',
     badge: '🧩',
-    points: 100,
+    points: 500,
     color: 'from-cyan-500/20 to-blue-500/10',
     borderColor: 'border-cyan-500/40',
     glow: 'shadow-cyan-500/20',
@@ -25,7 +25,7 @@ export const getCinemaDifficultyMeta = (lang: Language) => [
   {
     level: lang === 'tr' ? 'Efsane Replik' : 'Iconic Quote',
     badge: '💬',
-    points: 200,
+    points: 400,
     color: 'from-green-500/20 to-emerald-500/10',
     borderColor: 'border-green-500/40',
     glow: 'shadow-green-500/20',
@@ -41,7 +41,7 @@ export const getCinemaDifficultyMeta = (lang: Language) => [
   {
     level: lang === 'tr' ? 'İronik Detay & Uyarı' : 'Ironic Detail & Warning',
     badge: '⚠️',
-    points: 400,
+    points: 200,
     color: 'from-amber-500/20 to-orange-500/10',
     borderColor: 'border-amber-500/40',
     glow: 'shadow-amber-500/20',
@@ -49,7 +49,7 @@ export const getCinemaDifficultyMeta = (lang: Language) => [
   {
     level: lang === 'tr' ? 'Başroller & Künye' : 'Cast & Cinema Trivia',
     badge: '🎬',
-    points: 500,
+    points: 100,
     color: 'from-rose-500/20 to-red-500/10',
     borderColor: 'border-rose-500/40',
     glow: 'shadow-rose-500/20',
@@ -114,8 +114,8 @@ export const CinemaClueCard: React.FC<CinemaClueCardProps> = ({
           >
             <Eye className="w-3.5 h-3.5 group-hover:animate-pulse" />
             <span>{language === 'tr' ? 'Sonraki İpucu' : 'Next Clue'}</span>
-            <span className="text-[10px] bg-white/15 px-1.5 py-0.5 rounded-full font-black">
-              +100P
+            <span className="text-[10px] bg-white/15 px-1.5 py-0.5 rounded-full font-black text-rose-300">
+              -100P
             </span>
           </motion.button>
         )}

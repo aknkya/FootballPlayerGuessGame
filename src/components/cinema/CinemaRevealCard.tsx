@@ -71,8 +71,8 @@ export const CinemaRevealCard: React.FC<CinemaRevealCardProps> = ({
           </>
         ) : (
           <>
-            <XCircle className="w-5 h-5 opacity-80" />
-            <span>{language === 'tr' ? 'Aranan Yapım:' : 'The Answer Was:'}</span>
+            <XCircle className="w-5 h-5 opacity-80 text-rose-300" />
+            <span>{language === 'tr' ? 'Film Kaçtı! Aranan Yapım:' : 'Missed! The Answer Was:'}</span>
           </>
         )}
       </motion.div>
@@ -86,10 +86,16 @@ export const CinemaRevealCard: React.FC<CinemaRevealCardProps> = ({
           transition={{ delay: 0.3 }}
           className="text-center space-y-3"
         >
-          {/* Tür rozeti */}
+          {/* Tür ve Ülke rozeti */}
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.05] border border-white/[0.08] text-stone-400 text-xs font-semibold">
             <span>{movie.type === 'film' ? '🎬' : '📺'}</span>
             <span>{movie.year}</span>
+            {movie.country && (
+              <>
+                <span className="w-1 h-1 rounded-full bg-stone-600" />
+                <span>{movie.country.flag} {movie.country.code}</span>
+              </>
+            )}
             <span className="w-1 h-1 rounded-full bg-stone-600" />
             <span>{genre}</span>
             <span className="w-1 h-1 rounded-full bg-stone-600" />
