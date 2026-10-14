@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kim Bu Futbolcu? | Futbolcu Tahmin Oyunu",
-  description: "İpuçlarını takip et, efsanevi futbolcuları tahmin et!",
+  title: "Kötü Anlatılmış Filmler | Badly Explained Movies",
+  description: "Efsane film ve dizileri en absürt ve komik şekilde özetlenen ipuçlarından tahmin et! Guess legendary movies from badly explained plots!",
   icons: {
     icon: "/icon.svg",
     shortcut: "/icon.svg",
@@ -32,7 +32,7 @@ export default function RootLayout({
       lang="tr"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#06180e]">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#07020d] text-stone-100">{children}</body>
     </html>
   );
 }

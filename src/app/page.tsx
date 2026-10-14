@@ -1,5 +1,5 @@
-import { GameContainer } from '@/components/GameContainer';
+import { CinemaGameContainer } from '@/components/cinema/CinemaGameContainer';
 
 export default function Home() {
-  return <GameContainer />;
+  return <CinemaGameContainer />;
 }

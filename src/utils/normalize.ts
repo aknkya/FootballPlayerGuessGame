@@ -1,5 +1,5 @@
 /**
- * Türkçe karakterleri ve aksanları arama için normalize eder
+ * Metinleri arama ve eşleştirme için Türkçe/İngilizce karakter duyarsız olarak normalize eder
  */
 export function normalizeText(text: string): string {
   if (!text) return '';
@@ -18,85 +18,24 @@ export function normalizeText(text: string): string {
 }
 
 /**
- * Bir oyuncunun ismi veya takma adları girilen tahminle eşleşiyor mu kontrol eder
+ * Girilen tahminin film adı (Türkçe/İngilizce) veya alternatif isimlerle eşleşip eşleşmediğini kontrol eder
  */
-export function isPlayerMatch(input: string, playerName: string, aliases: string[] = []): boolean {
+export function isMovieMatch(
+  input: string,
+  targetTitles: string | string[],
+  aliases: string[] = []
+): boolean {
   const normInput = normalizeText(input);
   if (!normInput) return false;
 
-  const normName = normalizeText(playerName);
-  if (normName === normInput) return true;
+  const titleList = Array.isArray(targetTitles) ? targetTitles : [targetTitles];
 
-  return aliases.some(alias => normalizeText(alias) === normInput);
+  for (const t of titleList) {
+    if (normalizeText(t) === normInput) return true;
+  }
+
+  return aliases.some((alias) => normalizeText(alias) === normInput);
 }
 
-/**
- * Ülke adına göre bayrak emojisi döndürür
- */
-export function getCountryFlag(country: string): string {
-  const flags: Record<string, string> = {
-    'Arjantin': '🇦🇷',
-    'Portekiz': '🇵🇹',
-    'Fransa': '🇫🇷',
-    'İtalya': '🇮🇹',
-    'Brezilya': '🇧🇷',
-    'Romanya': '🇷🇴',
-    'Uruguay': '🇺🇾',
-    'Norveç': '🇳🇴',
-    'Hırvatistan': '🇭🇷',
-    'Hollanda': '🇳🇱',
-    'Güney Kore': '🇰🇷',
-    'İngiltere': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-    'Fildişi Sahili': '🇨🇮',
-    'Nijerya': '🇳🇬',
-    'Almanya': '🇩🇪',
-    'İspanya': '🇪🇸',
-    'Belçika': '🇧🇪',
-    'Türkiye': '🇹🇷'
-  };
-  return flags[country] || '⚽';
-}
-
-/**
- * Tarihi ülke veya medeniyet adına göre simge/bayrak döndürür
- */
-export function getHistoricalFlag(nationality: string): string {
-  const flags: Record<string, string> = {
-    'Türkiye': '🇹🇷',
-    'Osmanlı İmparatorluğu': '🇹🇷',
-    'Osmanlı': '🇹🇷',
-    'Almanya': '🇩🇪',
-    'Sırbistan': '🇷🇸',
-    'İtalya': '🇮🇹',
-    'İtalya (Floransa)': '🇮🇹',
-    'İngiltere': '🇬🇧',
-    'Polonya / Fransa': '🇵🇱',
-    'Makedonya': '🇲🇰',
-    'Roma': '🏛️',
-    'Antik Mısır': '🇪🇬',
-    'Fransa': '🇫🇷',
-    'Moğolistan': '🇲🇳',
-    'Yunanistan / Antik Atina': '🇬🇷',
-    'Yunanistan / Antik Makedonya': '🇬🇷',
-    'Antik Yunan / Sicilya (Siracusa)': '🏛️',
-    'Antik Yunan / Sisam': '🏛️',
-    'Avusturya': '🇦🇹',
-    'Hollanda': '🇳🇱',
-    'Buhara / İran-Türk Dünyası': '🕌',
-    'Horasan / Anadolu Selçuklu': '🕌',
-    'İskoçya / ABD': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
-    'İskoçya': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
-    'ABD': '🇺🇸',
-    'Timur İmparatorluğu / Osmanlı': '🕌',
-    'Ceneviz (İtalya) / İspanya': '⛵',
-    'Venedik Cumhuriyeti': '🎭',
-    'Sovyetler Birliği (SSCB)': '🚀',
-    'Hindistan': '🇮🇳',
-    'Arjantin / Küba': '🇦🇷',
-    'Antik Çin (Lu Devleti)': '🇨🇳',
-    'Rusya': '🇷🇺',
-    'Rusya İmparatorluğu': '🇷🇺'
-  };
-  return flags[nationality] || '🏛️';
-}
-
+// Geriye dönük uyumluluk
+export const isPlayerMatch = isMovieMatch;
