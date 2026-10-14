@@ -1,29 +1,111 @@
-# ⚽ Kim Bu Futbolcu? - Futbolcu Tahmin Oyunu
+# 🎬 Kötü Anlatılmış Filmler & Diziler (Badly Explained Movies)
 
-Futbol temalı, modern animasyonlu ve otomatik tamamlamalı Next.js futbolcu tahmin oyunu.
+> **Efsane film ve dizilerin konuları en absürt, komik ve ironik şekilde özetlendi. 5 aşamalı ipucu zinciriyle doğru yapımı tahmin edebilir misin?**  
+> *Iconic movies and TV shows summarized in the most absurd and hilarious ways. Can you guess the title with a 5-step clue chain?*
 
-## 🌟 Özellikler
+---
 
-- **🏟️ Stadyum & Futbol Konsepti**: Gece maçı projektör ışıkları, yeşil çim dokusu ve SVG futbol sahası çizgileri.
-- **⚡ Akıllı Otomatik Tamamlama (Autocomplete)**: Futbolcu adı veya takma adı yazıldığında anında arama; Türkçe karakter ve aksan duyarsız eşleme (örn. "messi", "hagi", "alex", "modric", "mbappe").
-- **🎯 5 Aşamalı İpucu Sistemi**:
-  - 1. İpucu (Çok Zor) ➡️ 500 Puan
-  - 2. İpucu (Zor) ➡️ 400 Puan
-  - 3. İpucu (Orta) ➡️ 300 Puan
-  - 4. İpucu (Kolay) ➡️ 200 Puan
-  - 5. İpucu (İkonik An / En Kolay) ➡️ 100 Puan
-- **✨ Zengin Animasyonlar**: Framer Motion ile ipucu açılışları, yanlış tahminde sarsılma (shake) efekti, doğru tahminde konfeti patlaması (`canvas-confetti`).
-- **🎴 FUT Kartı Tarzı Oyuncu Ekranı**: Tahmin doğru olduğunda veya pes edildiğinde oyuncunun forması, numarası, takımı, ligi, yaşı ve tüm gerçekleri açılır.
-- **🔊 Web Audio API Ses Efektleri**: Harici ses dosyasına ihtiyaç duymadan gerçek zamanlı hakem düdüğü, gol sevinci, kaçan şut ve ipucu açılma sesleri.
-- **🔥 Seri & Skor Takibi**: Üst üste doğru tahminlerde ekstra seri bonus puanları.
+## 🌟 Öne Çıkan Özellikler / Features
 
-## 🚀 Başlatma
+- **🧩 5 Aşamalı İpucu Zinciri (100P - 500P)**:
+  1. 🧩 **1. İpucu (100P) — Emoji Şifresi:** Filme dair ipucu veren ikonik emoji dizilimi.
+  2. 💬 **2. İpucu (200P) — Efsane Replik:** Sinema tarihine kazınan unutulmaz replikler.
+  3. 🤪 **3. İpucu (300P) — Kötü Anlatılmış Konu:** Filmin konusunun en saçma, komik ve çarpık özeti.
+  4. ⚠️ **4. İpucu (400P) — İronik Detay & Uyarı:** Komik detaylar, sahne uyarıları ve spoilerlar.
+  5. 🎬 **5. İpucu (500P) — Başroller & Künye:** Yönetmen, başrol oyuncuları ve yapım yılı.
 
-Geliştirme sunucusunu çalıştırmak için:
+- **🌐 Tam İki Dilli Deneyim (TR / EN)**:
+  - Oyun içi tek tıkla Türkçe ve İngilizce arasında geçiş.
+  - 100 yapımın tamamı için hem Türkçe hem de İngilizce özel olarak yazılmış başlıklar, ipuçları, replikler ve açıklamalar.
+
+- **📦 100 Efsane Yapımlık Dev Havuz**:
+  - **76 Efsane Film:** *The Godfather, Pulp Fiction, Fight Club, The Matrix, Interstellar, Inception, Titanic, Shrek, Gladiator, Star Wars, Harry Potter, Jurassic Park, Oppenheimer, Barbie, Dune...*
+  - **24 Kült Dizi:** *Breaking Bad, Game of Thrones, Stranger Things, Friends, The Office, Sherlock, Peaky Blinders, Squid Game, La Casa de Papel, Dark, Succession, The Sopranos...*
+  - **🇹🇷 Yeşilçam & Türk Sineması/Dizileri:** *Hababam Sınıfı, Tosun Paşa, Süt Kardeşler, Çöpçüler Kralı, Şaban Oğlu Şaban, Kibar Feyzo, G.O.R.A., Ezel, Kurtlar Vadisi, Leyla ile Mecnun, Avrupa Yakası, Behzat Ç., Aşk-ı Memnu, Babam ve Oğlum...*
+
+- **⚡ Akıllı Arama & Otomatik Tamamlama (Autocomplete)**:
+  - Türkçe karakter ve aksan duyarsız filtreleme (örn. `lotr`, `şrek`, `kurtlar`, `godfather`, `yildizlararasi`).
+  - Filmlerin hem Türkçe hem İngilizce isimleri ve yaygın takma adlarıyla (alias) arama desteği.
+
+- **🎨 Sinematik Neon Arayüz**:
+  - Framer Motion akıcı kart geçişleri, neon ışık parıltıları ve parçacık efektleri.
+  - Yanlış tahminde sarsılma (shake) efekti, doğru tahminde ekranı kaplayan konfeti patlaması (`canvas-confetti`).
+  - Özel yapım reveal kartı (yıl, IMDb puanı, tür, yönetmen, başroller ve kötü anlatılmış konu alıntısı).
+
+- **🔊 Web Audio API Ses Efektleri**:
+  - Harici ses dosyası yüklemeye gerek kalmadan sentezlenen film makarası, doğru tahmin alkışı, yanlış tahmin uyarısı ve ipucu açılma sesleri.
+  - Sağ üstten tek tıkla ses açma/kapatma.
+
+- **📊 Rekor ve Seri Takibi (LocalStorage)**:
+  - En yüksek skor, en uzun doğru serisi ve toplam oynanan oyun istatistikleri tarayıcıda kalıcı olarak saklanır.
+
+---
+
+## 🛠️ Teknoloji Yığını (Tech Stack)
+
+| Kategori | Teknoloji |
+| :--- | :--- |
+| **Framework** | [Next.js 16](https://nextjs.org/) (App Router, Turbopack) |
+| **Kütüphane** | [React 19](https://react.dev/) |
+| **Dil** | [TypeScript](https://www.typescriptlang.org/) |
+| **Stil & Tasarım** | [Tailwind CSS 4](https://tailwindcss.com/) |
+| **Animasyonlar** | [Framer Motion](https://www.framer.com/motion/) |
+| **İkonlar** | [Lucide React](https://lucide.dev/) |
+| **Kutlama Efekti** | [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti) |
+| **Ses Motoru** | Web Audio API (Native Sintetizör) |
+
+---
+
+## 🚀 Kurulum & Çalıştırma (Getting Started)
+
+Projeyi yerel ortamınızda çalıştırmak için:
 
 ```bash
-cd C:\Users\aknkya\Desktop\futbolcu-tahmin-oyunu
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirme sunucusunu başlatın
 npm run dev
+
+# Üretim derlemesi (Production Build)
+npm run build
+npm run start
 ```
 
 Tarayıcınızda açın: **[http://localhost:3000](http://localhost:3000)**
+
+---
+
+## 📂 Proje Yapısı (Project Structure)
+
+```text
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx                # Ana HTML şablonu, fontlar ve başlık
+│   │   ├── page.tsx                  # Ana oyun sayfası (CinemaGameContainer)
+│   │   └── sinema/page.tsx           # /sinema rotası
+│   ├── components/cinema/
+│   │   ├── CinemaGameContainer.tsx   # Ana oyun mantığı ve durum yönetimi
+│   │   ├── CinemaStartMenu.tsx       # Başlangıç menüsü, mod seçimi ve Nasıl Oynanır
+│   │   ├── CinemaClueCard.tsx        # 5 aşamalı ipucu zinciri kartı
+│   │   ├── CinemaAutocomplete.tsx    # Akıllı arama ve tahmin girdi alanı
+│   │   ├── CinemaRevealCard.tsx      # Film sonuç ve künye kartı
+│   │   ├── CinemaScoreBoard.tsx      # Üst bilgi, skor, seri ve dil anahtarı
+│   │   └── CinemaBackground.tsx      # Sinematik neon arka plan ve parçacıklar
+│   ├── data/
+│   │   └── kotu-anlatilmis-filmler.json # 100 adet iki dilli film/dizi verisi
+│   ├── types/
+│   │   └── movie.ts                  # MovieItem, CountryInfo, Language tipleri
+│   └── utils/
+│       ├── audio.ts                  # Web Audio API ses efektleri
+│       └── normalize.ts              # Türkçe karakter folding ve eşleştirme
+└── scripts/
+    ├── build-100-movies.js           # 100 filmlik veri setini derleme ve doğrulama
+    └── add-country-info.js           # Ülke ve yerli/yabancı bilgilerini ekleme
+```
+
+---
+
+## 📄 Lisans / License
+
+Bu proje açık kaynaklıdır ve [MIT](LICENSE) lisansı altında sunulmaktadır.
